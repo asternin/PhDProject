@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: AnnotatedBibliography.aux
+The style file: annotation.bst
+Database file #1: Music&Memory.bib.bib
+You've used 36 entries,
+            2137 wiz_defined-function locations,
+            760 strings with 23432 characters,
+and the built_in function-call counts, 14482 in all, are:
+= -- 1384
+> -- 849
+< -- 5
++ -- 334
+- -- 298
+* -- 1258
+:= -- 2425
+add.period$ -- 109
+call.type$ -- 36
+change.case$ -- 256
+chr.to.int$ -- 0
+cite$ -- 72
+duplicate$ -- 416
+empty$ -- 942
+format.name$ -- 298
+if$ -- 2842
+int.to.chr$ -- 0
+int.to.str$ -- 36
+missing$ -- 71
+newline$ -- 219
+num.names$ -- 72
+pop$ -- 196
+preamble$ -- 1
+purify$ -- 221
+quote$ -- 0
+skip$ -- 309
+stack$ -- 0
+substring$ -- 960
+swap$ -- 57
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 144
+warning$ -- 0
+while$ -- 140
+width$ -- 38
+write$ -- 489
