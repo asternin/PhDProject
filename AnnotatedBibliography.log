@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 JUL 2016 13:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 AUG 2016 14:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -153,33 +153,38 @@ LaTeX Font Info:    ... okay on input line 8.
 ) (./AnnotatedBibliography.bbl [1
 
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
- [4] [5]
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Underfull \hbox (badness 1708) in paragraph at lines 115--135
+\OT1/cmr/m/n/12 Patients scored sig-nif-i-cantly lower in all MBEA tasks than c
+on-trols.
+ []
+
+[3] [4] [5] [6]
 Missing character: There is no Î in font cmr12!
 Missing character: There is no · in font cmr12!
 Missing character: There is no Î in font cmr12!
 Missing character: There is no · in font cmr12!
 Missing character: There is no Î in font cmr12!
 Missing character: There is no · in font cmr12!
- [6] [7] [8] [9] [10] [11]) [12]
+ [7] [8] [9] [10] [11] [12] [13] [14] [15]) [16]
 (./AnnotatedBibliography.aux) ) 
 Here is how much of TeX's memory you used:
- 1720 strings out of 493089
- 23401 string characters out of 6134842
- 92764 words of memory out of 5000000
- 5238 multiletter control sequences out of 15000+600000
+ 1721 strings out of 493089
+ 23417 string characters out of 6134842
+ 100768 words of memory out of 5000000
+ 5239 multiletter control sequences out of 15000+600000
  5812 words of font info for 21 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 24i,5n,32p,212b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 24i,5n,32p,212b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmti12.pfb>
-Output written on AnnotatedBibliography.pdf (12 pages, 95657 bytes).
+Output written on AnnotatedBibliography.pdf (16 pages, 108169 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 72 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
