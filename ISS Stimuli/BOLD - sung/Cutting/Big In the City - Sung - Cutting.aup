@@ -1,0 +1,328 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Big In the City - Sung - Cutting_data" version="1.3.0" audacityversion="2.0.6" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="7.7772291196" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds">
+	<tags>
+		<tag name="TITLE" value="BITC-Adrian Right-11"/>
+		<tag name="COMMENTS" value=" 0000010B 000000C2 00000A30 000006F5 0001EBEE 0001EBEE 00002A63 00002309 00019593 00019593"/>
+	</tags>
+	<wavetrack name="Big In the City - Sung" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="482916">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000408.au" len="139815" min="-0.383282" max="0.349146" rms="0.047803"/>
+				</waveblock>
+				<waveblock start="139815">
+					<simpleblockfile filename="e000033b.au" len="262144" min="-0.39165" max="0.306124" rms="0.04821"/>
+				</waveblock>
+				<waveblock start="401959">
+					<simpleblockfile filename="e000077e.au" len="80957" min="-0.369812" max="0.264566" rms="0.042495"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Big In the City - Sung" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="482916">
+				<waveblock start="0">
+					<simpleblockfile filename="e00002fc.au" len="139815" min="-0.383234" max="0.349166" rms="0.047803"/>
+				</waveblock>
+				<waveblock start="139815">
+					<simpleblockfile filename="e00003b1.au" len="262144" min="-0.391604" max="0.306125" rms="0.04821"/>
+				</waveblock>
+				<waveblock start="401959">
+					<simpleblockfile filename="e0000926.au" len="80957" min="-0.369749" max="0.264539" rms="0.042495"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Big In the City - Sung" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="482916">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000435.au" len="181187" min="-0.181211" max="0.286327" rms="0.030586"/>
+				</waveblock>
+				<waveblock start="181187">
+					<simpleblockfile filename="e0000745.au" len="262144" min="-0.348363" max="0.310873" rms="0.057686"/>
+				</waveblock>
+				<waveblock start="443331">
+					<simpleblockfile filename="e0000a5f.au" len="39585" min="-0.127154" max="0.123262" rms="0.024347"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Big In the City - Sung" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="482916">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000b28.au" len="181187" min="-0.181188" max="0.286227" rms="0.030586"/>
+				</waveblock>
+				<waveblock start="181187">
+					<simpleblockfile filename="e0000f23.au" len="262144" min="-0.348288" max="0.310913" rms="0.057686"/>
+				</waveblock>
+				<waveblock start="443331">
+					<simpleblockfile filename="e00003a5.au" len="39585" min="-0.127148" max="0.123262" rms="0.024347"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Big In the City - Sung" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="523841">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000874.au" len="189819" min="-0.398522" max="0.294681" rms="0.060913"/>
+				</waveblock>
+				<waveblock start="189819">
+					<simpleblockfile filename="e00007a1.au" len="167011" min="-0.649744" max="0.465906" rms="0.041185"/>
+				</waveblock>
+				<waveblock start="356830">
+					<simpleblockfile filename="e0000e33.au" len="167011" min="-0.523341" max="0.502295" rms="0.067442"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Big In the City - Sung" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="523841">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000b36.au" len="189819" min="-0.398501" max="0.294632" rms="0.060913"/>
+				</waveblock>
+				<waveblock start="189819">
+					<simpleblockfile filename="e0000fbf.au" len="167011" min="-0.538248" max="0.388046" rms="0.034042"/>
+				</waveblock>
+				<waveblock start="356830">
+					<simpleblockfile filename="e00000b8.au" len="167011" min="-0.432085" max="0.415062" rms="0.055754"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Big In the City - Sung" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="491101">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000491.au" len="10419" min="-0.056824" max="0.074867" rms="0.008075"/>
+				</waveblock>
+				<waveblock start="10419">
+					<simpleblockfile filename="e0000e66.au" len="262144" min="-0.512161" max="0.449046" rms="0.065473"/>
+				</waveblock>
+				<waveblock start="272563">
+					<simpleblockfile filename="e0000c2f.au" len="218538" min="-0.52364" max="0.51449" rms="0.078343"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Big In the City - Sung" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="491101">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000bcf.au" len="10419" min="-0.046907" max="0.061907" rms="0.006674"/>
+				</waveblock>
+				<waveblock start="10419">
+					<simpleblockfile filename="e0000e74.au" len="262144" min="-0.424587" max="0.370392" rms="0.054127"/>
+				</waveblock>
+				<waveblock start="272563">
+					<simpleblockfile filename="e0000ece.au" len="218538" min="-0.433005" max="0.424839" rms="0.064775"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Big In the City - Sung" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="482916">
+				<waveblock start="0">
+					<simpleblockfile filename="e000037c.au" len="152875" min="-0.549198" max="0.5118" rms="0.063734"/>
+				</waveblock>
+				<waveblock start="152875">
+					<simpleblockfile filename="e0000bd5.au" len="152875" min="-0.489866" max="0.533103" rms="0.082476"/>
+				</waveblock>
+				<waveblock start="305750">
+					<simpleblockfile filename="e000057d.au" len="177166" min="-0.436698" max="0.435168" rms="0.051975"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Big In the City - Sung" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="482916">
+				<waveblock start="0">
+					<simpleblockfile filename="e00002fa.au" len="152875" min="-0.455278" max="0.4232" rms="0.052689"/>
+				</waveblock>
+				<waveblock start="152875">
+					<simpleblockfile filename="e0000057.au" len="152875" min="-0.405584" max="0.441335" rms="0.06818"/>
+				</waveblock>
+				<waveblock start="305750">
+					<simpleblockfile filename="e0000c48.au" len="177166" min="-0.361151" max="0.358583" rms="0.042975"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Big In the City - Sung" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="523841">
+				<waveblock start="0">
+					<simpleblockfile filename="e00006b2.au" len="161953" min="-0.506481" max="0.500108" rms="0.067448"/>
+				</waveblock>
+				<waveblock start="161953">
+					<simpleblockfile filename="e00003d0.au" len="161954" min="-0.462435" max="0.35126" rms="0.050255"/>
+				</waveblock>
+				<waveblock start="323907">
+					<simpleblockfile filename="e0000bd0.au" len="199934" min="-0.56677" max="0.582704" rms="0.069839"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Big In the City - Sung" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="523841">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000df0.au" len="161953" min="-0.419534" max="0.412967" rms="0.055781"/>
+				</waveblock>
+				<waveblock start="161953">
+					<simpleblockfile filename="e0000802.au" len="161954" min="-0.383465" max="0.290615" rms="0.041555"/>
+				</waveblock>
+				<waveblock start="323907">
+					<simpleblockfile filename="e000011e.au" len="199934" min="-0.468318" max="0.482742" rms="0.057736"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Big In the City - Sung" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="459302">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000e23.au" len="162177" min="-0.354807" max="0.395166" rms="0.048175"/>
+				</waveblock>
+				<waveblock start="162177">
+					<simpleblockfile filename="e0000cb7.au" len="162177" min="-0.658808" max="0.571257" rms="0.10054"/>
+				</waveblock>
+				<waveblock start="324354">
+					<simpleblockfile filename="e00006d8.au" len="134948" min="-0.332973" max="0.322057" rms="0.051776"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Big In the City - Sung" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="459302">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000e22.au" len="162177" min="-0.290731" max="0.326186" rms="0.039827"/>
+				</waveblock>
+				<waveblock start="162177">
+					<simpleblockfile filename="e0000b2a.au" len="162177" min="-0.547525" max="0.471616" rms="0.083095"/>
+				</waveblock>
+				<waveblock start="324354">
+					<simpleblockfile filename="e000049f.au" len="134948" min="-0.277288" max="0.268471" rms="0.042806"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Big In the City - Sung" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="-0.5">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="441991">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000e94.au" len="178770" min="-0.658995" max="0.491764" rms="0.095563"/>
+				</waveblock>
+				<waveblock start="178770">
+					<simpleblockfile filename="e000032b.au" len="178771" min="-0.484958" max="0.465774" rms="0.036912"/>
+				</waveblock>
+				<waveblock start="357541">
+					<simpleblockfile filename="e00009f5.au" len="84450" min="-0.584164" max="0.418045" rms="0.079276"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Big In the City - Sung" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="-0.5">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="441991">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000675.au" len="178770" min="-0.543697" max="0.406485" rms="0.079023"/>
+				</waveblock>
+				<waveblock start="178770">
+					<simpleblockfile filename="e00002f0.au" len="178771" min="-0.401677" max="0.386689" rms="0.030526"/>
+				</waveblock>
+				<waveblock start="357541">
+					<simpleblockfile filename="e000036b.au" len="84450" min="-0.484449" max="0.345631" rms="0.065522"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Big In the City - Sung" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="470643">
+				<waveblock start="0">
+					<simpleblockfile filename="e000068b.au" len="159200" min="-0.39165" max="0.306124" rms="0.056779"/>
+				</waveblock>
+				<waveblock start="159200">
+					<simpleblockfile filename="e0000211.au" len="159200" min="-0.181211" max="0.286327" rms="0.030401"/>
+				</waveblock>
+				<waveblock start="318400">
+					<simpleblockfile filename="e0000288.au" len="152243" min="-0.348363" max="0.310873" rms="0.059303"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Big In the City - Sung" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="470643">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000c0a.au" len="159200" min="-0.391604" max="0.306125" rms="0.056779"/>
+				</waveblock>
+				<waveblock start="159200">
+					<simpleblockfile filename="e00009b9.au" len="159200" min="-0.181188" max="0.286227" rms="0.030401"/>
+				</waveblock>
+				<waveblock start="318400">
+					<simpleblockfile filename="e0000769.au" len="152243" min="-0.348288" max="0.310913" rms="0.059303"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Big In the City - Sung" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="453632">
+				<waveblock start="0">
+					<simpleblockfile filename="e00002b3.au" len="166118" min="-0.658808" max="0.571257" rms="0.10054"/>
+				</waveblock>
+				<waveblock start="166118">
+					<simpleblockfile filename="e000167a.au" len="262144" min="-0.658995" max="0.491764" rms="0.083062"/>
+				</waveblock>
+				<waveblock start="428262">
+					<simpleblockfile filename="e00000db.au" len="25370" min="-0.341158" max="0.304691" rms="0.03998"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Big In the City - Sung" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="453632">
+				<waveblock start="0">
+					<simpleblockfile filename="e00016fa.au" len="166118" min="-0.547525" max="0.471616" rms="0.083095"/>
+				</waveblock>
+				<waveblock start="166118">
+					<simpleblockfile filename="e00013b7.au" len="262144" min="-0.543697" max="0.406485" rms="0.068685"/>
+				</waveblock>
+				<waveblock start="428262">
+					<simpleblockfile filename="e00014da.au" len="25370" min="-0.284057" max="0.250744" rms="0.033068"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

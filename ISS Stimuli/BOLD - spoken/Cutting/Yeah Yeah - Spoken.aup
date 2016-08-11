@@ -1,0 +1,316 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Yeah Yeah - Spoken_data" version="1.3.0" audacityversion="2.0.6" sel0="7.0115555556" sel1="7.0115555556" vpos="0" h="0.0000000000" zoom="9.9835192698" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds">
+	<tags>
+		<tag name="Software" value="Logic 10.0.3"/>
+		<tag name="COMMENTS" value=" 00000000 00000210 00000B64 00000000008B890C 00000000 00652FAD 00000000 00000000 00000000 00000000 00000000 00000000"/>
+	</tags>
+	<wavetrack name="Yeah Yeah - Spoken" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="468232">
+				<waveblock start="0">
+					<simpleblockfile filename="e00006ca.au" len="169381" min="-0.464676" max="0.781728" rms="0.078914"/>
+				</waveblock>
+				<waveblock start="169381">
+					<simpleblockfile filename="e000082e.au" len="262144" min="-0.30937" max="0.594" rms="0.044888"/>
+				</waveblock>
+				<waveblock start="431525">
+					<simpleblockfile filename="e0000194.au" len="36707" min="-0.013891" max="0.008831" rms="0.00195"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Yeah Yeah - Spoken" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="468232">
+				<waveblock start="0">
+					<simpleblockfile filename="e000059e.au" len="169381" min="-0.459386" max="0.771249" rms="0.077873"/>
+				</waveblock>
+				<waveblock start="169381">
+					<simpleblockfile filename="e0000899.au" len="262144" min="-0.305748" max="0.586132" rms="0.044321"/>
+				</waveblock>
+				<waveblock start="431525">
+					<simpleblockfile filename="e000011b.au" len="36707" min="-0.014829" max="0.008893" rms="0.001936"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Yeah Yeah - Spoken" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="468232">
+				<waveblock start="0">
+					<simpleblockfile filename="e00000f7.au" len="225437" min="-0.513476" max="0.684963" rms="0.055293"/>
+				</waveblock>
+				<waveblock start="225437">
+					<simpleblockfile filename="e0000f7d.au" len="242795" min="-0.244785" max="0.552308" rms="0.034201"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Yeah Yeah - Spoken" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="468232">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000b5e.au" len="225437" min="-0.506067" max="0.676414" rms="0.054576"/>
+				</waveblock>
+				<waveblock start="225437">
+					<simpleblockfile filename="e00009cd.au" len="242795" min="-0.241371" max="0.545171" rms="0.033769"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Yeah Yeah - Spoken" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="494735">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000323.au" len="140746" min="-0.318557" max="0.654915" rms="0.039751"/>
+				</waveblock>
+				<waveblock start="140746">
+					<simpleblockfile filename="e00007bf.au" len="140747" min="-0.54248" max="0.602644" rms="0.08466"/>
+				</waveblock>
+				<waveblock start="281493">
+					<simpleblockfile filename="e0000cf8.au" len="213242" min="-0.348169" max="0.705082" rms="0.069537"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Yeah Yeah - Spoken" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="494735">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000dc8.au" len="140746" min="-0.315282" max="0.647249" rms="0.039248"/>
+				</waveblock>
+				<waveblock start="140746">
+					<simpleblockfile filename="e000017a.au" len="140747" min="-0.535856" max="0.594621" rms="0.083547"/>
+				</waveblock>
+				<waveblock start="281493">
+					<simpleblockfile filename="e0000cf0.au" len="213242" min="-0.343846" max="0.694406" rms="0.068638"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Yeah Yeah - Spoken" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="468232">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000640.au" len="155523" min="-0.227951" max="0.363882" rms="0.031655"/>
+				</waveblock>
+				<waveblock start="155523">
+					<simpleblockfile filename="e00000a4.au" len="155523" min="-0.629116" max="0.651559" rms="0.061426"/>
+				</waveblock>
+				<waveblock start="311046">
+					<simpleblockfile filename="e00008ed.au" len="157186" min="-0.846334" max="0.896132" rms="0.06535"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Yeah Yeah - Spoken" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="468232">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000b3f.au" len="155523" min="-0.223763" max="0.358596" rms="0.031253"/>
+				</waveblock>
+				<waveblock start="155523">
+					<simpleblockfile filename="e00005f7.au" len="155523" min="-0.620046" max="0.643792" rms="0.060624"/>
+				</waveblock>
+				<waveblock start="311046">
+					<simpleblockfile filename="e00005e8.au" len="157186" min="-0.835467" max="0.884982" rms="0.0645"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Yeah Yeah - Spoken" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="525656">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000df8.au" len="183551" min="-0.244428" max="0.448157" rms="0.037493"/>
+				</waveblock>
+				<waveblock start="183551">
+					<simpleblockfile filename="e0000b84.au" len="183551" min="-0.439734" max="0.765389" rms="0.067895"/>
+				</waveblock>
+				<waveblock start="367102">
+					<simpleblockfile filename="e0000406.au" len="158554" min="-0.396673" max="0.409016" rms="0.025479"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Yeah Yeah - Spoken" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="525656">
+				<waveblock start="0">
+					<simpleblockfile filename="e00009b6.au" len="183551" min="-0.240845" max="0.442884" rms="0.037019"/>
+				</waveblock>
+				<waveblock start="183551">
+					<simpleblockfile filename="e00007c8.au" len="183551" min="-0.435281" max="0.75472" rms="0.067009"/>
+				</waveblock>
+				<waveblock start="367102">
+					<simpleblockfile filename="e0000c00.au" len="158554" min="-0.391622" max="0.404103" rms="0.025156"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Yeah Yeah - Spoken" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="507987">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000b8b.au" len="202295" min="-0.156451" max="0.218225" rms="0.018393"/>
+				</waveblock>
+				<waveblock start="202295">
+					<simpleblockfile filename="e0000856.au" len="262144" min="-0.635296" max="0.660396" rms="0.055944"/>
+				</waveblock>
+				<waveblock start="464439">
+					<simpleblockfile filename="e0000c6e.au" len="43548" min="-0.044982" max="0.063181" rms="0.004946"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Yeah Yeah - Spoken" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="507987">
+				<waveblock start="0">
+					<simpleblockfile filename="e00008ce.au" len="202295" min="-0.153553" max="0.215497" rms="0.01816"/>
+				</waveblock>
+				<waveblock start="202295">
+					<simpleblockfile filename="e0000752.au" len="262144" min="-0.627353" max="0.651802" rms="0.05523"/>
+				</waveblock>
+				<waveblock start="464439">
+					<simpleblockfile filename="e00009c7.au" len="43548" min="-0.045042" max="0.061484" rms="0.004912"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Yeah Yeah - Spoken" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="481484">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000428.au" len="218596" min="-0.438707" max="0.588478" rms="0.053787"/>
+				</waveblock>
+				<waveblock start="218596">
+					<simpleblockfile filename="e000089d.au" len="262144" min="-0.377279" max="0.551337" rms="0.053914"/>
+				</waveblock>
+				<waveblock start="480740">
+					<simpleblockfile filename="e000009b.au" len="744" min="-0.003357" max="0.00582" rms="0.000249"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Yeah Yeah - Spoken" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="481484">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000479.au" len="218596" min="-0.432587" max="0.581125" rms="0.053085"/>
+				</waveblock>
+				<waveblock start="218596">
+					<simpleblockfile filename="e0000daa.au" len="262144" min="-0.373021" max="0.546049" rms="0.053224"/>
+				</waveblock>
+				<waveblock start="480740">
+					<simpleblockfile filename="e00009d1.au" len="744" min="-0.002471" max="0.004798" rms="0.000248"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Yeah Yeah - Spoken" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="525656">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000d41.au" len="62622" min="-0.470562" max="0.624217" rms="0.115885"/>
+				</waveblock>
+				<waveblock start="62622">
+					<simpleblockfile filename="e00000bb.au" len="262144" min="-0.330812" max="0.399952" rms="0.039931"/>
+				</waveblock>
+				<waveblock start="324766">
+					<simpleblockfile filename="e00008a6.au" len="200890" min="-0.283518" max="0.322114" rms="0.043343"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Yeah Yeah - Spoken" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="525656">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000fa6.au" len="62622" min="-0.467672" max="0.617024" rms="0.114363"/>
+				</waveblock>
+				<waveblock start="62622">
+					<simpleblockfile filename="e0000642.au" len="262144" min="-0.326725" max="0.39371" rms="0.039428"/>
+				</waveblock>
+				<waveblock start="324766">
+					<simpleblockfile filename="e00003a9.au" len="200890" min="-0.278773" max="0.317617" rms="0.042787"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Yeah Yeah - Spoken" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="503570">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000fc1.au" len="248304" min="-0.293746" max="0.440022" rms="0.046125"/>
+				</waveblock>
+				<waveblock start="248304">
+					<simpleblockfile filename="e0000eb6.au" len="255266" min="-0.226228" max="0.294866" rms="0.031969"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Yeah Yeah - Spoken" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="503570">
+				<waveblock start="0">
+					<simpleblockfile filename="e00006e0.au" len="248304" min="-0.290551" max="0.433455" rms="0.045536"/>
+				</waveblock>
+				<waveblock start="248304">
+					<simpleblockfile filename="e000021f.au" len="255266" min="-0.22278" max="0.290752" rms="0.031568"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Yeah Yeah - Spoken" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="565412">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000ab7.au" len="211754" min="-0.414877" max="0.495911" rms="0.063711"/>
+				</waveblock>
+				<waveblock start="211754">
+					<simpleblockfile filename="e0000ebc.au" len="262144" min="-0.277962" max="0.528773" rms="0.044805"/>
+				</waveblock>
+				<waveblock start="473898">
+					<simpleblockfile filename="e0000f47.au" len="91514" min="-0.32836" max="0.310412" rms="0.042673"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Yeah Yeah - Spoken" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="565412">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000169.au" len="211754" min="-0.407897" max="0.488865" rms="0.062885"/>
+				</waveblock>
+				<waveblock start="211754">
+					<simpleblockfile filename="e00001d4.au" len="262144" min="-0.2753" max="0.521778" rms="0.044242"/>
+				</waveblock>
+				<waveblock start="473898">
+					<simpleblockfile filename="e0000c38.au" len="91514" min="-0.326243" max="0.305366" rms="0.042129"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

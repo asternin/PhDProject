@@ -1,0 +1,322 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Take Off Not Landing - Spoken_data" version="1.3.0" audacityversion="2.0.6" sel0="0.0000000000" sel1="10.4871655329" vpos="0" h="0.0000000000" zoom="8.6772761617" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds">
+	<tags>
+		<tag name="Software" value="Logic 10.0.3"/>
+		<tag name="COMMENTS" value=" 00000000 00000210 00000B64 00000000008B890C 00000000 00652FAD 00000000 00000000 00000000 00000000 00000000 00000000"/>
+	</tags>
+	<wavetrack name="Take Off Not Landing - Spoken" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="472648">
+				<waveblock start="0">
+					<simpleblockfile filename="e00003cd.au" len="211322" min="-0.286848" max="0.497021" rms="0.041464"/>
+				</waveblock>
+				<waveblock start="211322">
+					<simpleblockfile filename="e0000ba2.au" len="261326" min="-0.23985" max="0.478408" rms="0.02661"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Take Off Not Landing - Spoken" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="472648">
+				<waveblock start="0">
+					<simpleblockfile filename="e000007a.au" len="211322" min="-0.282385" max="0.491291" rms="0.040928"/>
+				</waveblock>
+				<waveblock start="211322">
+					<simpleblockfile filename="e00005d0.au" len="261326" min="-0.236179" max="0.472861" rms="0.026278"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Take Off Not Landing - Spoken" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="503142">
+				<waveblock start="0">
+					<simpleblockfile filename="e000005e.au" len="131481" min="-0.294499" max="0.345243" rms="0.034076"/>
+				</waveblock>
+				<waveblock start="131481">
+					<simpleblockfile filename="e0000291.au" len="131481" min="-0.248977" max="0.281072" rms="0.015497"/>
+				</waveblock>
+				<waveblock start="262962">
+					<simpleblockfile filename="e00008a6.au" len="240180" min="-0.23215" max="0.475487" rms="0.020618"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Take Off Not Landing - Spoken" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="503142">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000539.au" len="131481" min="-0.290828" max="0.340856" rms="0.033642"/>
+				</waveblock>
+				<waveblock start="131481">
+					<simpleblockfile filename="e0000ab9.au" len="131481" min="-0.246866" max="0.276238" rms="0.015305"/>
+				</waveblock>
+				<waveblock start="262962">
+					<simpleblockfile filename="e00009ed.au" len="240180" min="-0.229285" max="0.469315" rms="0.020362"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Take Off Not Landing - Spoken" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="472648">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000de9.au" len="142054" min="-0.403893" max="0.55182" rms="0.049128"/>
+				</waveblock>
+				<waveblock start="142054">
+					<simpleblockfile filename="e00006ad.au" len="142054" min="-0.374606" max="0.410149" rms="0.031145"/>
+				</waveblock>
+				<waveblock start="284108">
+					<simpleblockfile filename="e0000809.au" len="188540" min="-0.135311" max="0.330829" rms="0.020128"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Take Off Not Landing - Spoken" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="472648">
+				<waveblock start="0">
+					<simpleblockfile filename="e000062a.au" len="142054" min="-0.399067" max="0.544943" rms="0.048491"/>
+				</waveblock>
+				<waveblock start="142054">
+					<simpleblockfile filename="e00007d8.au" len="142054" min="-0.369254" max="0.404429" rms="0.030752"/>
+				</waveblock>
+				<waveblock start="284108">
+					<simpleblockfile filename="e0000b9c.au" len="188540" min="-0.134817" max="0.327461" rms="0.019875"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Take Off Not Landing - Spoken" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="487895">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000447.au" len="167874" min="-0.398252" max="0.722236" rms="0.076257"/>
+				</waveblock>
+				<waveblock start="167874">
+					<simpleblockfile filename="e0000589.au" len="167874" min="-0.398923" max="0.512988" rms="0.036871"/>
+				</waveblock>
+				<waveblock start="335748">
+					<simpleblockfile filename="e0000d85.au" len="152147" min="-0.189655" max="0.33091" rms="0.021903"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Take Off Not Landing - Spoken" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="487895">
+				<waveblock start="0">
+					<simpleblockfile filename="e000066b.au" len="167874" min="-0.392823" max="0.712462" rms="0.075255"/>
+				</waveblock>
+				<waveblock start="167874">
+					<simpleblockfile filename="e0000307.au" len="167874" min="-0.394768" max="0.50547" rms="0.036401"/>
+				</waveblock>
+				<waveblock start="335748">
+					<simpleblockfile filename="e0000aba.au" len="152147" min="-0.186983" max="0.326034" rms="0.021627"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Take Off Not Landing - Spoken" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="503142">
+				<waveblock start="0">
+					<simpleblockfile filename="e00007ec.au" len="186070" min="-0.423511" max="0.517843" rms="0.048362"/>
+				</waveblock>
+				<waveblock start="186070">
+					<simpleblockfile filename="e00004e1.au" len="186071" min="-0.29151" max="0.550477" rms="0.028711"/>
+				</waveblock>
+				<waveblock start="372141">
+					<simpleblockfile filename="e0000e10.au" len="131001" min="-0.16514" max="0.282529" rms="0.0272"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Take Off Not Landing - Spoken" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="503142">
+				<waveblock start="0">
+					<simpleblockfile filename="e000099b.au" len="186070" min="-0.417804" max="0.511905" rms="0.047736"/>
+				</waveblock>
+				<waveblock start="186070">
+					<simpleblockfile filename="e0000f30.au" len="186071" min="-0.288064" max="0.543971" rms="0.028346"/>
+				</waveblock>
+				<waveblock start="372141">
+					<simpleblockfile filename="e0000859.au" len="131001" min="-0.163028" max="0.279717" rms="0.026861"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Take Off Not Landing - Spoken" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="503142">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000967.au" len="176314" min="-0.222548" max="0.391611" rms="0.043572"/>
+				</waveblock>
+				<waveblock start="176314">
+					<simpleblockfile filename="e0000dd3.au" len="176315" min="-0.188221" max="0.423513" rms="0.032057"/>
+				</waveblock>
+				<waveblock start="352629">
+					<simpleblockfile filename="e0000081.au" len="150513" min="-0.12566" max="0.335999" rms="0.025661"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Take Off Not Landing - Spoken" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="503142">
+				<waveblock start="0">
+					<simpleblockfile filename="e000031f.au" len="176314" min="-0.220737" max="0.386568" rms="0.043016"/>
+				</waveblock>
+				<waveblock start="176314">
+					<simpleblockfile filename="e0000607.au" len="176315" min="-0.185337" max="0.417748" rms="0.031639"/>
+				</waveblock>
+				<waveblock start="352629">
+					<simpleblockfile filename="e0000480.au" len="150513" min="-0.123729" max="0.331856" rms="0.025333"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Take Off Not Landing - Spoken" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="548882">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000ee6.au" len="156394" min="-0.222813" max="0.400054" rms="0.046953"/>
+				</waveblock>
+				<waveblock start="156394">
+					<simpleblockfile filename="e0000d1f.au" len="156394" min="-0.195863" max="0.265561" rms="0.024377"/>
+				</waveblock>
+				<waveblock start="312788">
+					<simpleblockfile filename="e000076e.au" len="236094" min="-0.259152" max="0.362305" rms="0.042513"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Take Off Not Landing - Spoken" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="548882">
+				<waveblock start="0">
+					<simpleblockfile filename="e00003f6.au" len="156394" min="-0.220227" max="0.395417" rms="0.046342"/>
+				</waveblock>
+				<waveblock start="156394">
+					<simpleblockfile filename="e0000650.au" len="156394" min="-0.192965" max="0.261055" rms="0.024063"/>
+				</waveblock>
+				<waveblock start="312788">
+					<simpleblockfile filename="e0000518.au" len="236094" min="-0.255515" max="0.357639" rms="0.041976"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Take Off Not Landing - Spoken" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="477731">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000143.au" len="134750" min="-0.363391" max="0.348141" rms="0.032484"/>
+				</waveblock>
+				<waveblock start="134750">
+					<simpleblockfile filename="e0000c8f.au" len="134750" min="-0.397895" max="0.375784" rms="0.02376"/>
+				</waveblock>
+				<waveblock start="269500">
+					<simpleblockfile filename="e000033b.au" len="208231" min="-0.474797" max="0.368207" rms="0.039006"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Take Off Not Landing - Spoken" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="477731">
+				<waveblock start="0">
+					<simpleblockfile filename="e000016e.au" len="134750" min="-0.35837" max="0.343378" rms="0.032068"/>
+				</waveblock>
+				<waveblock start="134750">
+					<simpleblockfile filename="e000014c.au" len="134750" min="-0.393817" max="0.369593" rms="0.023462"/>
+				</waveblock>
+				<waveblock start="269500">
+					<simpleblockfile filename="e0000c43.au" len="208231" min="-0.469253" max="0.363049" rms="0.038503"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Take Off Not Landing - Spoken" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="482813">
+				<waveblock start="0">
+					<simpleblockfile filename="e00004e8.au" len="158028" min="-0.280051" max="0.354306" rms="0.046413"/>
+				</waveblock>
+				<waveblock start="158028">
+					<simpleblockfile filename="e0000c97.au" len="158029" min="-0.232294" max="0.228868" rms="0.022079"/>
+				</waveblock>
+				<waveblock start="316057">
+					<simpleblockfile filename="e0000114.au" len="166756" min="-0.313751" max="0.408311" rms="0.039696"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Take Off Not Landing - Spoken" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="482813">
+				<waveblock start="0">
+					<simpleblockfile filename="e00001d3.au" len="158028" min="-0.27617" max="0.349381" rms="0.045814"/>
+				</waveblock>
+				<waveblock start="158028">
+					<simpleblockfile filename="e0000457.au" len="158029" min="-0.229812" max="0.22526" rms="0.021807"/>
+				</waveblock>
+				<waveblock start="316057">
+					<simpleblockfile filename="e00006d5.au" len="166756" min="-0.310168" max="0.402854" rms="0.039177"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Take Off Not Landing - Spoken" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="462484">
+				<waveblock start="0">
+					<simpleblockfile filename="e000036a.au" len="64397" min="-0.828804" max="0.891361" rms="0.069696"/>
+				</waveblock>
+				<waveblock start="64397">
+					<simpleblockfile filename="e00009ab.au" len="262144" min="-0.314145" max="0.297081" rms="0.036073"/>
+				</waveblock>
+				<waveblock start="326541">
+					<simpleblockfile filename="e000061c.au" len="135943" min="-0.441759" max="0.409848" rms="0.034743"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Take Off Not Landing - Spoken" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="462484">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000606.au" len="64397" min="-0.81823" max="0.880287" rms="0.068799"/>
+				</waveblock>
+				<waveblock start="64397">
+					<simpleblockfile filename="e00002a9.au" len="262144" min="-0.310299" max="0.293135" rms="0.035609"/>
+				</waveblock>
+				<waveblock start="326541">
+					<simpleblockfile filename="e00009d7.au" len="135943" min="-0.436248" max="0.404359" rms="0.034294"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
