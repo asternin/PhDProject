@@ -1,11 +1,44 @@
 \begin{thebibliography}{10}
 
+\bibitem{Beaman1997}
+C.~Philip Beaman and Dylan~Marc Jones.
+\newblock {Role of serial order in the irrelevant speech effect: Tests of the
+  changing-state hypothesis.}
+\newblock {\em Journal of Experimental Psychology: Learning, Memory, and
+  Cognition}, 23(2):459--471, 1997.
+\begin{quotation}\noindent{\sc Key:\ }Beaman1997\\{\sc Annotation:\ }Perham \&
+  Sykora, 2012 ``If task does not involve seriation then changing-state sound
+  is not disruptive''\end{quotation}
+
+\bibitem{Colle1976}
+Herbert~A. Colle and Alan Welsh.
+\newblock {Acoustic masking in primary memory}.
+\newblock {\em Journal of Verbal Learning and Verbal Behavior}, 15(1):17--31,
+  feb 1976.
+\begin{quotation}\noindent{\sc Key:\ }Colle1976\\{\sc Annotation:\ }ISE
+  information\end{quotation}
+
 \bibitem{Freeburne1952}
 Cecil~M. Freeburne and Murray~S. Fleischer.
 \newblock {The effect of music distraction upon reading rate and
   comprehension.}
 \newblock {\em Journal of Educational Psychology}, 43(2):101--109, 1952.
-\begin{quotation}\noindent{\sc Key:\ }Freeburne1952\end{quotation}
+\begin{quotation}\noindent{\sc Key:\ }Freeburne1952\\{\sc Annotation:\ }Two
+  questions are raised in the present study. First, does listening to specific
+  types of nonvocal music (classical, semi-classical, popular and jazz) have
+  any significant effect upon rate of reading and reading comprehension?
+  Second, are rate of reading and reading comprehension in the presence of
+  music a function of the subject's intelligence? \\ Reading material was
+  expanded from the Robinson-Hall Test for Reading Ability. 283 Introductory
+  Psychology students were assigned to the 5 groups. 208 students completed the
+  study. All participants within a group were tested at once in a classroom.
+  Music was played from a phonograph in an adjoining room. \\ Rate of Reading
+  Results: ANOVA - No significant difference among groups. A t-test showed that
+  the rate in the jazz group was higher than the control group. \\
+  Comprehension Results: ANOVA - No significant difference among groups. A
+  t-test indicated no differences between groups. \\ There was no relationship
+  between rate of reading or comprehension and subject's intelligence (based on
+  ACE percentile rankings).\end{quotation}
 
 \bibitem{Furnham1999}
 Adrian Furnham and Kathryn Allass.
@@ -29,7 +62,7 @@ Adrian Furnham and Kathryn Allass.
 Adrian Furnham and Anna Bradley.
 \newblock {Music while you work: the differential distraction of background
   music on the cognitive test performance of introverts and extraverts}.
-\newblock {\em Applied Cognitive Psychology}, 11(5):445--455, oct 1997.
+\newblock {\em Applied Cognitive Psychology}, 11(5):445--455, Oct 1997.
 \begin{quotation}\noindent{\sc Key:\ }Furnham1997\\{\sc Annotation:\ }Music has
   a postive effect on factory workers, but this effect depends on type of music
   and age of worker. In workers performing a repetitive task - Music improves
@@ -49,7 +82,7 @@ Adrian Furnham and Lisa Strbac.
 \newblock {Music is as distracting as noise: the differential distraction of
   background music and noise on the cognitive test performance of introverts
   and extraverts}.
-\newblock {\em Ergonomics}, 45(3):203--217, feb 2002.
+\newblock {\em Ergonomics}, 45(3):203--217, Feb 2002.
 \begin{quotation}\noindent{\sc Key:\ }Furnham2002\\{\sc Annotation:\ }This
   study aimed to determine whether there would be a differential distraction of
   background noise and music on the cognitive test performance of introverts
@@ -87,67 +120,205 @@ Susan Hallam, John Price, and Georgia Katsarou.
   not say if music in study 1 had lyrics or not. Study 2 - no
   lyrics}\end{quotation}
 
+\bibitem{Jones1999}
+Dylan Jones.
+\newblock {The cognitive psychology of auditory distraction: The 1997 BPS
+  Broadbent Lecture}.
+\newblock {\em British Journal of Psychology}, 90(2):167--187, may 1999.
+\begin{quotation}\noindent{\sc Key:\ }Jones1999\\{\sc Annotation:\ }ISE
+  information\end{quotation}
+
 \bibitem{Patston2011}
 Lucy L.~M. Patston and Lynette~J. Tippett.
 \newblock {The Effect of Background Music on Cognitive Performance in Musicians
   and Nonmusicians}.
 \newblock {\em Music Perception: An Interdisciplinary Journal}, 29(2):173--183,
-  dec 2011.
-\begin{quotation}\noindent{\sc Key:\ }Patston2011\end{quotation}
+  Dec 2011.
+\begin{quotation}\noindent{\sc Key:\ }Patston2011\\{\sc Annotation:\ }In the
+  present study, musicians and nonmusicians were compared on a language task
+  (sentence comprehension - marking grammatically correct and incorrect
+  sentences) and a visual task (visuospatial search - find difference between
+  two designs) under three conditions: music played correctly, music played
+  incorrectly, and silence. Our goal was to test whether processing of music
+  and language is functionally independent in musicians but not in
+  nonmusicians. \\ 36 musicians, 36 non-musicians. The music did not have
+  lyrics - piano pieces. 2 non-musicians and 27 musicians reported hearing
+  mistakes in the music-incorrect condition. \\ language comprehension results:
+  musicians completed more items correctly. Significantly more errors in
+  music-incorrect condition. musicians scored higher during silence and
+  music-correct, but not music-incorrect. \\ visuospatial search results:
+  musicians completed more items correctly. no interactions or other main
+  effects \\ These findings challenge the view that music and language are
+  functionally independent in expert musicians, and instead suggest that when
+  musicians process music they recruit a network that overlaps with the network
+  used during language processing. Interference is exacerbated by the
+  additional processing requred to parse grammtically incorrect music. In
+  summary, the performance of musicians was negatively affected by the presence
+  of background music compared to silence when performing a language
+  comprehension task involving grammaticality judgements. Performance was not
+  affected in a visuospatial task. \\ In short, there is emerging (but incon-
+  sistent) evidence indicating that executive function abilities may be
+  enhanced as a result of music lessons and could, therefore, contribute
+  positively to general cognitive functioning in musicians\end{quotation}
+
+\bibitem{Perham2007}
+Nick Perham, Simon~P Banbury, and Dylan~M Jones.
+\newblock {Reduction in auditory distraction by retrieval strategy}.
+\newblock {\em Memory}, 15(4):465--473, may 2007.
+\begin{quotation}\noindent{\sc Key:\ }Perham2007\\{\sc Annotation:\ }Perham \&
+  Sykora, 2012 ``If task does not involve seriation then changing-state sound
+  is not disruptive''\end{quotation}
 
 \bibitem{Perham2014}
 Nick Perham and Harriet Currie.
 \newblock {Does listening to preferred music improve reading comprehension
   performance?}
-\newblock {\em Applied Cognitive Psychology}, 28(2):279--284, mar 2014.
-\begin{quotation}\noindent{\sc Key:\ }Perham2014\end{quotation}
+\newblock {\em Applied Cognitive Psychology}, 28(2):279--284, Mar 2014.
+\begin{quotation}\noindent{\sc Key:\ }Perham2014\\{\sc Annotation:\ }There is
+  discrepancy in the literature about whether or not background sound improves
+  or disrupts cognitive performance. This study explores this discrepancy by
+  asking participants to perform reading comprehension tasks while listening to
+  quiet, liked lyrical music, disliked lyrical music, and non-lyrical music. \\
+  30 undergraduate students. Reading comprension task was taken from practice
+  SAT tests. Liked music was provided by the student and lyrics were required.
+  The other songs also had lyrics. \\ Results: significant main effect of
+  sound. Performance in quiet was significantly better than in disliked lyrical
+  music and liked lyrical music. \\ Liked and disliked music are equally
+  disruptive when compared to quiet. Liked music does not always aid cognitive
+  performance. Biggest effect on seriation tasks or semantic processing.
+  \hl{These findings are not consistent with the music and cognition literature
+  and instead concur with the research on semantic auditory distraction.}
+  Results may have implications for those who read and write while listening to
+  music.\end{quotation}
 
 \bibitem{Perham2012}
 Nick Perham and Martinne Sykora.
 \newblock {Disliked Music can be Better for Performance than Liked Music}.
-\newblock {\em Applied Cognitive Psychology}, 26(4):550--555, jul 2012.
-\begin{quotation}\noindent{\sc Key:\ }Perham2012\end{quotation}
+\newblock {\em Applied Cognitive Psychology}, 26(4):550--555, Jul 2012.
+\begin{quotation}\noindent{\sc Key:\ }Perham2012\\{\sc Annotation:\ }Research
+  has shown that performance is equally as poor on serial recall whether the
+  participant likes the music or not (Perham \& Vizard, 2010). A key feature of
+  this latter auditory phenomenon [irrelevant sound effect (ISE)] is the
+  acoustical variation in the sound that is an inherent part of music. Thus, it
+  may be possible for an unliked, unfamiliar piece of music to be less damaging
+  to performance than liked, familiar music. In this study, an ISE paradigm was
+  adopted in which serial recall was performed in the presence of quiet, liked,
+  and disliked music. \\ 25 undergraduate students. The digits were presented
+  visually and participants were asked to write digits down after presentation.
+  \\ Results: performance on quiet condition was significantly better than the
+  disliked condition. Performance on the disliked condition was significantly
+  better than the liked condition. \\ The disliked music had a `steady-state
+  waveform' while the liked music was more variable. In summary, the current
+  study's findings support that of Perham and Vizard (2010) by once again
+  showing that familiar, liked music impairs serial recall performance by
+  virtue, we would argue, of the acoustical variation in the music. \\ \hl{Many
+  studies report the beneficial effects of listening to music on cognitive
+  performance where the music is listened to before the task begins and the
+  increase in performance is explained by participant's increase in mood and
+  arousal (e.g. Nantais \& Schellenberg, 1999; Schellenberg \& Hallam,
+  2005).}\end{quotation}
 
 \bibitem{Perham2011}
 Nick Perham and Joanne Vizard.
 \newblock {Can preference for background music mediate the irrelevant sound
   effect?}
-\newblock {\em Applied Cognitive Psychology}, 25(4):625--631, jul 2011.
-\begin{quotation}\noindent{\sc Key:\ }Perham2011\\{\sc Annotation:\ }Serial
-  recall was performed in the presence of five sound conditions: quiet, liked
-  music, disliked music, changing- state speech and steady-state speech. All
-  songs had lyrics. 25 participants. The task was a serial recall task -
-  participants were presented with a series of consonants and then were asked
-  to recall the list. \\ Results: performance was best in quiet and
-  steady-state conditions. Liked, disliked, and changing-state speech showed
-  similar impairments. The positive effect of music preference was not observed
-  when listening to music during task performance. \\ \hl{Interestingly, the
-  effect of listening to liked or disliked music before commencing an ISE study
-  is yet to be explored and may provide further information regarding music on
-  cognitive performance.}\end{quotation}
+\newblock {\em Applied Cognitive Psychology}, 25(4):625--631, Jul 2011.
+\begin{quotation}\noindent{\sc Key:\ }Perham2011\\{\sc Annotation:\ }\hl{A
+  popular explanation for this improvement in cognitive performance proposes
+  that if the music is liked then this increases arousal which in turn
+  increases performance (Schellenberg, 2005). However, the general methodology
+  that this explanation refers to requires that participants listen to music
+  prior to performing the task which may be contrary to most people's
+  experience. That is, most people listen to music at the same time as, rather
+  than prior to, performing the task.} \\ Serial recall was performed in the
+  presence of five sound conditions: quiet, liked music, disliked music,
+  changing- state speech and steady-state speech. All songs had lyrics. 25
+  participants. The task was a serial recall task - participants were presented
+  with a series of consonants and then were asked to recall the list. \\
+  Results: performance was best in quiet and steady-state conditions. Liked,
+  disliked, and changing-state speech showed similar impairments. The positive
+  effect of music preference was not observed when listening to music during
+  task performance. \\ \hl{Interestingly, the effect of listening to liked or
+  disliked music before commencing an ISE study is yet to be explored and may
+  provide further information regarding music on cognitive
+  performance.}\end{quotation}
+
+\bibitem{Rauscher1993}
+Frances~H. Rauscher, Gordon~L. Shaw, and Katherine~N. Ky.
+\newblock {Music and spatial task performance}.
+\newblock {\em Nature}, 365(6447):611, Oct 1993.
+\begin{quotation}\noindent{\sc Key:\ }Rauscher1993\\{\sc Annotation:\ }36
+  Students were given three sets of standard IQ spatial reasoning tasks. Each
+  task was \hl{preceded} by 10 minutes of mozart, relaxation tape, or silence.
+  Performance on the task after listening to mozart was improved compared to
+  the other 2 conditions. The enhancing effect of the music condition does not
+  extend beyond the 10-15 minute period during which the subjects were engageed
+  in the spatial task. Including a delay period would allow researchers to
+  determine quantitatively the presence of a decay constant.\end{quotation}
 
 \bibitem{Salame1989}
 Pierre Salam{\'{e}} and Alan Baddeley.
 \newblock {Effects of background music on phonological short-term memory}.
 \newblock {\em The Quarterly Journal of Experimental Psychology Section A},
-  41(1):107--122, feb 1989.
+  41(1):107--122, Feb 1989.
 \begin{quotation}\noindent{\sc Key:\ }Salame1989\\{\sc Annotation:\ }Effect of
   instrumental and vocal music on the immediate serial recall of sequences of
   nine visually presented digits. Three conditions: silence, instrumental,
   vocal. The digits were presented visually and participants were asked to
-  write digits down immediately and 13 seconds later. Most errors during vocal
-  music $>$ instrumental music $>$ silence In first experiment vocal music was
-  sung in the native language of participants, and in the second experiment the
-  vocal music was in a foreign language. Differences may become more apparent
-  by generating sounds that vary systematically in specified dimensions such as
+  write digits down immediately. Most errors during vocal music $>$
+  instrumental music $>$ silence In first experiment vocal music was sung in
+  the native language of participants, and in the second experiment the vocal
+  music was in a foreign language. Differences may become more apparent by
+  generating sounds that vary systematically in specified dimensions such as
   pitch, timbre, prosody, and rhythm, rather than relying on precomposed
   music.\end{quotation}
+
+\bibitem{Schellenberg2005}
+E~Glenn Schellenberg.
+\newblock {Music and Cognitive Abilities}.
+\newblock {\em Current Directions in Psychological Science}, 14(6):317--320,
+  Dec 2005.
+\begin{quotation}\noindent{\sc Key:\ }Schellenberg2005\\{\sc Annotation:\
+  }Review of music listening and music lessons literature. Focus on cognition
+  literature. \\ Music Listening: Rauscher et al - Mozart effect paper in 1993.
+  Replication attempts were not always successful. Meta-analysis by Chabris, et
+  al (1999) speculated mozart effect has to do with arousal. \\ Schellenberg
+  paper - Schubert, and Stephen King effect. Arousal has to do with preference.
+  Tasks were performed \hl{after} listening. \\ Thompson, Schellenberg, and
+  Husain (2001) show that mood also plays a role - more arousal with happy
+  songs. \\ Music Lessons: Schellenberg (2004) paper assigned children to music
+  lessons or comparison conditions. Children in music lessons had larger
+  increases across the four main areas of intellectual ability measured by the
+  WISC-III - compared to drama, control groups. \\ Music listening and music
+  lessons can lead to short-term and long-term cognitive benefits,
+  respectively. This positive answer is qualified because the short-term
+  benefits of music listening do not appear to differ from those associated
+  with other stimuli that optimize arousal level or elicit mild positive
+  affect.\end{quotation}
 
 \bibitem{SOGIN1988}
 David~W. Sogin.
 \newblock Effects of three different musical styles of background music on
   coding by college-age students.
-\newblock {\em Perceptual and Motor Skills}, 67(1):275--280, aug 1988.
-\begin{quotation}\noindent{\sc Key:\ }SOGIN1988\end{quotation}
+\newblock {\em Perceptual and Motor Skills}, 67(1):275--280, Aug 1988.
+\begin{quotation}\noindent{\sc Key:\ }SOGIN1988\\{\sc Annotation:\ }The present
+  study concerned the effects of differential stylistic background music on
+  coding of college students. In addition, students' perceptions of the music
+  and the effects of these perceptions on performance were assessed. \\ 96
+  undergraduate students were assigned to 1 of 4 experimental groups. They
+  completed the task under 1 of 4 conditions: no music, classical music, jazz
+  music, popular music. No lyrics. Coding task - 220 items. \\ Results: no
+  significant differences in the number of items completed by each group. No
+  significant differences in the number of correct responses. \\ (1) The
+  experimental conditions of style had no significant effect on the number of
+  eye/hand coordination problems completed on the coding task and (2) no
+  significant effect on the number of eyelhand coordination problems completed
+  correctly. Also (3) no over-all pattern occurred in responses to the
+  question, "Did the musical selections seem to interfere with your completing
+  the problems." (4) For Groups 2, 3, and 4 the musical elements of loudness
+  and rhythm of the music seemed to contribute to distraction. \\ Researchers
+  have concluded that, when music becomes a competing en- vironmental stimulus
+  in relation to another task, the music may be phased out of awareness or
+  simply ignored.\end{quotation}
 
 \end{thebibliography}
