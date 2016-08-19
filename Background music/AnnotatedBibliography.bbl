@@ -10,13 +10,41 @@ C.~Philip Beaman and Dylan~Marc Jones.
   Sykora, 2012 ``If task does not involve seriation then changing-state sound
   is not disruptive''\end{quotation}
 
+\bibitem{Chabris1999}
+Christopher~F. Chabris.
+\newblock {Prelude or requiem for the 'Mozart effect'?}
+\newblock {\em Nature}, 400(6747):826--827, Aug 1999.
+\begin{quotation}\noindent{\sc Key:\ }Chabris1999\\{\sc Annotation:\
+  }META-ANALYSIS \\ Demonstrates that any cognitive enhancement is small and
+  does not reflect any change in IQ or reasoning ability in general, but
+  instead derives entirely from performance on one specific type of cognitive
+  task and has a simple neuropsychological explanation. \\ A shared
+  right-hemisphere locus for the complex visual transformation processes
+  involved in spatial tasks and cognitive arousal provides a plausible
+  explanation for an intermittent, smalll, positive 'enjoyment arousal' effect
+  of Mozart's music on difficult spatial tasks.\end{quotation}
+
 \bibitem{Colle1976}
 Herbert~A. Colle and Alan Welsh.
 \newblock {Acoustic masking in primary memory}.
 \newblock {\em Journal of Verbal Learning and Verbal Behavior}, 15(1):17--31,
   feb 1976.
 \begin{quotation}\noindent{\sc Key:\ }Colle1976\\{\sc Annotation:\ }ISE
-  information\end{quotation}
+  INFORMATION \\ According to model's such as Sperling's, short-term memory
+  maintains a substantial amount of its information by storing it in an
+  auditory sensory memory. Since the auditory sensory memory is used to store
+  memory information these models predict that concurrent auditory stimulation
+  should destroy memory information and, hence, reduce recall performance. \\
+  To test this hypothesis, a foreign language was presented over earphones
+  while subjects performed a serial recall task with visual presentations and
+  written recall. The subjects were told to ignore the noise. In Experiment I
+  the presence of the irrelevant foreign language noise reduced recall
+  performance on phonologically different lists (FKLM) but it did not reduce
+  performance on phonologically similar lists (BCDG). \\ In Experiment II
+  participants had to complete an arithmetic task between seeing the letters
+  and recalling them. The noise effect was eliminated after 30 sec of silent
+  arithmetic, indicating that the noise effect is a primary memory
+  phenomenon.\end{quotation}
 
 \bibitem{Freeburne1952}
 Cecil~M. Freeburne and Murray~S. Fleischer.
@@ -126,7 +154,34 @@ Dylan Jones.
   Broadbent Lecture}.
 \newblock {\em British Journal of Psychology}, 90(2):167--187, may 1999.
 \begin{quotation}\noindent{\sc Key:\ }Jones1999\\{\sc Annotation:\ }ISE
-  information\end{quotation}
+  INFORMATION \\ The primary task in the irrelevant sound paradigm is
+  attentionally demanding. It requires verbatim (serial) recall of events. The
+  primary task is visual, not auditory. While the visual recall task is being
+  undertaken, irrelevant sound is plaued. Participants are asked to ignore any
+  sound they hear. It is assumed that the degree of processing of the
+  irrelevant material will be revealed by the extent to which serial recall is
+  impaired. \\ How does this occur? 1. Interference occurs because of the way
+  in which sound impairs the encoding of the visual items OR 2. Similarity in
+  which the events are represented in memory (either based on contect, or that
+  both streams of information share a common process).\end{quotation}
+
+\bibitem{Nantais1999}
+Kristin~M Nantais and E~Glenn Schellenberg.
+\newblock {The Mozart Effect: An Artifact of Preference}.
+\newblock {\em Psychological Science}, 10(4):370--373, Jul 1999.
+\begin{quotation}\noindent{\sc Key:\ }Nantais1999\\{\sc Annotation:\ }84
+  undergraduates - 56 in experiment 1, 28 in experiment 2 \\ Listened to Mozart
+  or Schubert (piano only) for 10 mins and then completed paper folding and
+  cutting spatial task. In Experiment 1 1/2 listened to mozart, 1/2 listened to
+  schubert, all did silent condition. In Experiment 2 all listened to Mozart
+  and a short story (Stephen King) was used as a control condition. \\
+  Experiment 1: scores were higher after listening to music - both Mozart and
+  Schubert. Experiment 2: no effect of condition - mozart effect disappeared
+  when control was a short story. Performance was better after preferred
+  stimulus (either music or story) than nonpreferred stimulus. \\ Mozart effect
+  has nothing to do with Mozart. They didn't measure mood or arousal - but
+  speculate that this is what is driving the effects and is not necessarily
+  specific to music.\end{quotation}
 
 \bibitem{Patston2011}
 Lucy L.~M. Patston and Lynette~J. Tippett.
@@ -243,6 +298,15 @@ Nick Perham and Joanne Vizard.
   provide further information regarding music on cognitive
   performance.}\end{quotation}
 
+\bibitem{RAUSCHER1998}
+Frances~H. Rauscher and Gordon~L. Shaw.
+\newblock {Key components of the Mozart effect}.
+\newblock {\em Perceptual and Motor Skills}, 86(3):835--841, Jun 1998.
+\begin{quotation}\noindent{\sc Key:\ }RAUSCHER1998\\{\sc Annotation:\ }REVIEW
+  \\ We propose that researchers studying the Mozart effect should consider the
+  spatial components of mental imagery and temporal order when choosing
+  dependent measures.\end{quotation}
+
 \bibitem{Rauscher1993}
 Frances~H. Rauscher, Gordon~L. Shaw, and Katherine~N. Ky.
 \newblock {Music and spatial task performance}.
@@ -320,5 +384,29 @@ David~W. Sogin.
   have concluded that, when music becomes a competing en- vironmental stimulus
   in relation to another task, the music may be phased out of awareness or
   simply ignored.\end{quotation}
+
+\bibitem{Thompson2001}
+William~Forde Thompson, E.~Glenn Schellenberg, and Gabriela Husain.
+\newblock {Arousal, Mood, and The Mozart Effect}.
+\newblock {\em Psychological Science}, 12(3):248--251, May 2001.
+\begin{quotation}\noindent{\sc Key:\ }Thompson2001\\{\sc Annotation:\ }We
+  compared the effects of two musical pieces: a Mozart sonata, expected to
+  induce heightened arousal and positive mood, and an adagio by Albinoni,
+  expected to induce low arousal and sad mood. Spatial abilities, arousal, and
+  mood were evaluated after exposure to each piece, and after a silence
+  condition. Listeners also rated their enjoyment of each piece. \\ 24
+  undergrad and graduate students. 1/2 listened to Mozart and 1/2 listened to
+  Albinoni piece (no lyrics). A modified version of the Paper folding and
+  cutting subtest from the Stanford-Binet test was used. Subscales from the
+  Profile of Mood States were used to assess arousal and mood. \\ Music was
+  played first - then task was completed. \\ Results: significant interaction
+  between music/silence and Mozart/Albinoni. Mozart group - performed
+  significantly better after music than after silence. Albinoni group - music
+  had no effect on performance. Mozart group scored higher than Albinoni group.
+  No difference between scores from the 2 groups during silence. \\ Our results
+  provide the only direct support for previous suggestions that the short-term
+  effects of listening to Mozart on spatial ability are an artifact of arousal
+  and mood. It is possible that the Mozart effect is associated more with
+  positive than with negative mood.\end{quotation}
 
 \end{thebibliography}

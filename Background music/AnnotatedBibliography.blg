@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: AnnotatedBibliography.aux
 The style file: annotation.bst
 Database file #1: backgroundmusic.bib.bib
-You've used 17 entries,
+You've used 21 entries,
             2137 wiz_defined-function locations,
-            653 strings with 21133 characters,
-and the built_in function-call counts, 5764 in all, are:
-= -- 580
-> -- 218
+            687 strings with 26263 characters,
+and the built_in function-call counts, 7135 in all, are:
+= -- 719
+> -- 269
 < -- 0
-+ -- 85
-- -- 68
-* -- 483
-:= -- 937
-add.period$ -- 51
-call.type$ -- 17
-change.case$ -- 85
++ -- 105
+- -- 84
+* -- 600
+:= -- 1157
+add.period$ -- 63
+call.type$ -- 21
+change.case$ -- 105
 chr.to.int$ -- 0
-cite$ -- 34
-duplicate$ -- 187
-empty$ -- 452
-format.name$ -- 68
-if$ -- 1150
+cite$ -- 42
+duplicate$ -- 231
+empty$ -- 560
+format.name$ -- 84
+if$ -- 1424
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 34
-newline$ -- 105
-num.names$ -- 34
-pop$ -- 51
+int.to.str$ -- 21
+missing$ -- 42
+newline$ -- 129
+num.names$ -- 42
+pop$ -- 63
 preamble$ -- 1
-purify$ -- 68
+purify$ -- 84
 quote$ -- 0
-skip$ -- 129
+skip$ -- 159
 stack$ -- 0
-substring$ -- 482
-swap$ -- 17
+substring$ -- 602
+swap$ -- 21
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 68
+type$ -- 84
 warning$ -- 0
-while$ -- 67
-width$ -- 19
-write$ -- 257
+while$ -- 83
+width$ -- 23
+write$ -- 317
