@@ -4,7 +4,7 @@ subID=input('Subject ID: ', 's');
 %group=input('Group A - press 1, Group B - press 2: ');
 testStart=datestr(now,'yyyymmdd');
 
-load('LyricMod_ALL_v2.mat');
+load('LyricMod_Final50.mat');
 
 black=[0,0,0];
 white=[255,255,255];

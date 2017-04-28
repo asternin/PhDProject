@@ -5,9 +5,9 @@ group=input('Group A - press 1, Group B - press 2: ');
 testStart=datestr(now,'yyyymmdd');
 
 if group==1;
-    load('LyricMod_GroupA.mat');
+    load('LyricMod_FinalGroupA.mat');
 elseif group ==2;
-    load('LyricMod_GroupB.mat');
+    load('LyricMod_FinalGroupB.mat');
 end
 
 black=[0,0,0];
@@ -29,14 +29,14 @@ text{1}=['Thank you for your participating in this study. \n\n\n\n '...
 text{2}=['The task has now ended \n\n' ...
     'Thank you for participating! \n\n' ...
     'Press any key to exit.'];   
-OMG OMG ok!
 %% prep stuff
+len=length(lyrics);
 responses=[];
 responses.data=zeros(1,12);
 responses.avg=[];
 responses.button=[];
 rng(sum(100*clock)); %reset value so randperm is different for each participant.
-order=randperm(24); %determine random order of stimuli 
+order=randperm(len); %determine random order of stimuli 
 order=order(1:12); %only ask 12 questions
 responses.order=order;
 
@@ -45,14 +45,10 @@ DrawFormattedText(win, text{1}, 'center', 'center', white); Screen('Flip', win);
 KbWait([], 2);
 %% 
 for i=1:12;
+    
     j=order(i);
     corr=char(lyrics(j,1));
-    rand=randperm(2); %determine which modification will be presented
-    if rand(1)==1;
-        oth=char(lyrics(j,2));
-    elseif rand(1)==2;
-        oth=char(lyrics(j,3));
-    end
+    oth=char(lyrics(j,2));
         
     rand=randperm(2); %determine which order the lyrics will be presented in
     if rand(1)==1;
@@ -63,7 +59,7 @@ for i=1:12;
         b=corr;
     end
     responses.a{i}={corr};
-    responsse.b{i}={oth};
+    responses.b{i}={oth};
     
     DrawFormattedText(win,'Which is the correct lyric?', 'center', 300, white); 
     DrawFormattedText(win,['1. ' a ''], 'center', 500, white); 
