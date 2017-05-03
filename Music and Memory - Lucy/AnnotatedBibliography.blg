@@ -1,46 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: AnnotatedBibliography.aux
 The style file: annotation.bst
 Database file #1: Music&Memory.bib.bib
-You've used 37 entries,
+You've used 48 entries,
             2137 wiz_defined-function locations,
-            779 strings with 45025 characters,
-and the built_in function-call counts, 14892 in all, are:
-= -- 1416
-> -- 887
+            870 strings with 57685 characters,
+and the built_in function-call counts, 19084 in all, are:
+= -- 1826
+> -- 1088
 < -- 5
-+ -- 349
-- -- 312
-* -- 1296
-:= -- 2499
-add.period$ -- 112
-call.type$ -- 37
-change.case$ -- 266
++ -- 428
+- -- 380
+* -- 1665
+:= -- 3182
+add.period$ -- 145
+call.type$ -- 48
+change.case$ -- 333
 chr.to.int$ -- 0
-cite$ -- 74
-duplicate$ -- 426
-empty$ -- 958
-format.name$ -- 312
-if$ -- 2914
+cite$ -- 96
+duplicate$ -- 547
+empty$ -- 1262
+format.name$ -- 380
+if$ -- 3741
 int.to.chr$ -- 0
-int.to.str$ -- 37
-missing$ -- 73
-newline$ -- 225
-num.names$ -- 74
-pop$ -- 204
+int.to.str$ -- 48
+missing$ -- 95
+newline$ -- 291
+num.names$ -- 96
+pop$ -- 249
 preamble$ -- 1
-purify$ -- 230
+purify$ -- 286
 quote$ -- 0
-skip$ -- 304
+skip$ -- 378
 stack$ -- 0
-substring$ -- 959
-swap$ -- 58
+substring$ -- 1306
+swap$ -- 69
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 148
+type$ -- 192
 warning$ -- 0
-while$ -- 142
-width$ -- 39
-write$ -- 530
+while$ -- 185
+width$ -- 50
+write$ -- 707
