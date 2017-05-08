@@ -1,38 +1,38 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: AnnotatedBibliography.aux
 The style file: annotation.bst
 Database file #1: Music&Memory.bib.bib
 You've used 48 entries,
             2137 wiz_defined-function locations,
-            870 strings with 57685 characters,
-and the built_in function-call counts, 19084 in all, are:
-= -- 1826
-> -- 1088
+            868 strings with 57602 characters,
+and the built_in function-call counts, 19022 in all, are:
+= -- 1822
+> -- 1078
 < -- 5
-+ -- 428
-- -- 380
-* -- 1665
-:= -- 3182
++ -- 424
+- -- 376
+* -- 1656
+:= -- 3170
 add.period$ -- 145
 call.type$ -- 48
-change.case$ -- 333
+change.case$ -- 331
 chr.to.int$ -- 0
 cite$ -- 96
 duplicate$ -- 547
 empty$ -- 1262
-format.name$ -- 380
-if$ -- 3741
+format.name$ -- 376
+if$ -- 3731
 int.to.chr$ -- 0
 int.to.str$ -- 48
 missing$ -- 95
 newline$ -- 291
 num.names$ -- 96
-pop$ -- 249
+pop$ -- 247
 preamble$ -- 1
-purify$ -- 286
+purify$ -- 284
 quote$ -- 0
-skip$ -- 378
+skip$ -- 379
 stack$ -- 0
 substring$ -- 1306
 swap$ -- 69

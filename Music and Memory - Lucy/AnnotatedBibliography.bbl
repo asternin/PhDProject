@@ -1,12 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{Baird2014}
-Baird A., Samson S., A~Baird, and S~Samson.
-\newblock {Music evoked autobiographical memory after severe acquired brain
-  injury: Preliminary findings from a case series.}
-\newblock {\em Neuropsychological Rehabilitation}, 24(1):125--143, 2014.
-\begin{quotation}\noindent{\sc Key:\ }Baird2014\end{quotation}
-
 \bibitem{Abrams2013}
 Daniel~A Abrams, Srikanth Ryali, Tianwen Chen, Parag Chordia, Amirah Khouzam,
   Daniel~J Levitin, and Vinod Menon.
@@ -59,8 +52,15 @@ Amee Baird and S{\'{e}}verine Samson.
   researching this isue. It is also important to consider other
   dementias.\end{quotation}
 
+\bibitem{Baird2014}
+Amee Baird and S{\'{e}}verine Samson.
+\newblock {Music evoked autobiographical memory after severe acquired brain
+  injury: Preliminary findings from a case series.}
+\newblock {\em Neuropsychological Rehabilitation}, 24(1):125--143, 2014.
+\begin{quotation}\noindent{\sc Key:\ }Baird2014\end{quotation}
+
 \bibitem{Baird2015}
-Amee Baird and Severine Samson.
+Amee Baird and S{\'{e}}verine Samson.
 \newblock {Music and Dementia}.
 \newblock In {\em Progress in Brain Research}, volume 217, chapter~11, pages
   207--235. Elsevier B.V., 2015.
