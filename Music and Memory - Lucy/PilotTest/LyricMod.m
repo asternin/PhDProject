@@ -2,6 +2,7 @@ commandwindow;
 test=input('Press 1 to open on this screen, Press 2 to open on secondary screen: '); %press 1 for debugging/testing
 subID=input('Subject ID: ', 's');
 group=input('Group A - press 1, Group B - press 2: ');
+session=input('To use all lyric mods - press 1, to use a subset of 10 - press 2: ');
 testStart=datestr(now,'yyyymmdd');
 
 if group==1;
@@ -30,21 +31,25 @@ text{2}=['The task has now ended \n\n' ...
     'Thank you for participating! \n\n' ...
     'Press any key to exit.'];   
 %% prep stuff
-len=length(lyrics);
 responses=[];
 responses.data=zeros(1,12);
 responses.avg=[];
 responses.button=[];
 rng(sum(100*clock)); %reset value so randperm is different for each participant.
-order=randperm(len); %determine random order of stimuli 
-order=order(1:12); %only ask 12 questions
-responses.order=order;
-
+if session==1;
+    len=length(lyrics);
+    order=randperm(len); %determine random order of stimuli 
+    responses.order=order;
+elseif session == 2;
+    len=randperm(length(lyrics), 10);
+    order=len;
+    responses.order=order;
+end
 %% welcome text
 DrawFormattedText(win, text{1}, 'center', 'center', white); Screen('Flip', win);
 KbWait([], 2);
 %% 
-for i=1:12;
+for i=1:length(order);
     
     j=order(i);
     corr=char(lyrics(j,1));
@@ -84,13 +89,10 @@ for i=1:12;
         end
     end
 end
-responses.avg = (sum(responses.data)/12)*100;
+responses.avg = (sum(responses.data)/length(order))*100;
 save([subID '_responses_ ' testStart ' .mat'], 'responses');
 WaitSecs(0.5);
-
-%End of task/thank you text
+%% End of task/thank you text
 DrawFormattedText(win, text{2}, 'center', 'center', white); Screen('Flip', win);
 KbWait([], 2);
-
 sca;
-
