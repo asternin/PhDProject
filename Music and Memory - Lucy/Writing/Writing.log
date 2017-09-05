@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 AUG 2017 12:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 SEP 2017 10:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -43,7 +43,7 @@ LaTeX Font Info:    ... okay on input line 2.
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] [3]
-Overfull \hbox (4.57927pt too wide) in paragraph at lines 59--62
+Overfull \hbox (4.57927pt too wide) in paragraph at lines 62--65
 \OT1/cmr/m/n/12 Participants com-pleted the Gold-smith's Mu-si-cal So-phis-ti-c
 a-tion In-dex (GMSI).
  []
@@ -52,15 +52,15 @@ a-tion In-dex (GMSI).
 Here is how much of TeX's memory you used:
  229 strings out of 493014
  2476 string characters out of 6133351
- 60601 words of memory out of 5000000
+ 59601 words of memory out of 5000000
  3855 multiletter control sequences out of 15000+600000
  5456 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 22i,4n,19p,2205b,109s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 22i,4n,19p,1055b,109s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr12.pfb>
-Output written on Writing.pdf (4 pages, 43847 bytes).
+Output written on Writing.pdf (4 pages, 43759 bytes).
 PDF statistics:
  25 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream
