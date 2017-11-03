@@ -1,6 +1,6 @@
-function edat_2_mat_Bold2(subj,ses)
-for i=1:length(subj);
-    subj=subj(i);
+function edat_2_mat_Bold2(sub,ses)
+for i=1:length(sub);
+    subj=sub(i);
     %% Import data from spreadsheet
     % Script for importing data from the following spreadsheet:
     %
