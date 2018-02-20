@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1518722470290.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3430482722",
+    "id" : "7AA55FE2",
+    "lastKnownWriteTime" : 1518727261,
+    "last_content_update" : 1518727261764,
+    "path" : "~/Documents/Western/Academics/PhDProject.git/CBS/Analysis/MoCAMMSE.R",
+    "project_path" : "Analysis/MoCAMMSE.R",
+    "properties" : {
+        "cursorPosition" : "0,69",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
