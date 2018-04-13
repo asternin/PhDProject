@@ -1,0 +1,13 @@
+,Memory,Reasoning,Verbal
+spatial_span_max_score,0.708946,0.17312,0.07489
+grammatical_reasoning_score,0.037439,0.374094,0.63396
+double_trouble_score,0.20848,0.362572,0.515231
+odd_one_out_score_Max,0.240529,0.515178,-0.162984
+monkey_ladder_max_score,0.711775,0.16223,0.087851
+rotations_score,0.172923,0.661254,0.02507
+feature_match_score,0.206331,0.572922,0.162849
+digit_span_max_score,0.197438,-0.135724,0.731609
+spatial_tree_score,0.43854,0.407852,0.055505
+paired_associates_max_score,0.572759,-0.056296,0.282758
+polygons_score,0.019085,0.555126,0.261739
+token_search_max_score,0.594515,0.1387,0.227934
