@@ -1,5 +1,5 @@
-#fname <-"C:/Users/asternin/My Documents/PhdProject.git/CBS/Analysis/Data.csv"
-fname<-"~/Documents/Western/Academics/PhDProject.git/CBS/Analysis/Data.csv"
+fname <-"C:/Users/asternin/My Documents/PhdProject.git/CBS/Analysis/DataforR.csv"
+#fname<-"~/Documents/Western/Academics/PhDProject.git/CBS/Analysis/Data.csv"
 data<-read.table(fname, sep=",",header=TRUE)
 pdata<-na.omit(data)
 MoCAcat<-list("U","MCI","I")
@@ -14,7 +14,7 @@ summary(mbestMoCA)
 m0MMSE<-lm(MMSE~1,data=pdata)
 mallMMSE<-lm(MMSE~DT+OOO+SP+GR+DS+TS+PA+SS+FM+R+P+ML+age,data=pdata)
 mbestMMSE<-step(m0MMSE,list(lower=m0MMSE,upper=mallMMSE),diection="both")
-#summary(mbestMMSE)
+summary(mbestMMSE)
 
 mageMoCA<-lm(MoCA~age,data=pdata)
 summary(mageMoCA)
@@ -22,43 +22,40 @@ mageMMSE<-lm(MMSE~age,data=pdata)
 summary(mageMMSE)
 
 ## CREATE CATEGORY VARIABLES
-attach(data)
-data$MoCAcat[MoCA >= 27] <- 1
-data$MoCAcat[MoCA < 27 & MoCA > 22] <- 2
-data$MoCAcat[MoCA <= 22] <- 3
-detach(data)
 
-attach(data)
-data$MMSEcat[MMSE >= 24] <- 1
-data$MMSEcat[MMSE < 24 & MMSE > 17] <- 2
-data$MMSEcat[MMSE <= 17] <-3
-detach(data)
+data$MoCAcat[data$MoCA >= 27] <- 3
+data$MoCAcat[data$MoCA < 27 & data$MoCA > 22] <- 1
+data$MoCAcat[data$MoCA <= 22] <- 2
+
+data$MMSEcat[data$MMSE >= 24] <- 3
+data$MMSEcat[data$MMSE < 24 & data$MMSE > 17] <- 1
+data$MMSEcat[data$MMSE <= 17] <-2
 
 ## PLOTS
 #plot MoCA and MMSE scores vs age
 par(mfrow=c(1,2))
 
 MoCAcat <- as.factor(data$MoCAcat)
-col.MoCAlist<-c("red","green","black")
-palette(col.list)
-plot(data$age,data$MoCA,xlab="age",ylab="MoCA",pch=19,col=MoCAcat)
+#col.MoCAlist<-c("red","green","black")
+#palette(col.list)
+plot(data$age,data$MoCA,xlab="age",ylab="MoCA",pch=19,col=MoCAcat,ylim=c(12,30))
 abline(fit<-lm(data$MoCA~data$age))
 abline(27,0,col="green")
 abline(22,0,col="red")
-summary(lm(data$MoCA~data$age))
-legend("bottomleft", bty="n", legend=paste("R2 is", format(summary(fit)$adj.r.squared, digits=4)))
-legend("bottomright", legend=c("No CI", "MCI","I"),col=c("green", "black","red"),pch=19)
+#summary(lm(data$MoCA~data$age))
+#legend("bottomleft", bty="n", legend=paste("R2 is", format(summary(fit)$adj.r.squared, digits=4)))
+legend("bottomleft", legend=c("unimpaired", "borderline","impaired"),col=c("green", "black","red"),pch=19)
 
 MMSEcat <- as.factor(data$MMSEcat)
 col.MMSelist<-c("red","green","black")
 palette(col.list)
-plot(data$age,data$MMSE,xlab="age",ylab="MMSE",pch=19,col=MMSEcat)
+plot(data$age,data$MMSE,xlab="age",ylab="MMSE",pch=19,col=MMSEcat,ylim=c(12,30))
 abline(fit<-lm(data$MMSE~data$age))
 abline(24,0,col="green")
 abline(17,0,col="red")
-summary(lm(data$MMSE~data$age))
-legend("bottomleft", bty="n", legend=paste("R2 is", format(summary(fit)$adj.r.squared, digits=4)))
-legend("bottomright", legend=c("No CI", "MCI","I"),col=c("green", "black","red"),pch=19)
+#summary(lm(data$MMSE~data$age))
+#legend("bottomleft", bty="n", legend=paste("R2 is", format(summary(fit)$adj.r.squared, digits=4)))
+legend("bottomleft", legend=c("unimpaired", "borderline","impaired"),col=c("green", "black","red"),pch=19)
 
 # plot CBS scores vs age
 par(mfrow=c(4,3))
