@@ -1,0 +1,31 @@
+CATEGORIZING JUST BORDERLINE PARTICIPANTS 
+means based on moca grouping - then categorize Borderline participants only
+For task DT: 22.2% of people were moved to unimpaired, 50.0% were moved to impaired, 27.8% remained in borderline
+For task OOO: 16.7% of people were moved to unimpaired, 5.6% were moved to impaired, 77.8% remained in borderline
+For task SP: 16.7% of people were moved to unimpaired, 44.4% were moved to impaired, 38.9% remained in borderline
+For task GR: 11.1% of people were moved to unimpaired, 27.8% were moved to impaired, 61.1% remained in borderline
+For task DS: 11.1% of people were moved to unimpaired, 16.7% were moved to impaired, 72.2% remained in borderline
+For task TS: 11.1% of people were moved to unimpaired, 22.2% were moved to impaired, 66.7% remained in borderline
+For task PA: 0.0% of people were moved to unimpaired, 66.7% were moved to impaired, 33.3% remained in borderline
+For task SS: 27.8% of people were moved to unimpaired, 27.8% were moved to impaired, 44.4% remained in borderline
+For task FM: 0.0% of people were moved to unimpaired, 22.2% were moved to impaired, 77.8% remained in borderline
+For task R: 16.7% of people were moved to unimpaired, 44.4% were moved to impaired, 38.9% remained in borderline
+For task P: 33.3% of people were moved to unimpaired, 44.4% were moved to impaired, 22.2% remained in borderline
+For task ML: 16.7% of people were moved to unimpaired, 22.2% were moved to impaired, 61.1% remained in borderline
+
+
+CATEGORIZING ALL PARTICIPANTS
+means based on moca grouping - then categorize all participants based on new task thresholds
+For task DT: 26.8% of people = unimpaired, 46.3% = impaired, 26.8% = borderline
+For task OOO: 22.0% of people = unimpaired, 17.1% = impaired, 61.0% = borderline
+For task SP: 22.0% of people = unimpaired, 34.1% = impaired, 41.5% = borderline
+For task GR: 26.8% of people = unimpaired, 26.8% = impaired, 46.3% = borderline
+For task DS: 17.1% of people = unimpaired, 14.6% = impaired, 68.3% = borderline
+For task TS: 31.7% of people = unimpaired, 17.1% = impaired, 48.8% = borderline
+For task PA: 12.2% of people = unimpaired, 46.3% = impaired, 41.5% = borderline
+For task SS: 39.0% of people = unimpaired, 19.5% = impaired, 39.0% = borderline
+For task FM: 14.6% of people = unimpaired, 17.1% = impaired, 65.9% = borderline
+For task R: 29.3% of people = unimpaired, 34.1% = impaired, 34.1% = borderline
+For task P: 31.7% of people = unimpaired, 36.6% = impaired, 31.7% = borderline
+For task ML: 34.1% of people = unimpaired, 22.0% = impaired, 43.9% = borderline
+
