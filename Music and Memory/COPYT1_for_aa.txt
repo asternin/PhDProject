@@ -1,0 +1,14 @@
+cp /imaging/familiarity/P101/data/scan1-spmconvert/Structural/T1* /imaging/familiarity/P101
+cp /imaging/familiarity/P102/data/scan1-spmconvert/Structural/T1* /imaging/familiarity/P102
+cp /imaging/familiarity/P103/data/scan1-spmconvert/Structural/T1* /imaging/familiarity/P103
+cp /imaging/familiarity/P104/data/scan1-spmconvert/Structural/T1* /imaging/familiarity/P104
+cp /imaging/familiarity/P105/data/scan1-spmconvert/Structural/T1* /imaging/familiarity/P105
+cp /imaging/familiarity/P106/data/scan1-spmconvert/Structural/T1* /imaging/familiarity/P106
+cp /imaging/familiarity/P107/data/scan1-spmconvert/Structural/T1* /imaging/familiarity/P107
+cp /imaging/familiarity/P108/data/scan1-spmconvert/Structural/T1* /imaging/familiarity/P108
+cp /imaging/familiarity/P110/data/scan1-spmconvert/Structural/T1* /imaging/familiarity/P110
+cp /imaging/familiarity/P111/data/scan1-spmconvert/Structural/T1* /imaging/familiarity/P111
+cp /imaging/familiarity/P112/data/scan1-spmconvert/Structural/T1* /imaging/familiarity/P112
+cp /imaging/familiarity/P113/data/scan1-spmconvert/Structural/T1* /imaging/familiarity/P113
+cp /imaging/familiarity/P114/data/scan1-spmconvert/Structural/T1* /imaging/familiarity/P114
+cp /imaging/familiarity/P115/data/scan1-spmconvert/Structural/T1* /imaging/familiarity/P115
