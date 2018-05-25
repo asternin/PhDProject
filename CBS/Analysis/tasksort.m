@@ -77,8 +77,9 @@ data=data(:,[6:17]);
 %Calculate means of CBS tasks for group 1 and group 3 - resort ALL
 %%
 sprintf('all combos')
-um_mean=[];
+un_mean=[];
 im_mean=[];
+results=[];
 for c=2:3
     combos = combntns(1:12,c);
     for t=1:size(combos,1); %number of possible combinations      
@@ -116,7 +117,7 @@ for c=2:3
         i=(new_im/length(bo)*100);
         b=(new_bo/length(bo)*100);
         task=combos(t,:);
-        results=[task,u,i,b];
+        results{c,t}={task,u,i,b};
         %sprintf('For task %s: %.1f%% of people were moved to unimpaired, %.1f%% were moved to impaired, %.1f%% remained in borderline',...
         %    task,u,i,b)
     end

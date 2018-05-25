@@ -27,3 +27,113 @@ cp P103/data/scan1-raw/0029-ISS_7/*.dcm P103/data/for_aa
 cp P103/data/scan1-raw/0030-ISS_3/*.dcm P103/data/for_aa
 cp P103/data/scan1-raw/0031-ISS_2/*.dcm P103/data/for_aa
 cp P103/data/scan1-raw/0018-anat/*.dcm P103/data/for_aa
+
+cp P104/data/scan1-raw/0013-ISS_5/*.dcm P104/data/for_aa
+cp P104/data/scan1-raw/0014-ISS_2/*.dcm P104/data/for_aa
+cp P104/data/scan1-raw/0015-ISS_1/*.dcm P104/data/for_aa
+cp P104/data/scan1-raw/0016-ISS_7/*.dcm P104/data/for_aa
+cp P104/data/scan1-raw/0023-ISS_6/*.dcm P104/data/for_aa
+cp P104/data/scan1-raw/0024-ISS_8/*.dcm P104/data/for_aa
+cp P104/data/scan1-raw/0025-ISS_3/*.dcm P104/data/for_aa
+cp P104/data/scan1-raw/0026-ISS_4/*.dcm P104/data/for_aa
+cp P104/data/scan1-raw/0019-anat/*.dcm P104/data/for_aa
+
+cp P105/data/scan1-raw/0015-ISS_4/*.dcm P105/data/for_aa
+cp P105/data/scan1-raw/0016-ISS_6/*.dcm P105/data/for_aa
+cp P105/data/scan1-raw/0017-ISS_2/*.dcm P105/data/for_aa
+cp P105/data/scan1-raw/0018-ISS_7/*.dcm P105/data/for_aa
+cp P105/data/scan1-raw/0024-ISS_3/*.dcm P105/data/for_aa
+cp P105/data/scan1-raw/0025-ISS_8/*.dcm P105/data/for_aa
+cp P105/data/scan1-raw/0026-ISS_5/*.dcm P105/data/for_aa
+cp P105/data/scan1-raw/0027-ISS_1/*.dcm P105/data/for_aa
+cp P105/data/scan1-raw/0021-anat/*.dcm P105/data/for_aa
+
+cp P106/data/scan1-raw/0013-ISS_5/*.dcm P106/data/for_aa
+cp P106/data/scan1-raw/0014-ISS_2/*.dcm P106/data/for_aa
+cp P106/data/scan1-raw/0015-ISS_6/*.dcm P106/data/for_aa
+cp P106/data/scan1-raw/0016-ISS_4/*.dcm P106/data/for_aa
+cp P106/data/scan1-raw/0023-ISS_8/*.dcm P106/data/for_aa
+cp P106/data/scan1-raw/0024-ISS_7/*.dcm P106/data/for_aa
+cp P106/data/scan1-raw/0025-ISS_1/*.dcm P106/data/for_aa
+cp P106/data/scan1-raw/0026-ISS_3/*.dcm P106/data/for_aa
+cp P106/data/scan1-raw/0020-anat/*.dcm P106/data/for_aa
+
+cp P107/data/scan1-raw/0014-ISS_4/*.dcm P107/data/for_aa
+cp P107/data/scan1-raw/0015-ISS_3/*.dcm P107/data/for_aa
+cp P107/data/scan1-raw/0016-ISS_8/*.dcm P107/data/for_aa
+cp P107/data/scan1-raw/0017-ISS_1/*.dcm P107/data/for_aa
+cp P107/data/scan1-raw/0023-ISS_5/*.dcm P107/data/for_aa
+cp P107/data/scan1-raw/0024-ISS_2/*.dcm P107/data/for_aa
+cp P107/data/scan1-raw/0025-ISS_6/*.dcm P107/data/for_aa
+cp P107/data/scan1-raw/0026-ISS_7/*.dcm P107/data/for_aa
+cp P107/data/scan1-raw/0021-anat/*.dcm P107/data/for_aa
+
+cp P108/data/scan1-raw/0019-ISS_8/*.dcm P108/data/for_aa
+cp P108/data/scan1-raw/0020-ISS_1/*.dcm P108/data/for_aa
+cp P108/data/scan1-raw/0021-ISS_3/*.dcm P108/data/for_aa
+cp P108/data/scan1-raw/0022-ISS_7/*.dcm P108/data/for_aa
+cp P108/data/scan1-raw/0023-ISS_2/*.dcm P108/data/for_aa
+cp P108/data/scan1-raw/0024-ISS_4/*.dcm P108/data/for_aa
+cp P108/data/scan1-raw/0025-ISS_5/*.dcm P108/data/for_aa
+cp P108/data/scan1-raw/0026-ISS_6/*.dcm P108/data/for_aa
+cp P108/data/scan1-raw/0016-anat/*.dcm P108/data/for_aa
+
+cp P110/data/scan1-raw/0012-ISS_4/*.dcm P110/data/for_aa
+cp P110/data/scan1-raw/0013-ISS_7/*.dcm P110/data/for_aa
+cp P110/data/scan1-raw/0019-ISS_8/*.dcm P110/data/for_aa
+cp P110/data/scan1-raw/0020-ISS_3/*.dcm P110/data/for_aa
+cp P110/data/scan1-raw/0021-ISS_2/*.dcm P110/data/for_aa
+cp P110/data/scan1-raw/0022-ISS_6/*.dcm P110/data/for_aa
+cp P110/data/scan1-raw/0023-ISS_5/*.dcm P110/data/for_aa
+cp P110/data/scan1-raw/0024-ISS_1/*.dcm P110/data/for_aa
+cp P110/data/scan1-raw/0017-anat/*.dcm P110/data/for_aa
+
+cp P111/data/scan1-raw/0018-ISS_8/*.dcm P111/data/for_aa
+cp P111/data/scan1-raw/0019-ISS_5/*.dcm P111/data/for_aa
+cp P111/data/scan1-raw/0020-ISS_7/*.dcm P111/data/for_aa
+cp P111/data/scan1-raw/0021-ISS_4/*.dcm P111/data/for_aa
+cp P111/data/scan1-raw/0022-ISS_3/*.dcm P111/data/for_aa
+cp P111/data/scan1-raw/0023-ISS_6/*.dcm P111/data/for_aa
+cp P111/data/scan1-raw/0024-ISS_1/*.dcm P111/data/for_aa
+cp P111/data/scan1-raw/0025-ISS_2/*.dcm P111/data/for_aa
+cp P111/data/scan1-raw/0015-anat/*.dcm P111/data/for_aa
+
+cp P112/data/scan1-raw/0017-ISS_6/*.dcm P112/data/for_aa
+cp P112/data/scan1-raw/0018-ISS_7/*.dcm P112/data/for_aa
+cp P112/data/scan1-raw/0019-ISS_2/*.dcm P112/data/for_aa
+cp P112/data/scan1-raw/0020-ISS_3/*.dcm P112/data/for_aa
+cp P112/data/scan1-raw/0021-ISS_8/*.dcm P112/data/for_aa
+cp P112/data/scan1-raw/0022-ISS_4/*.dcm P112/data/for_aa
+cp P112/data/scan1-raw/0023-ISS_1/*.dcm P112/data/for_aa
+cp P112/data/scan1-raw/0024-ISS_5/*.dcm P112/data/for_aa
+cp P112/data/scan1-raw/0014-anat/*.dcm P112/data/for_aa
+
+cp P113/data/scan1-raw/0021-ISS_8/*.dcm P113/data/for_aa
+cp P113/data/scan1-raw/0022-ISS_3/*.dcm P113/data/for_aa
+cp P113/data/scan1-raw/0023-ISS_6/*.dcm P113/data/for_aa
+cp P113/data/scan1-raw/0024-ISS_7/*.dcm P113/data/for_aa
+cp P113/data/scan1-raw/0025-ISS_5/*.dcm P113/data/for_aa
+cp P113/data/scan1-raw/0026-ISS_1/*.dcm P113/data/for_aa
+cp P113/data/scan1-raw/0027-ISS_2/*.dcm P113/data/for_aa
+cp P113/data/scan1-raw/0028-ISS_4/*.dcm P113/data/for_aa
+cp P113/data/scan1-raw/0018-anat/*.dcm P113/data/for_aa
+
+cp P114/data/scan1-raw/0017-ISS_8/*.dcm P114/data/for_aa
+cp P114/data/scan1-raw/0018-ISS_6/*.dcm P114/data/for_aa
+cp P114/data/scan1-raw/0019-ISS_4/*.dcm P114/data/for_aa
+cp P114/data/scan1-raw/0020-ISS_5/*.dcm P114/data/for_aa
+cp P114/data/scan1-raw/0021-ISS_1/*.dcm P114/data/for_aa
+cp P114/data/scan1-raw/0022-ISS_7/*.dcm P114/data/for_aa
+cp P114/data/scan1-raw/0023-ISS_3/*.dcm P114/data/for_aa
+cp P114/data/scan1-raw/0024-ISS_2/*.dcm P114/data/for_aa
+cp P114/data/scan1-raw/0014-anat/*.dcm P114/data/for_aa
+
+cp P115/data/scan1-raw/0012-ISS_5/*.dcm P115/data/for_aa
+cp P115/data/scan1-raw/0013-ISS_2/*.dcm P115/data/for_aa
+cp P115/data/scan1-raw/0014-ISS_1/*.dcm P115/data/for_aa
+cp P115/data/scan1-raw/0015-ISS_7/*.dcm P115/data/for_aa
+cp P115/data/scan1-raw/0016-ISS_6/*.dcm P115/data/for_aa
+cp P115/data/scan1-raw/0017-ISS_8/*.dcm P115/data/for_aa
+cp P115/data/scan1-raw/0018-ISS_3/*.dcm P115/data/for_aa
+cp P115/data/scan1-raw/0019-ISS_4/*.dcm P115/data/for_aa
+cp P115/data/scan1-raw/0015-scan2-anat/*.dcm P115/data/for_aa
