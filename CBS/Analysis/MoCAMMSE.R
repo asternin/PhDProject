@@ -1,5 +1,5 @@
-fname <-"C:/Users/asternin/My Documents/PhdProject.git/CBS/Analysis/DataforR.csv"
-#fname<-"~/Documents/Western/Academics/PhDProject.git/CBS/Analysis/Data.csv"
+#fname <-"C:/Users/asternin/My Documents/PhdProject.git/CBS/Analysis/DataforR.csv"
+fname<-"~/Documents/Western/Academics/PhDProject.git/CBS/Analysis/DataforR.csv"
 data<-read.table(fname, sep=",",header=TRUE)
 pdata<-na.omit(data)
 MoCAcat<-list("U","MCI","I")
@@ -26,6 +26,7 @@ summary(mageMMSE)
 data$MoCAcat[data$MoCA >= 27] <- 3
 data$MoCAcat[data$MoCA < 27 & data$MoCA > 22] <- 1
 data$MoCAcat[data$MoCA <= 22] <- 2
+
 
 data$MMSEcat[data$MMSE >= 24] <- 3
 data$MMSEcat[data$MMSE < 24 & data$MMSE > 17] <- 1
