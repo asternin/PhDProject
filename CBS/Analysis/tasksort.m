@@ -8,9 +8,9 @@ alldata=xlsread('Analysis/DataforR.xlsx');
 %create categories based on MoCA scores
 c=size(alldata,2);
 for i=1:size(alldata,1)
-    if alldata(i,4) >= 27
+    if alldata(i,4) >= 26
         alldata(i,c+1)=3; %unimpaired
-    elseif alldata(i,4)<27 && alldata(i,4)>22
+    elseif alldata(i,4)<26 && alldata(i,4)>22
         alldata(i,c+1)=2; %borderline
     elseif alldata(i,4)<= 22
         alldata(i,c+1)=1; %impaired

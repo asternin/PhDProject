@@ -6,8 +6,8 @@ data<-read.table(fname, sep=",",header=TRUE)
 data<-na.omit(data)
 
 ## CREATE CATEGORY VARIABLE
-data$MoCAcat[data$MoCA >= 27] <- 3
-data$MoCAcat[data$MoCA < 27 & data$MoCA > 22] <- 2
+data$MoCAcat[data$MoCA >= 26] <- 3
+data$MoCAcat[data$MoCA < 26 & data$MoCA > 22] <- 2
 data$MoCAcat[data$MoCA <= 22] <- 1
 data$MoCAcat <- factor(data$MoCAcat,levels=c(1,2,3),labels=c("impaired","borderline","unimpaired"))
 

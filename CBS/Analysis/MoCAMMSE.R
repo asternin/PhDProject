@@ -23,14 +23,45 @@ summary(mageMMSE)
 
 ## CREATE CATEGORY VARIABLES
 
-data$MoCAcat[data$MoCA >= 27] <- 3
-data$MoCAcat[data$MoCA < 27 & data$MoCA > 22] <- 1
+data$MoCAcat[data$MoCA >= 26] <- 3
+data$MoCAcat[data$MoCA < 26 & data$MoCA > 22] <- 1
 data$MoCAcat[data$MoCA <= 22] <- 2
 
 
 data$MMSEcat[data$MMSE >= 24] <- 3
 data$MMSEcat[data$MMSE < 24 & data$MMSE > 17] <- 1
 data$MMSEcat[data$MMSE <= 17] <-2
+
+## COrrelations
+cor(data$DT,data$MoCA)
+cor(data$OOO,data$MoCA)
+cor(data$SP,data$MoCA)
+cor(data$GR,data$MoCA)
+cor(data$DS,data$MoCA)
+cor(data$TS,data$MoCA)
+cor(data$PA,data$MoCA)
+cor(data$SS,data$MoCA)
+cor(data$FM,data$MoCA)
+cor(data$R,data$MoCA)
+cor(data$P,data$MoCA)
+cor(data$ML,data$MoCA)
+
+## ZScore - composite score
+library(mosaic)
+OOOz<-zscore(data$OOO)
+FMz<-zscore(data$FM)
+SPz<-zscore(data$SP)
+comp<-(OOOz+FMz+SPz)/3
+cor(comp,data$MoCA)
+par(mfrow=c(1,1))
+plot(comp,data$MoCA, xlab="CBS 3 test composite score",ylab="MoCA",pch=19,ylim=c(12,30))
+abline(fit<-lm(data$MoCA~comp))
+
+cor(comp,data$MMSE)
+par(mfrow=c(1,1))
+plot(comp,data$MMSE, xlab="CBS 3 test composite score",ylab="MMSE",pch=19,ylim=c(12,30))
+abline(fit<-lm(data$MMSE~comp))
+
 
 ## PLOTS
 #plot MoCA and MMSE scores vs age
@@ -41,7 +72,7 @@ MoCAcat <- as.factor(data$MoCAcat)
 #palette(col.list)
 plot(data$age,data$MoCA,xlab="age",ylab="MoCA",pch=19,col=MoCAcat,ylim=c(12,30))
 abline(fit<-lm(data$MoCA~data$age))
-abline(27,0,col="green")
+abline(26,0,col="green")
 abline(22,0,col="red")
 #summary(lm(data$MoCA~data$age))
 #legend("bottomleft", bty="n", legend=paste("R2 is", format(summary(fit)$adj.r.squared, digits=4)))
