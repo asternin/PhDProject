@@ -23,14 +23,14 @@ summary(mageMMSE)
 
 ## CREATE CATEGORY VARIABLES
 
-data$MoCAcat[data$MoCA >= 26] <- 3
-data$MoCAcat[data$MoCA < 26 & data$MoCA > 22] <- 1
-data$MoCAcat[data$MoCA <= 22] <- 2
+pdata$MoCAcat[pdata$MoCA >= 26] <- 3
+pdata$MoCAcat[pdata$MoCA < 26 & pdata$MoCA > 22] <- 1
+pdata$MoCAcat[pdata$MoCA <= 22] <- 2
 
 
-data$MMSEcat[data$MMSE >= 24] <- 3
-data$MMSEcat[data$MMSE < 24 & data$MMSE > 17] <- 1
-data$MMSEcat[data$MMSE <= 17] <-2
+pdata$MMSEcat[pdata$MMSE >= 24] <- 3
+pdata$MMSEcat[pdata$MMSE < 24 & pdata$MMSE > 17] <- 1
+pdata$MMSEcat[pdata$MMSE <= 17] <-2
 
 ## COrrelations
 cor(data$DT,data$MoCA)
@@ -48,19 +48,34 @@ cor(data$ML,data$MoCA)
 
 ## ZScore - composite score
 library(mosaic)
-OOOz<-zscore(data$OOO)
-FMz<-zscore(data$FM)
-SPz<-zscore(data$SP)
+OOOz<-zscore(pdata$OOO)
+FMz<-zscore(pdata$FM)
+SPz<-zscore(pdata$SP)
 comp<-(OOOz+FMz+SPz)/3
-cor(comp,data$MoCA)
-par(mfrow=c(1,1))
-plot(comp,data$MoCA, xlab="CBS 3 test composite score",ylab="MoCA",pch=19,ylim=c(12,30))
-abline(fit<-lm(data$MoCA~comp))
+cor(comp,pdata$MoCA)
 
-cor(comp,data$MMSE)
-par(mfrow=c(1,1))
-plot(comp,data$MMSE, xlab="CBS 3 test composite score",ylab="MMSE",pch=19,ylim=c(12,30))
-abline(fit<-lm(data$MMSE~comp))
+cor.test(comp, pdata$MoCA, method="pearson",alternative="two.sided")
+cor.test(comp, pdata$MMSE, method="pearson",alternative="two.sided")
+
+par(mfrow=c(1,2))
+MoCAcat <- as.factor(pdata$MoCAcat)
+MMSEcat <- as.factor(pdata$MMSEcat)
+#plot(comp,pdata$MoCA, xlab="CBS 3 test composite score",ylab="MoCA",pch=c(19,15,17)[as.factor(MoCAcat)],ylim=c(12,30),col=MoCAcat)
+plot(comp,pdata$MoCA, xlab="CBS 3 test composite score",ylab="MoCA",pch=c(1,15,17)[as.factor(MoCAcat)],ylim=c(12,30))
+abline(26,0,col="black")
+abline(22,0,col="black")
+abline(fit<-lm(pdata$MoCA~comp))
+
+cor(comp,pdata$MMSE)
+#par(mfrow=c(1,1))
+#plot(comp,pdata$MMSE, xlab="CBS 3 test composite score",ylab="MMSE",pch=c(19,15,17)[as.factor(MMSEcat)],ylim=c(12,30),col=MMSEcat)
+plot(comp,pdata$MMSE, xlab="CBS 3 test composite score",ylab="MMSE",pch=c(1,15,17)[as.factor(MMSEcat)],ylim=c(12,30))
+abline(24,0,col="black")
+abline(17,0,col="black")
+abline(fit<-lm(pdata$MMSE~comp))
+#legend("bottomright", legend=c("unimpaired", "borderline","impaired"),col=c("green", "black","red"),pch=c(17,19,15))
+legend("bottomright", legend=c("unimpaired", "borderline","impaired"),pch=c(17,1,15))
+
 
 
 ## PLOTS
@@ -71,7 +86,7 @@ MoCAcat <- as.factor(data$MoCAcat)
 #col.MoCAlist<-c("red","green","black")
 #palette(col.list)
 plot(data$age,data$MoCA,xlab="age",ylab="MoCA",pch=19,col=MoCAcat,ylim=c(12,30))
-abline(fit<-lm(data$MoCA~data$age))
+#abline(fit<-lm(data$MoCA~data$age))
 abline(26,0,col="green")
 abline(22,0,col="red")
 #summary(lm(data$MoCA~data$age))
