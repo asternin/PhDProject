@@ -21,6 +21,10 @@ summary(mageMoCA)
 mageMMSE<-lm(MMSE~age,data=pdata)
 summary(mageMMSE)
 
+meduMoCA<-lm(MoCA~edu,data=data)
+summary(meduMoCA)
+meduMMSE<-lm(MMSE~edu,data=data)
+summary(meduMMSE)
 ## CREATE CATEGORY VARIABLES
 
 pdata$MoCAcat[pdata$MoCA >= 26] <- 3
@@ -53,6 +57,15 @@ FMz<-zscore(pdata$FM)
 SPz<-zscore(pdata$SP)
 comp<-(OOOz+FMz+SPz)/3
 cor(comp,pdata$MoCA)
+
+cor.test(pdata$MMSE, pdata$MoCA, method="pearson",alternative="two.sided")
+
+cor.test(data$MMSE, data$edu, method="pearson",alternative="two.sided")
+plot(data$edu, data$MMSE)
+abline(fit<-lm(data$MMSE~data$edu))
+cor.test(data$MoCA, data$edu, method="pearson",alternative="two.sided")
+plot(data$edu, data$MoCA)
+abline(fit<-lm(data$MoCA~data$edu))
 
 cor.test(comp, pdata$MoCA, method="pearson",alternative="two.sided")
 cor.test(comp, pdata$MMSE, method="pearson",alternative="two.sided")

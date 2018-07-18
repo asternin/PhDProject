@@ -9,7 +9,7 @@
 	.st3{fill:#3F394C;}
 	.st4{fill:#FFFFFF;}
 	.st5{fill:#39B54A;}
-	.st6{font-family:'UbuntuCondensed-Regular';}
+	.st6{fill:none;stroke:#5E7AA2;stroke-miterlimit:10;}
 	.st7{font-size:22px;}
 	.st8{fill:#3BB54A;}
 	.st9{fill:#F1F2F2;}
