@@ -23,31 +23,31 @@ im=find(alldata(:,c+1)==1);
 %delete everything except task scores
 data=alldata(:,6:17);
 % %%
-% sprintf('CATEGORIZING JUST BORDERLINE PARTICIPANTS')
-% for t=1:12
-%     %Calculate means of CBS tasks for group 1 and group 3
-%     un_mean=nanmean(data(un,t));
-%     im_mean=nanmean(data(im,t));
-%     new_un=0;
-%     new_bo=0;
-%     new_im=0;
-%     %resort borderline
-%     for i=1:size(bo,1)
-%         if data(bo(i),t) >= un_mean
-%             new_un=new_un+1; %unimpaired
-%         elseif data(bo(i),t) < un_mean && data(bo(i),t) > im_mean
-%             new_bo=new_bo+1; %borderline
-%         elseif data(bo(i),t)<= im_mean
-%             new_im=new_im+1; %impaired
-%         end
-%     end
-%     u=(new_un/length(bo)*100);
-%     i=(new_im/length(bo)*100);
-%     b=(new_bo/length(bo)*100);
-%     task=tasks{t};
-%     sprintf('For task %s: %.1f%% of people were moved to unimpaired, %.1f%% were moved to impaired, %.1f%% remained in borderline',...
-%         task,u,i,b)
-% end
+sprintf('CATEGORIZING JUST BORDERLINE PARTICIPANTS')
+for t=1:12
+    %Calculate means of CBS tasks for group 1 and group 3
+    un_mean=nanmean(data(un,t));
+    im_mean=nanmean(data(im,t));
+    new_un=0;
+    new_bo=0;
+    new_im=0;
+    %resort borderline
+    for i=1:size(bo,1)
+        if data(bo(i),t) >= un_mean
+            new_un=new_un+1; %unimpaired
+        elseif data(bo(i),t) < un_mean && data(bo(i),t) > im_mean
+            new_bo=new_bo+1; %borderline
+        elseif data(bo(i),t)<= im_mean
+            new_im=new_im+1; %impaired
+        end
+    end
+    u=(new_un/length(bo)*100);
+    i=(new_im/length(bo)*100);
+    b=(new_bo/length(bo)*100);
+    task=tasks{t};
+    sprintf('For task %s: %.1f%% of people were moved to unimpaired, %.1f%% were moved to impaired, %.1f%% remained in borderline',...
+        task,u,i,b)
+end
 % %%
 % sprintf('CATEGORIZING ALL PARTICIPANTS BASED ON MEANS OF UNIMPAIRED AND IMPAIRED')
 % for t=1:12

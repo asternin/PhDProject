@@ -1,0 +1,10 @@
+p <- CBS_dataAge_All %>% 
+  ggplot(aes(x = Age, y = Scores, color = Test)) +
+  geom_line(aes(group = Test)) +
+  geom_point() +
+  ylim(-2.0, 1.0) +
+  labs(x = "Age Groups", y = "Standardized CBS scores") +
+  geom_hline(yintercept = 0.0, colour = "black") +
+  facet_wrap(~Concussion) +
+  #ggtitle("CBS across Ages") + 
+  theme(legend.position = "right", legend.text = element_text(size = 8), legend.title = element_blank(), plot.title = element_text    (hjust=0.5), axis.line = element_line(colour='black'), axis.text = element_text(colour = "black"), text = element_text(size = 15),     panel.background = element_rect(fill='white', colour='white'))

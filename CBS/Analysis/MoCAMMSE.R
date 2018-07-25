@@ -1,7 +1,8 @@
 #fname <-"C:/Users/asternin/My Documents/PhdProject.git/CBS/Analysis/DataforR.csv"
 fname<-"~/Documents/Western/Academics/PhDProject.git/CBS/Analysis/DataforR.csv"
 data<-read.table(fname, sep=",",header=TRUE)
-pdata<-na.omit(data)
+pdata<-data[c(1:17)]
+pdata<-na.omit(pdata)
 MoCAcat<-list("U","MCI","I")
 colour<-list("green","blue","red")
 
