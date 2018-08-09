@@ -1,14 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.15)  15 FEB 2018 13:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  30 JUL 2018 09:49
 entering extended mode
-**./Writing.tex
-(Writing.tex
-LaTeX2e <2017-04-15>
-Babel <3.17> and hyphenation patterns for 75 language(s) loaded.
-("C:\Users\asternin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls
-"
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Writing.tex
+(./Writing.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Users\asternin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo
-"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,7 +24,7 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (Writing.aux)
+) (./Writing.aux)
 \openout1 = `Writing.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
@@ -38,29 +39,41 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
- [1
+[1
 
-{C:/Users/asternin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
-Overfull \hbox (4.57927pt too wide) in paragraph at lines 62--65
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 35.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 35.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 35.
+ [3]
+Overfull \hbox (4.57927pt too wide) in paragraph at lines 63--66
 \OT1/cmr/m/n/12 Participants com-pleted the Gold-smith's Mu-si-cal So-phis-ti-c
 a-tion In-dex (GMSI).
  []
 
-[4] (Writing.aux) ) 
+[4] (./Writing.aux) ) 
 Here is how much of TeX's memory you used:
- 231 strings out of 493303
- 2774 string characters out of 3128479
- 59826 words of memory out of 3000000
- 3867 multiletter control sequences out of 15000+200000
- 5456 words of font info for 20 fonts, out of 3000000 for 9000
+ 247 strings out of 493089
+ 2665 string characters out of 6134842
+ 59199 words of memory out of 5000000
+ 3808 multiletter control sequences out of 15000+600000
+ 7894 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 22i,4n,19p,1058b,109s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/asternin/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmbx12.pfb><C:/Users/asternin/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Writing.pdf (4 pages, 46228 bytes).
+ 22i,4n,19p,1055b,109s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy8.pfb>
+Output written on Writing.pdf (4 pages, 66548 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
+ 37 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
