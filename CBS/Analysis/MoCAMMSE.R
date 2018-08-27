@@ -1,5 +1,5 @@
-#fname <-"C:/Users/asternin/My Documents/PhdProject.git/CBS/Analysis/DataforR.csv"
-fname<-"~/Documents/Western/Academics/PhDProject.git/CBS/Analysis/DataforR.csv"
+fname <-"C:/Users/asternin/My Documents/PhdProject.git/CBS/Analysis/DataforR.csv"
+#fname<-"~/Documents/Western/Academics/PhDProject.git/CBS/Analysis/DataforR.csv"
 data<-read.table(fname, sep=",",header=TRUE)
 pdata<-data[c(1:17)]
 pdata<-na.omit(pdata)
