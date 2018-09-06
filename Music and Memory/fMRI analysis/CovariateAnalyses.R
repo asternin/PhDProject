@@ -15,9 +15,10 @@ model=lm(fam_S1_ROI2 ~ song*familiarity,data=data)
 anova(model)
 model=lm(fam_S1_ROI3 ~ song*familiarity,data=data)
 anova(model)
-model=lm(fam_S2_ROI1 ~ song*familiarity,data=data) #SIG main effect of familiarity (0.001)
+
+model=lm(fam_S2_ROI1 ~ song*familiarity,data=data) #SIG main effect of familiarity (0.0010: 58, -22, 4
 anova(model)
-model=lm(fam_S2_ROI2 ~ song*familiarity,data=data) # SIG main effect of familiarity (0.01)
+model=lm(fam_S2_ROI2 ~ song*familiarity,data=data) # SIG main effect of familiarity (0.01): -48, -18, 6
 anova(model)
 
 ##for plotting ANOVA values - change y = ...
@@ -34,6 +35,7 @@ model=lm(lyror_S1_ROI2 ~ song*lyror,data=data)
 anova(model)
 model=lm(lyror_S1_ROI3 ~ song*lyror,data=data)
 anova(model)
+
 model=lm(lyror_S2_ROI1 ~ song*lyror,data=data)
 anova(model)
 model=lm(lyror_S2_ROI2 ~ song*lyror,data=data)
@@ -47,10 +49,11 @@ ggplot(data, aes(x=song , y=lyror_S2_ROI1)) +
   ylab("activation")
 
 ## melmem ANOVA
-model=lm(melmem_S1_ROI1 ~ song*melmem,data=data) # SIG effect of melmem (0.001)
+model=lm(melmem_S1_ROI1 ~ song*melmem,data=data) # SIG effect of melmem (0.001): -50, -16, 0
 anova(model)
-model=lm(melmem_S1_ROI2 ~ song*melmem,data=data) # SIG effect of melmem (0.01)
+model=lm(melmem_S1_ROI2 ~ song*melmem,data=data) # SIG effect of melmem (0.01): 50, -24, 8
 anova(model)
+
 model=lm(melmem_S2_ROI1 ~ song*melmem,data=data)
 anova(model)
 model=lm(melmem_S2_ROI2 ~ song*melmem,data=data)
@@ -66,15 +69,16 @@ ggplot(data, aes(x=song , y=melmem_S2_ROI1)) +
 ## beatper ANOVA
 model=lm(beatper_S1_ROI1 ~ song*beatper,data=data)
 anova(model)
-model=lm(beatper_S1_ROI2 ~ song*beatper,data=data) #SIG effect of beat per (0.05)
+model=lm(beatper_S1_ROI2 ~ song*beatper,data=data) #SIG effect of beat per (0.05): 52, -24, 8
 anova(model)
+
 model=lm(beatper_S2_ROI1 ~ song*beatper,data=data)
 anova(model)
 model=lm(beatper_S2_ROI2 ~ song*beatper,data=data)
 anova(model)
-model=lm(beatper_S2_ROI3 ~ song*beatper,data=data) #SIG effect of beatper (0.01)
+model=lm(beatper_S2_ROI3 ~ song*beatper,data=data) #SIG effect of beatper (0.01): -10, -36, 56
 anova(model)
-model=lm(beatper_S2_ROI4 ~ song*beatper,data=data) # SIG effect of beatper (0.01)
+model=lm(beatper_S2_ROI4 ~ song*beatper,data=data) # SIG effect of beatper (0.01): 10, -34, 52
 anova(model)
 
 ##for plotting ANOVA values - change y = ...
@@ -85,14 +89,15 @@ ggplot(data, aes(x=song , y=beatper_S2_ROI1)) +
   ylab("activation")
 
 ## Lyrmod ANOVA
-model=lm(lyrmod_S1_ROI1 ~ song*lyrmod,data=data) #SIG effect of lyrmod (0.01)
+model=lm(lyrmod_S1_ROI1 ~ song*lyrmod,data=data) #SIG effect of lyrmod (0.01): -50, -14, 0
 anova(model)
-model=lm(lyrmod_S1_ROI2 ~ song*lyrmod,data=data) #SIG Effect of lyrmod (0.05)
+model=lm(lyrmod_S1_ROI2 ~ song*lyrmod,data=data) #SIG Effect of lyrmod (0.05): 52, -24, 8
 anova(model)
 model=lm(lyrmod_S1_ROI3 ~ song*lyrmod,data=data)
 anova(model)
-model=lm(lyrmod_S1_ROI4 ~ song*lyrmod,data=data) #SIG effect of lyrmod (0.05)
+model=lm(lyrmod_S1_ROI4 ~ song*lyrmod,data=data) #SIG effect of lyrmod (0.05): 18, -50, 18
 anova(model)
+
 model=lm(lyrmod_S2_ROI1 ~ song*lyrmod,data=data)
 anova(model)
 model=lm(lyrmod_S2_ROI2 ~ song*lyrmod,data=data)
@@ -112,6 +117,7 @@ model=lm(oldnew_S1_ROI2 ~ song*oldnew,data=data)
 anova(model)
 model=lm(oldnew_S1_ROI3 ~ song*oldnew,data=data)
 anova(model)
+
 model=lm(oldnew_S2_ROI1 ~ song*oldnew,data=data)
 anova(model)
 model=lm(oldnew_S2_ROI2 ~ song*oldnew,data=data)
