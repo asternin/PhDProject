@@ -3,7 +3,6 @@ fname<-"~/Documents/Western/Academics/PhDProject.git/Music and Memory/fMRI analy
 data<-read.table(fname, sep=",",header=TRUE)
 
 
-<<<<<<< HEAD
 ## familiarity ANOVA
 model=lm(fam_S1_ROI1 ~ song*familiarity,data=data)
 anova(model)
