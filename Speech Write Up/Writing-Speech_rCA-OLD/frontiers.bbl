@@ -1,0 +1,140 @@
+\begin{thebibliography}{15}
+\providecommand{\natexlab}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\selectlanguage}[1]{\relax}
+\providecommand{\bibAnnoteFile}[1]{%
+  \IfFileExists{#1}{\begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ \input{#1}\end{quotation}}{}}
+\providecommand{\bibAnnote}[2]{%
+  \begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ #2\end{quotation}}
+
+\bibitem[{Blankertz et~al.(2011)Blankertz, Lemm, Treder, Haufe, and
+  M{\"{u}}ller}]{Blankertz2011}
+Blankertz, B., Lemm, S., Treder, M., Haufe, S., and M{\"{u}}ller, K.~R. (2011).
+\newblock {Single-trial analysis and classification of ERP components - A
+  tutorial}.
+\newblock \emph{NeuroImage} 56, 814--825.
+\newblock \doi{10.1016/j.neuroimage.2010.06.048}
+\bibAnnoteFile{Blankertz2011}
+
+\bibitem[{Cruse et~al.(2011)Cruse, Chennu, Chatelle, Bekinschtein,
+  Fern{\'{a}}ndez-Espejo, Pickard et~al.}]{Cruse2011}
+Cruse, D., Chennu, S., Chatelle, C., Bekinschtein, T.~a.,
+  Fern{\'{a}}ndez-Espejo, D., Pickard, J.~D., et~al. (2011).
+\newblock {Bedside detection of awareness in the vegetative state: A cohort
+  study}.
+\newblock \emph{The Lancet} 378, 2088--2094.
+\newblock \doi{10.1016/S0140-6736(11)61224-5}
+\bibAnnoteFile{Cruse2011}
+
+\bibitem[{Deng et~al.(2010)Deng, Srinivasan, Lappas, and D'Zmura}]{Deng2010}
+Deng, S., Srinivasan, R., Lappas, T., and D'Zmura, M. (2010).
+\newblock {EEG classification of imagined syllable rhythm using Hilbert
+  spectrum methods.}
+\newblock \emph{Journal of neural engineering} 7, 046006.
+\newblock \doi{10.1088/1741-2560/7/4/046006}
+\bibAnnoteFile{Deng2010}
+
+\bibitem[{Farwell and Donchin(1988)}]{Farwell1988}
+Farwell, L.~A. and Donchin, E. (1988).
+\newblock {Talking off the top of your head: toward a mental prosthesis
+  utilizing event-related brain potentials }.
+\newblock \emph{Electroencephalography and Clinical Neurophysiology} 70,
+  510--523.
+\newblock \doi{10.1016/0013-4694(88)90149-6}
+\bibAnnoteFile{Farwell1988}
+
+\bibitem[{Formisano et~al.(2008)Formisano, Martino, Bonte, and
+  Goebel}]{Formisano2008}
+Formisano, E., Martino, F.~D., Bonte, M., and Goebel, R. (2008).
+\newblock {" Who" Is Saying" What"? Brain-Based Decoding of Human Voice and
+  Speech}.
+\newblock \emph{Science} 322, 970--973
+\bibAnnoteFile{Formisano2008}
+
+\bibitem[{Miranda et~al.(2011)Miranda, Magee, Wilson, Eaton, and
+  Palaniappan}]{miranda2011brain}
+Miranda, E.~R., Magee, W.~L., Wilson, J.~J., Eaton, J., and Palaniappan, R.
+  (2011).
+\newblock {Brain-computer music interfacing (BCMI) from basic research to the
+  real world of special needs}.
+\newblock \emph{Music and Medicine} 3, 134--140
+\bibAnnoteFile{miranda2011brain}
+
+\bibitem[{Monti et~al.(2010)Monti, Vanhaudenhuyse, Coleman, Boly, Pickard,
+  Tshibanda et~al.}]{Monti2010}
+Monti, M.~M., Vanhaudenhuyse, A., Coleman, M.~R., Boly, M., Pickard, J.~D.,
+  Tshibanda, L., et~al. (2010).
+\newblock {Willful Modulation of Brain Activity in Disorders of Consciousness}.
+\newblock \emph{The New England Journal of Medicine} , 579--589
+\bibAnnoteFile{Monti2010}
+
+\bibitem[{Mugler et~al.(2010)Mugler, Ruf, Halder, Bensch, and
+  Kubler}]{Mugler2010}
+Mugler, E.~M., Ruf, C.~A., Halder, S., Bensch, M., and Kubler, A. (2010).
+\newblock {Design and Implementation of a P300-Based Brain-Computer Interface
+  for Controlling an Internet Browser }.
+\newblock \emph{IEEE Transactions on Neural Systems and Rehabilitation
+  Engineering} 18, 599--609.
+\newblock \doi{10.1109/TNSRE.2010.2068059}
+\bibAnnoteFile{Mugler2010}
+
+\bibitem[{Naci et~al.(2015)Naci, Sinai, and Owen}]{Naci2015}
+Naci, L., Sinai, L., and Owen, A.~M. (2015).
+\newblock {NeuroImage Detecting and interpreting conscious experiences in
+  behaviorally non-responsive patients}.
+\newblock \emph{NeuroImage} \doi{10.1016/j.neuroimage.2015.11.059}
+\bibAnnoteFile{Naci2015}
+
+\bibitem[{Owen et~al.(2006)Owen, Coleman, Boly, Davis, Laureys, and
+  Pickard}]{Owen2006}
+Owen, A.~M., Coleman, M.~R., Boly, M., Davis, M.~H., Laureys, S., and Pickard,
+  J.~D. (2006).
+\newblock {Detecting awareness in the vegetative state.}
+\newblock \emph{Science (New York, N.Y.)} 313, 1402.
+\newblock \doi{10.1126/science.1130197}
+\bibAnnoteFile{Owen2006}
+
+\bibitem[{Pfurtscheller and Neuper(2001)}]{Pfurtscheller2001}
+Pfurtscheller, G. and Neuper, C. (2001).
+\newblock {Motor imagery and direct brain-computer communication }.
+\newblock \emph{Proceedings of the IEEE} 89, 1123--1134.
+\newblock \doi{10.1109/5.939829}
+\bibAnnoteFile{Pfurtscheller2001}
+
+\bibitem[{Stober et~al.(2014)Stober, Cameron, and Grahn}]{stober2014}
+Stober, S., Cameron, D.~J., and Grahn, J.~A. (2014).
+\newblock Does the beat go on? -- {Identifying} rhythms from brain waves
+  recorded after their auditory presentation.
+\newblock In \emph{9th Audio Mostly: A Conf. on Interaction With Sound
+  (AM'14)}. 23:1--23:8
+\bibAnnoteFile{stober2014}
+
+\bibitem[{Tanaka et~al.(2005)Tanaka, Matsunaga, and Wang}]{Tanaka2005}
+Tanaka, K., Matsunaga, K., and Wang, H.~O. (2005).
+\newblock {Electroencephalogram-based control of an electric wheelchair }.
+\newblock \emph{IEEE Transactions on Robotics} 21, 762--766.
+\newblock \doi{10.1109/TRO.2004.842350}
+\bibAnnoteFile{Tanaka2005}
+
+\bibitem[{Theiler et~al.(1992)Theiler, Eubank, Longtin, Galdrikian, and
+  Farmer}]{theiler1992testing}
+Theiler, J., Eubank, S., Longtin, A., Galdrikian, B., and Farmer, J.~D. (1992).
+\newblock Testing for nonlinearity in time series: the method of surrogate
+  data.
+\newblock \emph{Physica D: Nonlinear Phenomena} 58, 77--94
+\bibAnnoteFile{theiler1992testing}
+
+\bibitem[{Wang et~al.(2006)Wang, Wang, Gao, Hong, and Gao}]{Wang2006}
+Wang, Y., Wang, R., Gao, X., Hong, B., and Gao, S. (2006).
+\newblock {A practical VEP-based brain-computer interface }.
+\newblock \emph{IEEE Transactions on Neural Systems and Rehabilitation
+  Engineering} 14, 234--240.
+\newblock \doi{10.1109/TNSRE.2006.875576}
+\bibAnnoteFile{Wang2006}
+
+\end{thebibliography}
