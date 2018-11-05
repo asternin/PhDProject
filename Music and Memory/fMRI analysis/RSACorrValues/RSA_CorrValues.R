@@ -40,15 +40,17 @@ data<-read.table(fname, sep=",",header=FALSE)
 ggplot(data) +
   aes(x=V2, y=V1,color=V2) +
   #geom_violin() +
-  geom_boxplot(lwd=2) +
-  geom_jitter(size=3,width=0.2) +
+  geom_boxplot(lwd=2, color="#134663") +
+  geom_jitter(size=3,width=0.2, color="#EC008c") +
   #ylim(-0.25,0.55) +
   labs(x="Models",y="Correlation (r)") +
-  #theme_classic() +
+  theme_classic() +
   theme(axis.text = element_text(size=20),
         axis.title = element_text(size=25),
-        legend.position="none") +
+        legend.position="none") 
+
++
   scale_color_manual(values=c("#134663","#EC008c","#134663"))
 
-
+mydata<-split(data,data$V2)
                      
