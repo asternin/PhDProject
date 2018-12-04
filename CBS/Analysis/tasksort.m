@@ -16,6 +16,8 @@ for i=1:size(alldata,1)
         alldata(i,c+1)=1; %impaired
     end
 end
+%remove participant with NaNs
+alldata(20,:)=[];
 %get indices for three groups
 un=find(alldata(:,c+1)==3);
 bo=find(alldata(:,c+1)==2);
@@ -24,7 +26,7 @@ im=find(alldata(:,c+1)==1);
 data=alldata(:,6:17);
 % %%
 sprintf('CATEGORIZING JUST BORDERLINE PARTICIPANTS')
-for t=1:12
+for t=3;%1:12
     %Calculate means of CBS tasks for group 1 and group 3
     un_mean=nanmean(data(un,t));
     im_mean=nanmean(data(im,t));

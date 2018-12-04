@@ -70,10 +70,10 @@ ggplot(meansyncALL) +
   geom_violin()+
   geom_jitter()
 
-t.test(A1,A2) # t=1.8682, p<0.001 A2<A1
-t.test(I1,I2) #p=0.06
-t.test(S1,S2) #t=3.17, p=0.003 S2<S1
-t.test(W1,W2) #t=3.9112, p<0.001 W2<W1
+t.test(A1,A2) # t=2.1047, p=0.04144
+t.test(I1,I2) #t= -1.7388, p=0.08959
+t.test(S1,S2) #t=0.86479, p=0.3921
+t.test(W1,W2) #t= -2.8693, p=0.006435
 
 fit<-aov(corr~type,data=meansync1) #sig effect of type in first session
 summary(fit)
@@ -161,6 +161,11 @@ t.test(FI2,UI2) #not sig
 t.test(FS2,US2) #not sig
 t.test(FW2,UW2) #not sig
 
+t.test(FA1,FA2) #not sig
+t.test(FI1,FI2) #not sig
+t.test(FS1,FS2) #not sig
+t.test(FW1,FW2) #not sig
+
 ########## GROUP B ##########
 data<-readr::read_csv('Motor.csv') #load data
 GB<-list("P102","P104","P106","P108","P112","P114","P116","P118","P120","P122","P124")
@@ -222,6 +227,11 @@ t.test(FA2,UA2) #not sig
 t.test(FI2,UI2) #not sig
 t.test(FS2,US2) #not sig
 t.test(FW2,UW2) #not sig
+
+t.test(FA1,FA2) #not sig
+t.test(FI1,FI2) #not sig
+t.test(FS1,FS2) #not sig
+t.test(FW1,FW2) #t= -2.6574, p=0.01729
 
 whole<-data.frame(FW2, UW2) 
 whole<-whole %>% gather(type, corr) #rearrange data

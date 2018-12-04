@@ -98,6 +98,12 @@ t.test(I1,S1) #SIG
 t.test(I1,W1)
 t.test(S1,W1)
 
+t.test(A2,I2) # NONE ARE SIG
+t.test(A2,S2)
+t.test(A2,W2)
+t.test(I2,S2) 
+t.test(I2,W2)
+t.test(S2,W2)
 ##################### UNFAMILIAR VS FAMILIAR#####################
 ##########GROUP A ##########
 data<-readr::read_csv('Auditory.csv') #load data
@@ -161,6 +167,11 @@ t.test(FI2,UI2) #not sig
 t.test(FS2,US2) #not sig
 t.test(FW2,UW2) #not sig
 
+t.test(FA1,FA2) # t=2.1847,p=0.04153 NOT SIG
+t.test(FI1,FI2) # t=1.6426, p=0.1161 NOT SIG
+t.test(FS1,FS2) # t=2.6679, p=0.0148 trending?
+t.test(FW1,FW2) # t=1.4986m p=0.1498 NOT SIG
+
 ########## GROUP B ##########
 data<-readr::read_csv('Auditory.csv') #load data
 GB<-list("P102","P104","P106","P108","P112","P114","P116","P118","P120","P122","P124")
@@ -222,3 +233,9 @@ t.test(FA2,UA2) #not sig
 t.test(FI2,UI2) #not sig
 t.test(FS2,US2) #not sig
 t.test(FW2,UW2) #not sig
+
+t.test(FA1,FA2) #not sig
+t.test(FI1,FI2) #not sig
+t.test(FS1,FS2) #not sig
+t.test(FW1,FW2) #t=4.1082, p-0.001044
+

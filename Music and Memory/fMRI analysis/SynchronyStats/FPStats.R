@@ -161,6 +161,11 @@ t.test(FI2,UI2) # not sig
 t.test(FS2,US2) # not sig
 t.test(FW2,UW2) # t=3.1851, p=0.004953
 
+t.test(FA1,FA2) #not sig
+t.test(FI1,FI2) #not sig
+t.test(FS1,FS2) #not sig
+t.test(FW1,FW2) #not sig
+
 ########## GROUP B ##########
 data<-readr::read_csv('FP.csv') #load data
 GB<-list("P102","P104","P106","P108","P112","P114","P116","P118","P120","P122","P124")
@@ -222,6 +227,11 @@ t.test(FA2,UA2) #
 t.test(FI2,UI2) #
 t.test(FS2,US2) #
 t.test(FW2,UW2) #
+
+t.test(FA1,FA2) #not sig
+t.test(FI1,FI2) #not sig
+t.test(FS1,FS2) #t=2.7325, p=0.01368
+t.test(FW1,FW2) #not sig
 
 whole<-data.frame(FW2, UW2) 
 whole<-whole %>% gather(type, corr) #rearrange data
