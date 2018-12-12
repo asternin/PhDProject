@@ -47,10 +47,11 @@ meansyncALL<-data.frame(A,I,S,W)
 meansyncALL<-meansyncALL %>% gather(type, corr) #rearrange data
 
 ggplot(meansync) +
-  aes(x=type,y=corr, color=type) +
-  #geom_bar(stat="identity")
-  #geom_jitter(alpha = 0.25)
-  geom_violin()
+  aes(x=type,y=corr) +
+  geom_boxplot(color=c("red","red","blue","blue","green","green","black","black")) +
+  geom_hline(yintercept=0,size=1)+
+  ylim(-0.4,1.2) +
+  geom_hline(yintercept=1.2)
 
 ggplot(meansync1) +
   aes(x=type,y=corr, color=type) +
@@ -119,7 +120,7 @@ FS1<-rowMeans(FS1)
 FW1<-select(GroupA, "1_song4") #ses 1 whole data together
 FW1<-rowMeans(FW1)
 Fmeansync1<-data.frame(FA1,FI1,FS1,FW1)
-Fmeansync1<-meansync1 %>% gather(type, corr) #rearrange data
+Fmeansync1<-Fmeansync1 %>% gather(type, corr) #rearrange data
 
 FA2<-select(GroupA, "2_song8") #ses 2 acapella data together
 FA2<-rowMeans(FA2)
@@ -133,7 +134,7 @@ Fmeansync2<-data.frame(FA2,FI2,FS2,FW2)
 Fmeansync2<-meansync2 %>% gather(type, corr) #rearrange data
 
 Fmeansync<-data.frame(FA1,FI1,FS1,FW1,FA2,FI2,FS2,FW2) 
-Fmeansync<-Fmeansync %>% gather(type, corr) #rearrange data
+FmeansyncA<-Fmeansync %>% gather(type, corr) #rearrange data
 
 UA1<-select(GroupA, "1_song1") #ses 1 acapella data together
 UA1<-rowMeans(UA1)
@@ -158,9 +159,9 @@ Umeansync2<-data.frame(UA2,UI2,US2,UW2)
 Umeansync2<-meansync2 %>% gather(type, corr) #rearrange data
 
 Fmeansync<-data.frame(FA1,FI1,FS1,FW1,FA2,FI2,FS2,FW2) 
-Fmeansync<-Fmeansync %>% gather(type, corr) #rearrange data
+FmeansyncA<-Fmeansync %>% gather(type, corr) #rearrange data
 Umeansync<-data.frame(UA1,UI1,US1,UW1,UA2,UI2,US2,UW2) 
-Umeansync<-Umeansync %>% gather(type, corr) #rearrange data
+UmeansyncA<-Umeansync %>% gather(type, corr) #rearrange data
 
 t.test(FA2,UA2) #not sig
 t.test(FI2,UI2) #not sig
@@ -186,7 +187,7 @@ FS1<-rowMeans(FS1)
 FW1<-select(GroupB, "1_song5") #ses 1 whole data together
 FW1<-rowMeans(FW1)
 Fmeansync1<-data.frame(FA1,FI1,FS1,FW1)
-Fmeansync1<-meansync1 %>% gather(type, corr) #rearrange data
+Fmeansync1<-Fmeansync1 %>% gather(type, corr) #rearrange data
 
 FA2<-select(GroupB, "2_song1") #ses 2 acapella data together
 FA2<-rowMeans(FA2)
@@ -197,10 +198,10 @@ FS2<-rowMeans(FS2)
 FW2<-select(GroupB, "2_song5") #ses 2 whole data together
 FW2<-rowMeans(FW2)
 Fmeansync2<-data.frame(FA2,FI2,FS2,FW2)
-Fmeansync2<-meansync2 %>% gather(type, corr) #rearrange data
+Fmeansync2<-Fmeansync2 %>% gather(type, corr) #rearrange data
 
 Fmeansync<-data.frame(FA1,FI1,FS1,FW1,FA2,FI2,FS2,FW2) 
-Fmeansync<-Fmeansync %>% gather(type, corr) #rearrange data
+FmeansyncB<-Fmeansync %>% gather(type, corr) #rearrange data
 
 UA1<-select(GroupB, "1_song8") #ses 1 acapella data together
 UA1<-rowMeans(UA1)
@@ -225,9 +226,9 @@ Umeansync2<-data.frame(UA2,UI2,US2,UW2)
 Umeansync2<-meansync2 %>% gather(type, corr) #rearrange data
 
 Fmeansync<-data.frame(FA1,FI1,FS1,FW1,FA2,FI2,FS2,FW2) 
-Fmeansync<-Fmeansync %>% gather(type, corr) #rearrange data
+FmeansyncB<-Fmeansync %>% gather(type, corr) #rearrange data
 Umeansync<-data.frame(UA1,UI1,US1,UW1,UA2,UI2,US2,UW2) 
-Umeansync<-Umeansync %>% gather(type, corr) #rearrange data
+UmeansyncB<-Umeansync %>% gather(type, corr) #rearrange data
 
 t.test(FA2,UA2) #not sig
 t.test(FI2,UI2) #not sig
@@ -239,3 +240,28 @@ t.test(FI1,FI2) #not sig
 t.test(FS1,FS2) #not sig
 t.test(FW1,FW2) #t=4.1082, p-0.001044
 
+########## GROUP A+B ##########
+FmeansyncALL<-rbind(FmeansyncA, FmeansyncB)
+UmeansyncALL<-rbind(UmeansyncA, UmeansyncB)
+
+t.test(FA1,FA2) #not sig
+t.test(FI1,FI2) #not sig
+t.test(FS1,FS2) #not sig
+t.test(FW1,FW2) #not sig
+
+t.test(UA1,UA2) #t=3.2969, p=0.004
+t.test(UI1,UI2) #not sig
+t.test(US1,US2) #not sig
+t.test(UW1,UW2) #not sig
+
+ggplot(FmeansyncALL) +
+  aes(x=type,y=corr) +
+  geom_boxplot(color=c("red","red","blue","blue","green","green","black","black")) +
+  geom_hline(yintercept=0,size=1) +
+  ylim(-0.4,1.2)
+
+ggplot(UmeansyncALL) +
+  aes(x=type,y=corr) +
+  geom_boxplot(color=c("red","red","blue","blue","green","green","black","black")) +
+  geom_hline(yintercept=0,size=1)+
+  ylim(-0.4,1.25)

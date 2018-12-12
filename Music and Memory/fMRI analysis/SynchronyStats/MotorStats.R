@@ -47,10 +47,10 @@ meansyncALL<-data.frame(A,I,S,W)
 meansyncALL<-meansyncALL %>% gather(type, corr) #rearrange data
 
 ggplot(meansync) +
-  aes(x=type,y=corr, color=type) +
-  #geom_bar(stat="identity")
-  #geom_jitter(alpha = 0.25)
-  geom_violin()
+  aes(x=type,y=corr) +
+  geom_boxplot(color=c("red","red","blue","blue","green","green","black","black")) +
+  geom_hline(yintercept=0,size=1) +
+  ylim(-0.4,0.4)
 
 ggplot(meansync1) +
   aes(x=type,y=corr, color=type) +
@@ -152,9 +152,9 @@ Umeansync2<-data.frame(UA2,UI2,US2,UW2)
 Umeansync2<-meansync2 %>% gather(type, corr) #rearrange data
 
 Fmeansync<-data.frame(FA1,FI1,FS1,FW1,FA2,FI2,FS2,FW2) 
-Fmeansync<-Fmeansync %>% gather(type, corr) #rearrange data
+FmeansyncA<-Fmeansync %>% gather(type, corr) #rearrange data
 Umeansync<-data.frame(UA1,UI1,US1,UW1,UA2,UI2,US2,UW2) 
-Umeansync<-Umeansync %>% gather(type, corr) #rearrange data
+UmeansyncA<-Umeansync %>% gather(type, corr) #rearrange data
 
 t.test(FA2,UA2) #not sig
 t.test(FI2,UI2) #not sig
@@ -219,9 +219,9 @@ Umeansync2<-data.frame(UA2,UI2,US2,UW2)
 Umeansync2<-meansync2 %>% gather(type, corr) #rearrange data
 
 Fmeansync<-data.frame(FA1,FI1,FS1,FW1,FA2,FI2,FS2,FW2) 
-Fmeansync<-Fmeansync %>% gather(type, corr) #rearrange data
+FmeansyncB<-Fmeansync %>% gather(type, corr) #rearrange data
 Umeansync<-data.frame(UA1,UI1,US1,UW1,UA2,UI2,US2,UW2) 
-Umeansync<-Umeansync %>% gather(type, corr) #rearrange data
+UmeansyncB<-Umeansync %>% gather(type, corr) #rearrange data
 
 t.test(FA2,UA2) #not sig
 t.test(FI2,UI2) #not sig
@@ -239,3 +239,32 @@ whole<-whole %>% gather(type, corr) #rearrange data
    aes(x=type,y=corr)+
    geom_violin() +
    geom_jitter()
+ 
+ ########## GROUP A+B ##########
+ FmeansyncALL<-rbind(FmeansyncA, FmeansyncB)
+ UmeansyncALL<-rbind(UmeansyncA, UmeansyncB)
+ 
+ t.test(FA1,FA2) #not sig
+ t.test(FI1,FI2) #not sig
+ t.test(FS1,FS2) #not sig
+ t.test(FW1,FW2) #not sig
+ 
+ t.test(UA1,UA2) #not sig
+ t.test(UI1,UI2) #not sig
+ t.test(US1,US2) #not sig
+ t.test(UW1,UW2) #not sig
+ 
+ 
+ ggplot(FmeansyncALL) +
+   aes(x=type,y=corr) +
+   geom_boxplot(color=c("red","red","blue","blue","green","green","black","black")) +
+   geom_hline(yintercept=0,size=1) +
+   ylim(-0.4,0.4)
+ 
+ ggplot(UmeansyncALL) +
+   aes(x=type,y=corr) +
+   geom_boxplot(color=c("red","red","blue","blue","green","green","black","black")) +
+   geom_hline(yintercept=0,size=1) +
+   ylim(-0.4,0.4)
+ 
+ 
