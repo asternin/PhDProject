@@ -124,3 +124,4 @@ end
 
 % SAVE DATA:
 save(strcat(datadir,'onsets_subj',num2str(subj),'txt'),'onsets')
+%need to save onsets=[], names=[], durations=[]; for short clips only

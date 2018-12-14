@@ -179,3 +179,4 @@ elseif human_or_monkey == 2
     species = 'monkey';
 end
 save(strcat(datadir,'onsets_',species,'_subj',num2str(subj),'_sess',num2str(session),'txt'),'onsets')
+%need to save onsets=[], names=[], durations=[]; for short clips only
