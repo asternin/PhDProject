@@ -1,9 +1,9 @@
 % function data = GRAMMY7T_experiment(subj,session,human_or_monkey,basedir)
 
 % EXPERIMENT STUFF:
-expdir  = strcat(basedir,'experiment\');
-datadir = strcat(basedir,'data\');
-stimdir = strcat(basedir,'stimuli\');  
+%expdir  = strcat(basedir,'experiment\');
+%datadir = strcat(basedir,'data\');
+%stimdir = strcat(basedir,'stimuli\');  
 
 keysOfInterest = zeros(1,256);
 keysOfInterest(KbName({'5%','t'})) = 1;
@@ -35,7 +35,7 @@ try
     Screen('TextFont', shandle, 'courier new');
     Screen('TextSize', shandle, 35);
     Screen('TextStyle', shandle, 1);
-    HideCursor;
+    %HideCursor;
     
 %     % FIXATION:
 %     dotSize = 15;
@@ -47,7 +47,7 @@ try
     onsets = [];
     tcnt   =  1;
         
-    DrawFormattedText(shandle, ' ', 'center', 'center', txtcolor);
+    DrawFormattedText(shandle, ' Wait for triggers ', 'center', 'center', txtcolor);
     Screen('Flip', shandle);
     
 %         % RANDOMIZE ITIS:
@@ -62,7 +62,8 @@ try
             if sum(ismember(trigs,choiceKeyCode)) > 0                
                 timestamp = GetSecs;
                 triggers = triggers + 1;
-            end            
+            end
+             DrawFormattedText(shandle, sprintf('%d',triggers), 'center', 'center', txtcolor); Screen('Flip', shandle);
         end
         
         % START:
@@ -113,7 +114,7 @@ try
             DrawFormattedText(shandle, 'Done.', 'center', 'center', txtcolor);
             Screen('Flip', shandle);
             [keyIsDown, endtime, keyCode] = KbCheck;
-            while ~keyIsDown,
+            while ~keyIsDown
                 [keyIsDown, endtime, keyCode] = KbCheck;
             end   
     sca;
