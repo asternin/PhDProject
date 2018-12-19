@@ -71,9 +71,9 @@ ggplot(meansyncALL) +
   geom_violin()+
   geom_jitter()
 
-t.test(A1,A2) # t=1.8682, p<0.001 A2<A1
+t.test(A1,A2) # t=4.0701, p<0.001 A2<A1
 t.test(I1,I2) #p=0.06
-t.test(S1,S2) #t=3.17, p=0.003 S2<S1
+t.test(S1,S2) #t=3.16, p=0.003 S2<S1
 t.test(W1,W2) #t=3.9112, p<0.001 W2<W1
 
 fit<-aov(corr~type,data=meansync1) #sig effect of type in first session
