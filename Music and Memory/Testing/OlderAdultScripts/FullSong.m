@@ -1,8 +1,8 @@
-% function data = GRAMMY7T_experiment(subj,session,human_or_monkey,basedir)
+function data = FullSong(subj)
 
 % EXPERIMENT STUFF:
 %expdir  = strcat(basedir,'experiment\');
-%datadir = strcat(basedir,'data\');
+datadir = 'data\';
 %stimdir = strcat(basedir,'stimuli\');  
 
 keysOfInterest = zeros(1,256);
@@ -47,8 +47,7 @@ try
     onsets = [];
     tcnt   =  1;
         
-    DrawFormattedText(shandle, ' Wait for triggers ', 'center', 'center', txtcolor);
-    Screen('Flip', shandle);
+    DrawFormattedText(shandle, ' Wait for triggers ', 'center', 'center', txtcolor); Screen('Flip', shandle);
     
 %         % RANDOMIZE ITIS:
 %         [~, ri] = sort(rand(size(block_ITIs)));
@@ -70,17 +69,17 @@ try
                 
                 % FIXATION DOT:
                 %Screen('FillOval',shandle,txtcolor,fixationDot);
-                DrawFormattedText(shandle, 'Stimulus is playing.', 'center', 'center', txtcolor);
-                Screen('Flip',shandle);
+                DrawFormattedText(shandle, 'Stimulus is playing.', 'center', 'center', txtcolor); Screen('Flip',shandle);
                 WaitSecs(0.5)
                 
                 % AUDIO STUFF:
                 
-                soundfile = 'STIMULUS.wav';
-                [stim, sf] = audioread(strcat(stimdir,foldername,filesep,soundfile));
+                soundfile = 'ISS_Song_20thCentury_Intact.mp3';
+                [stim, sf] = audioread(soundfile);
+                %[stim, sf] = audioread(strcat(stimdir,foldername,filesep,soundfile));
                 dur = length(stim)/sf;
                                       
-                PsychPortAudio('FillBuffer',pahandle,stim');
+                PsychPortAudio('FillBuffer',pahandle,stim(:,1)');
                 tim = PsychPortAudio('Start',pahandle,1,0,1);     
                 stim_onset = GetSecs - timestamp;
                 WaitSecs(dur)
@@ -104,7 +103,7 @@ try
                     end
                     
                     % KEEP EVERYTHING:
-                    onsets = [onsets; tcnt b trialorder(tcnt,:) stim_onset dur];
+                    onsets = [onsets; tcnt stim_onset dur];
                     
                     % COUNTER:
                     tcnt = tcnt + 1;            
@@ -124,5 +123,5 @@ catch
 end
 
 % SAVE DATA:
-save(strcat(datadir,'onsets_subj',num2str(subj),'txt'),'onsets')
-%need to save onsets=[], names=[], durations=[]; for short clips only
+save(strcat(datadir,'onsets_subj_',subj),'onsets')
+%need to save names=[], onsets=[],  durations=[]; for short clips only
