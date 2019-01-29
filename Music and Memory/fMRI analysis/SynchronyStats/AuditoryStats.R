@@ -1,7 +1,7 @@
 library(tidyverse)
 library(ggplot2)
 
-data<-readr::read_csv('Auditory.csv') #load data
+data<-readr::read_csv('Data/Auditory.csv') #load data
 data<-select(data, -ID) #remove ID variable
 synchrony<-data %>% gather(songs, corr) #rearrange data
 ggplot(synchrony) +
