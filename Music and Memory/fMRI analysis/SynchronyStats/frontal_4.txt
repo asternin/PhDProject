@@ -1,0 +1,232 @@
+[1] "Session 1 ANOVA"
+            Df Sum Sq Mean Sq F value   Pr(>F)    
+type         3 0.2775 0.09249   8.954 4.08e-05 ***
+Residuals   72 0.7437 0.01033                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "Session 2 ANOVA"
+            Df Sum Sq  Mean Sq F value Pr(>F)
+type         3 0.0486 0.016210   2.081   0.11
+Residuals   72 0.5609 0.007791               
+[1] "Session 1&2 ANOVA"
+            Df Sum Sq  Mean Sq F value  Pr(>F)   
+type         3 0.0631 0.021028   4.292 0.00764 **
+Residuals   72 0.3527 0.004899                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Welch Two Sample t-test
+
+data:  A and I
+t = 0.79063, df = 35.994, p-value = 0.4343
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.02314165  0.05271227
+sample estimates:
+ mean of x  mean of y 
+0.02322447 0.00843916 
+
+
+	Welch Two Sample t-test
+
+data:  A and S
+t = -1.3484, df = 31.458, p-value = 0.1872
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.07990031  0.01627728
+sample estimates:
+ mean of x  mean of y 
+0.02322447 0.05503599 
+
+
+	Welch Two Sample t-test
+
+data:  A and W
+t = -2.7518, df = 33.622, p-value = 0.009479
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.10374721 -0.01558352
+sample estimates:
+ mean of x  mean of y 
+0.02322447 0.08288983 
+
+
+	Welch Two Sample t-test
+
+data:  I and S
+t = -1.9669, df = 31.693, p-value = 0.058
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.094870343  0.001676689
+sample estimates:
+ mean of x  mean of y 
+0.00843916 0.05503599 
+
+
+	Welch Two Sample t-test
+
+data:  I and W
+t = -3.417, df = 33.824, p-value = 0.001665
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.11873859 -0.03016276
+sample estimates:
+ mean of x  mean of y 
+0.00843916 0.08288983 
+
+
+	Welch Two Sample t-test
+
+data:  S and W
+t = -1.0669, df = 35.43, p-value = 0.2932
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.08083285  0.02512516
+sample estimates:
+ mean of x  mean of y 
+0.05503599 0.08288983 
+
+
+	Welch Two Sample t-test
+
+data:  A1 and I1
+t = 0.53143, df = 35.891, p-value = 0.5984
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.04702360  0.08041251
+sample estimates:
+   mean of x    mean of y 
+ 0.002861432 -0.013833025 
+
+
+	Welch Two Sample t-test
+
+data:  A1 and S1
+t = -3.37, df = 35.26, p-value = 0.001833
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.18841686 -0.04677445
+sample estimates:
+  mean of x   mean of y 
+0.002861432 0.120457089 
+
+
+	Welch Two Sample t-test
+
+data:  A1 and W1
+t = -3.3221, df = 35.969, p-value = 0.00206
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.17014162 -0.04114887
+sample estimates:
+  mean of x   mean of y 
+0.002861432 0.108506679 
+
+
+	Welch Two Sample t-test
+
+data:  I1 and S1
+t = -3.9373, df = 34.637, p-value = 0.0003789
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.2035577 -0.0650225
+sample estimates:
+  mean of x   mean of y 
+-0.01383302  0.12045709 
+
+
+	Welch Two Sample t-test
+
+data:  I1 and W1
+t = -3.9548, df = 35.977, p-value = 0.0003442
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.18507945 -0.05959996
+sample estimates:
+  mean of x   mean of y 
+-0.01383302  0.10850668 
+
+
+	Welch Two Sample t-test
+
+data:  S1 and W1
+t = 0.34676, df = 34.945, p-value = 0.7309
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.05801779  0.08191862
+sample estimates:
+mean of x mean of y 
+0.1204571 0.1085067 
+
+
+	Welch Two Sample t-test
+
+data:  A2 and I2
+t = 0.55682, df = 35.905, p-value = 0.5811
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.03402638  0.05977871
+sample estimates:
+ mean of x  mean of y 
+0.04358751 0.03071135 
+
+
+	Welch Two Sample t-test
+
+data:  A2 and S2
+t = 1.8301, df = 30.671, p-value = 0.07698
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.006203335  0.114148588
+sample estimates:
+  mean of x   mean of y 
+ 0.04358751 -0.01038512 
+
+
+	Welch Two Sample t-test
+
+data:  A2 and W2
+t = -0.50213, df = 32.71, p-value = 0.6189
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.06915494  0.04178399
+sample estimates:
+ mean of x  mean of y 
+0.04358751 0.05727298 
+
+
+	Welch Two Sample t-test
+
+data:  I2 and S2
+t = 1.372, df = 31.594, p-value = 0.1797
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.01994959  0.10214251
+sample estimates:
+  mean of x   mean of y 
+ 0.03071135 -0.01038512 
+
+
+	Welch Two Sample t-test
+
+data:  I2 and W2
+t = -0.95702, df = 33.551, p-value = 0.3454
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.08299352  0.02987024
+sample estimates:
+ mean of x  mean of y 
+0.03071135 0.05727298 
+
+
+	Welch Two Sample t-test
+
+data:  S2 and W2
+t = -2.035, df = 35.531, p-value = 0.04936
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.135117433 -0.000198766
+sample estimates:
+  mean of x   mean of y 
+-0.01038512  0.05727298 
+
