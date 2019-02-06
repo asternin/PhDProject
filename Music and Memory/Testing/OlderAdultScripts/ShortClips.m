@@ -1,10 +1,10 @@
-% function data = GRAMMY7T_experiment(subj,session,human_or_monkey,basedir)
+function data = ShortClips(subj)
 
 % EXPERIMENT STUFF:
-expdir  = strcat(basedir,'experiment\');
-datadir = strcat(basedir,'data\');
-stimdir = strcat(basedir,'stimuli\');  
-nBlocks = 10;
+%expdir  = strcat(basedir,'experiment\');
+datadir = 'data\';
+stimdir = strcat(basedir,'VolumeNormalized\');  
+
 keysOfInterest = zeros(1,256);
 keysOfInterest(KbName({'5%','t'})) = 1;
 trigs   = find(keysOfInterest);
@@ -12,29 +12,20 @@ exitKey = zeros(1,256);
 exitKey(KbName({'tab'})) = 1;
 KbQueueCreate(); % make queue for abort key condition
 
-rtype   = {'MS1' 'MS2' 'MC' 'NM' 'SCR'};
+%Get trial order
 
-% GET RANDOMIZATION:
-if human_or_monkey == 1
-    load(strcat(expdir,'lists\trialorder',num2str(subj),'.mat'))
-elseif human_or_monkey == 2
-    cnt = 0;
-    for a = 1:subj
-        for b = 1:session
-            cnt = cnt + 1;
-        end
-    end
-    load(strcat(expdir,'lists\trialorder',num2str(cnt),'.mat'))
-end
+
+
 
 % GET ITIs:
-itis    = [2 6 11 15];
-weights = [4 2 2 1];
+itis    = [3 4.5 8 12];
+weights = [3 2 2 1];
 block_ITIs = [];
 for c = 1:length(itis)
     block_ITIs = [block_ITIs; repmat(itis(c),weights(c),1)];
 end
-
+%block_ITIs = block_ITIs(randperm(length(block_ITIs)));
+ 
 % INITIAL PARAMS:
 InitializePsychSound;
 pahandle = PsychPortAudio('Open',[],[],0,44100,1);
@@ -55,12 +46,12 @@ try
     Screen('TextFont', shandle, 'courier new');
     Screen('TextSize', shandle, 35);
     Screen('TextStyle', shandle, 1);
-    HideCursor;
+    %HideCursor;
     
-    % FIXATION:
-    dotSize = 15;
-    fixationDot = [-dotSize/2 -dotSize/2 dotSize dotSize];
-    fixationDot = CenterRect(fixationDot,wRect);
+%     % FIXATION:
+%     dotSize = 15;
+%     fixationDot = [-dotSize/2 -dotSize/2 dotSize dotSize];
+%     fixationDot = CenterRect(fixationDot,wRect);
     
     
     % START THE EXPERIMENT:
@@ -76,14 +67,15 @@ try
         BI      = block_ITIs(ri);
         
         % 3 DUMMIES:
-        triggers = 0;
+       triggers = 0;
         while triggers < 4
             [choiceTime, keyCode] = KbWait([],2);
             [val, choiceKeyCode] = max(keyCode);
             if sum(ismember(trigs,choiceKeyCode)) > 0                
                 timestamp = GetSecs;
                 triggers = triggers + 1;
-            end            
+            end
+             DrawFormattedText(shandle, sprintf('%d',triggers), 'center', 'center', txtcolor); Screen('Flip', shandle);
         end
         
         % START:
@@ -179,4 +171,4 @@ elseif human_or_monkey == 2
     species = 'monkey';
 end
 save(strcat(datadir,'onsets_',species,'_subj',num2str(subj),'_sess',num2str(session),'txt'),'onsets')
-%need to save onsets=[], names=[], durations=[]; for short clips only
+%need to save names=[{},{}],onsets=[{},{}], durations=[{},{}]; for short clips only

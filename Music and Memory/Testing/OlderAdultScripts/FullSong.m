@@ -70,7 +70,7 @@ try
                 % FIXATION DOT:
                 %Screen('FillOval',shandle,txtcolor,fixationDot);
                 DrawFormattedText(shandle, 'Stimulus is playing.', 'center', 'center', txtcolor); Screen('Flip',shandle);
-                WaitSecs(0.5)
+                %WaitSecs(0.5)
                 
                 % AUDIO STUFF:
                 
