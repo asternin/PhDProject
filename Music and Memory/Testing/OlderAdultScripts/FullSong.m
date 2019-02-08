@@ -1,4 +1,4 @@
-function data = FullSong(subj)
+function FullSong(subj)
 
 % EXPERIMENT STUFF:
 %expdir  = strcat(basedir,'experiment\');
