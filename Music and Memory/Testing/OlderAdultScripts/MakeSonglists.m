@@ -29,67 +29,83 @@ for p=1:25
     s=randperm(8);
     s1=s(1:4);
     s2=s(5:8);
-    for i=5:8
-        songlist1{p,i}=[set2(s1(i)).folder,filesep,set2(s1(i)).name];
-        songlist2{p,i}=[set2(s2(i)).folder,filesep,set2(s2(i)).name];
-        songorder1(p,i)=order(s1(i));
-        songorder2(p,i)=order(s2(i));    
+    for i=1:4
+        songlist1{p,i+4}=[set2(s1(i)).folder,filesep,set2(s1(i)).name];
+        songlist2{p,i+4}=[set2(s2(i)).folder,filesep,set2(s2(i)).name];
+        songorder1(p,i+4)=order(s1(i));
+        songorder2(p,i+4)=order(s2(i));    
     end
     s=randperm(8);
     s1=s(1:4);
     s2=s(5:8);
-    for i=9:12
-        songlist1{p,i}=[set3(s1(1)).folder,filesep,set3(s1(1)).name];
-        songlist2{p,i}=[set3(s2(1)).folder,filesep,set3(s2(1)).name];
+    for i=1:4
+        songlist1{p,i+8}=[set3(s1(i)).folder,filesep,set3(s1(i)).name];
+        songlist2{p,i+8}=[set3(s2(i)).folder,filesep,set3(s2(i)).name];
+        songorder1(p,i+8)=order(s1(i));
+        songorder2(p,i+8)=order(s2(i));    
     end
     s=randperm(8);
     s1=s(1:4);
     s2=s(5:8);
-    for i=13:16
-        songlist1{p,i}=[set4(s1(1)).folder,filesep,set4(s1(1)).name];
-        songlist2{p,i}=[set4(s2(1)).folder,filesep,set4(s2(1)).name];
+    for i=1:4
+        songlist1{p,i+12}=[set4(s1(i)).folder,filesep,set4(s1(i)).name];
+        songlist2{p,i+12}=[set4(s2(i)).folder,filesep,set4(s2(i)).name];
+        songorder1(p,i+12)=order(s1(i));
+        songorder2(p,i+12)=order(s2(i));    
     end
     s=randperm(8);
     s1=s(1:4);
     s2=s(5:8);
-    for i=17:20
-        songlist1{p,i}=[set5(s1(1)).folder,filesep,set5(s1(1)).name];
-        songlist2{p,i}=[set5(s2(1)).folder,filesep,set5(s2(1)).name];
+    for i=1:4
+        songlist1{p,i+16}=[set5(s1(i)).folder,filesep,set5(s1(i)).name];
+        songlist2{p,i+16}=[set5(s2(i)).folder,filesep,set5(s2(i)).name];
+        songorder1(p,i+16)=order(s1(i));
+        songorder2(p,i+16)=order(s2(i));    
     end
     s=randperm(8);
     s1=s(1:4);
     s2=s(5:8);
-    for i=21:24
-        songlist1{p,i}=[set6(s1(1)).folder,filesep,set6(s1(1)).name];
-        songlist2{p,i}=[set6(s2(1)).folder,filesep,set6(s2(1)).name];
+    for i=1:4
+        songlist1{p,i+20}=[set6(s1(i)).folder,filesep,set6(s1(i)).name];
+        songlist2{p,i+20}=[set6(s2(i)).folder,filesep,set6(s2(i)).name];
+        songorder1(p,i+20)=order(s1(i));
+        songorder2(p,i+20)=order(s2(i));    
     end
     s=randperm(8);
     s1=s(1:4);
     s2=s(5:8);
-    for i=25:28
-        songlist1{p,i}=[set7(s1(1)).folder,filesep,set7(s1(1)).name];
-        songlist2{p,i}=[set7(s2(1)).folder,filesep,set7(s2(1)).name];
+    for i=1:4
+        songlist1{p,i+24}=[set7(s1(i)).folder,filesep,set7(s1(i)).name];
+        songlist2{p,i+24}=[set7(s2(i)).folder,filesep,set7(s2(i)).name];
+        songorder1(p,i+24)=order(s1(i));
+        songorder2(p,i+24)=order(s2(i));    
     end
     s=randperm(8);
     s1=s(1:4);
     s2=s(5:8);
-    for i=29:32
-        songlist1{p,i}=[set8(s1(1)).folder,filesep,set8(s1(1)).name];
-        songlist2{p,i}=[set8(s2(1)).folder,filesep,set8(s2(1)).name];
+    for i=1:4
+        songlist1{p,i+28}=[set8(s1(i)).folder,filesep,set8(s1(i)).name];
+        songlist2{p,i+28}=[set8(s2(i)).folder,filesep,set8(s2(i)).name];
+        songorder1(p,i+28)=order(s1(i));
+        songorder2(p,i+28)=order(s2(i));    
     end
     s=randperm(8);
     s1=s(1:4);
     s2=s(5:8);
-    for i=33:36
-        songlist1{p,i}=[set9(s1(1)).folder,filesep,set9(s1(1)).name];
-        songlist2{p,i}=[set9(s2(1)).folder,filesep,set9(s2(1)).name];
+    for i=1:4
+        songlist1{p,32}=[set9(s1(i)).folder,filesep,set9(s1(i)).name];
+        songlist2{p,32}=[set9(s2(i)).folder,filesep,set9(s2(i)).name];
+        songorder1(p,i+32)=order(s1(i));
+        songorder2(p,i+32)=order(s2(i));    
     end
     s=randperm(8);
     s1=s(1:4);
     s2=s(5:8);
-    for i=37:40
-        songlist1{p,i}=[set10(s1(1)).folder,filesep,set10(s1(1)).name];
-        songlist2{p,i}=[set10(s2(1)).folder,filesep,set10(s2(1)).name];
+    for i=1:4
+        songlist1{p,i+36}=[set10(s1(i)).folder,filesep,set10(s1(i)).name];
+        songlist2{p,i+36}=[set10(s2(i)).folder,filesep,set10(s2(i)).name];
+        songorder1(p,i+36)=order(s1(i));
+        songorder2(p,i+36)=order(s2(i));    
     end
 end
 save('songlist1.mat','songlist1');
