@@ -2,9 +2,14 @@ library(tidyverse)
 library(ggplot2)
 library(plyr)
 
-fullfiles<-list.files(path = "/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data",
+#fullfiles<-list.files(path = "/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data",
+#                  pattern="*.csv",full.names = TRUE)
+#files<-list.files(path = "/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data",
+#                      pattern="*.csv",full.names = FALSE)
+
+fullfiles<-list.files(path = "Data",
                   pattern="*.csv",full.names = TRUE)
-files<-list.files(path = "/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data",
+files<-list.files(path = "Data",
                       pattern="*.csv",full.names = FALSE)
 
 for(f in 1:length(fullfiles)){
@@ -13,9 +18,11 @@ for(f in 1:length(fullfiles)){
                       "V5"="1_song5", "V6"="1_song6", "V7"="1_song7", "V8"="1_song8",
                       "V9"="2_song1", "V10"="2_song2", "V11"="2_song3", "V12"="2_song4",
                       "V13"="2_song5", "V14"="2_song6", "V15"="2_song7", "V16"="2_song8"))
-  
+  GroupAdata<-data[c(1,3,5,7,10,12,13,14,16,18),c(1:16)]
+  GroupBdata<-data[c(2,4,6,8,9,11,15,17,19),c(1:16)]
   #synchrony<-data %>% gather(songs, corr) #rearrange data
   
+  ##### RUN ALL STATS #####
   ## Gather all session 1 data
   A1<-rowMeans(select(data, "1_song1","1_song8")) #ses 1 acapella data together
   I1<-rowMeans(select(data, "1_song6","1_song7")) #ses 1 instrumental data together
@@ -45,6 +52,74 @@ for(f in 1:length(fullfiles)){
   
   sprintf("%s.txt",str_replace(files[f],".csv",""))
   
+  # GROUP ALL FAMILIAR DATA
+  FA1<-rowMeans(select(GroupAdata, "1_song8"))
+  FI1<-rowMeans(select(GroupAdata, '1_song7'))
+  FS1<-rowMeans(select(GroupAdata, "1_song2"))
+  FW1<-rowMeans(select(GroupAdata, "1_song4"))
+  Fmeansync1_A<-data.frame(FA1,FI1,FS1,FW1)
+  #Fmeansync1_A<-Fmeansync1_A %>% gather(type, corr) #rearrange data
+  
+  FA1<-rowMeans(select(GroupBdata, "1_song1"))
+  FI1<-rowMeans(select(GroupBdata, '1_song6'))
+  FS1<-rowMeans(select(GroupBdata, "1_song3"))
+  FW1<-rowMeans(select(GroupBdata, "1_song5"))
+  Fmeansync1_B<-data.frame(FA1,FI1,FS1,FW1)
+  #Fmeansync1_B<-Fmeansync1_B %>% gather(type, corr) #rearrange data
+  
+  FA2<-rowMeans(select(GroupAdata, "2_song8"))
+  FI2<-rowMeans(select(GroupAdata, '2_song7'))
+  FS2<-rowMeans(select(GroupAdata, "2_song2"))
+  FW2<-rowMeans(select(GroupAdata, "2_song4"))
+  Fmeansync2_A<-data.frame(FA2,FI2,FS2,FW2)
+  #Fmeansync2_A<-Fmeansync2_A %>% gather(type, corr) #rearrange data
+  
+  FA2<-rowMeans(select(GroupBdata, "2_song1"))
+  FI2<-rowMeans(select(GroupBdata, '2_song6'))
+  FS2<-rowMeans(select(GroupBdata, "2_song3"))
+  FW2<-rowMeans(select(GroupBdata, "2_song5"))
+  Fmeansync2_B<-data.frame(FA2,FI2,FS2,FW2)
+  #Fmeansync2_B<-Fmeansync2_B %>% gather(type, corr) #rearrange data
+  
+  # GROUP ALL UNFAMILIAR DATA
+  UA1<-rowMeans(select(GroupAdata, "1_song1"))
+  UI1<-rowMeans(select(GroupAdata, '1_song6'))
+  US1<-rowMeans(select(GroupAdata, "1_song3"))
+  UW1<-rowMeans(select(GroupAdata, "1_song5"))
+  Umeansync1_A<-data.frame(UA1,UI1,US1,UW1)
+  #Umeansync1_A<-meansync1 %>% gather(type, corr) #rearrange data
+  
+  UA1<-rowMeans(select(GroupBdata, "1_song8"))
+  UI1<-rowMeans(select(GroupBdata, '1_song7'))
+  US1<-rowMeans(select(GroupBdata, "1_song4"))
+  UW1<-rowMeans(select(GroupBdata, "1_song2"))
+  Umeansync1_B<-data.frame(UA1,UI1,US1,UW1)
+  #Umeansync1_B<-Umeansync1_B %>% gather(type, corr) #rearrange data
+  
+  UA2<-rowMeans(select(GroupAdata, "2_song1"))
+  UI2<-rowMeans(select(GroupAdata, '2_song6'))
+  US2<-rowMeans(select(GroupAdata, "2_song3"))
+  UW2<-rowMeans(select(GroupAdata, "2_song5"))
+  Umeansync2_A<-data.frame(UA2,UI2,US2,UW2)
+  #Umeansync2_A<-Umeansync2_A %>% gather(type, corr) #rearrange data
+  
+  UA2<-rowMeans(select(GroupBdata, "2_song8"))
+  UI2<-rowMeans(select(GroupBdata, '2_song7'))
+  US2<-rowMeans(select(GroupBdata, "2_song4"))
+  UW2<-rowMeans(select(GroupBdata, "2_song2"))
+  Umeansync2_B<-data.frame(UA2,UI2,US2,UW2)
+  #Umeansync2_B<-Umeansync2_B %>% gather(type, corr) #rearrange data
+  
+  FmeansyncA<-cbind(Fmeansync1_A, Fmeansync2_A)
+  FmeansyncB<-cbind(Fmeansync1_B, Fmeansync2_B)
+  
+  UmeansyncA<-cbind(Umeansync1_A, Umeansync2_A)
+  UmeansyncB<-cbind(Umeansync1_B, Umeansync2_B)
+  
+  FmeansyncALL<-rbind(FmeansyncA, FmeansyncB)
+  UmeansyncALL<-rbind(UmeansyncA, UmeansyncB)
+  
+  ##### START PRINTING RESULTS TO TEXT FILE #####
   sink(file=sprintf("%s.txt",str_replace(files[f],".csv","")))
   files[f]
   ## Stats
@@ -60,6 +135,13 @@ for(f in 1:length(fullfiles)){
   print("Session 1&2 ANOVA")
   fit<-aov(corr~type,data=meansyncALL) 
   print(summary(fit))
+  
+  p<-ggplot(meansync) +
+    aes(x=type,y=corr) +
+    geom_boxplot(color=c("red","red","blue","blue","green","green","black","black")) +
+    geom_hline(yintercept=0,size=1) +
+    ylim(-0.4,0.4)
+  #print(p)
   
   print(t.test(A,I))
   print(t.test(A,S))
@@ -81,6 +163,61 @@ for(f in 1:length(fullfiles)){
   print(t.test(I2,S2))
   print(t.test(I2,W2))
   print(t.test(S2,W2))
+  
+  print('Familiar v Unfamiliar stats')
+  print('GroupA familiar2 v unfamiliar2')
+  print(t.test(Fmeansync2_A$FA2,Umeansync2_A$UA2))
+  print(t.test(Fmeansync2_A$FI2,Umeansync2_A$UI2))
+  print(t.test(Fmeansync2_A$FS2,Umeansync2_A$US2))
+  print(t.test(Fmeansync2_A$FW2,Umeansync2_A$UW2))
+  
+  print('GroupA familiar1 v familiar2')
+  print(t.test(Fmeansync1_A$FA1,Fmeansync2_A$FA2))
+  print(t.test(Fmeansync1_A$FI1,Fmeansync2_A$FI2))
+  print(t.test(Fmeansync1_A$FS1,Fmeansync2_A$FS2))
+  print(t.test(Fmeansync1_A$FW1,Fmeansync2_A$FW2))
+  
+  print('GroupB familiar2 v unfamiliar2')
+  print(t.test(Fmeansync2_B$FA2,Umeansync2_B$UA2))
+  print(t.test(Fmeansync2_B$FI2,Umeansync2_B$UI2))
+  print(t.test(Fmeansync2_B$FS2,Umeansync2_B$US2))
+  print(t.test(Fmeansync2_B$FW2,Umeansync2_B$UW2))
+  
+  print('GroupB familiar 1 v familiar 2')
+  print(t.test(Fmeansync1_B$FA1,Fmeansync2_B$FA2))
+  print(t.test(Fmeansync1_B$FI1,Fmeansync2_B$FI2))
+  print(t.test(Fmeansync1_B$FS1,Fmeansync2_B$FS2))
+  print(t.test(Fmeansync1_B$FW1,Fmeansync2_B$FW2))
+  
+  print('GroupA&B familiar 1 v familiar 2')
+  print(t.test(FmeansyncALL$FA1,FmeansyncALL$FA2))
+  print(t.test(FmeansyncALL$FI1,FmeansyncALL$FI2))
+  print(t.test(FmeansyncALL$FS1,FmeansyncALL$FS2))
+  print(t.test(FmeansyncALL$FW1,FmeansyncALL$FW2))
+  
+  print('GroupA&B unfamiliar 1 v unfamiliar 2')
+  print(t.test(UmeansyncALL$UA1,UmeansyncALL$UA2))
+  print(t.test(UmeansyncALL$UI1,UmeansyncALL$UI2))
+  print(t.test(UmeansyncALL$US1,UmeansyncALL$US2))
+  print(t.test(UmeansyncALL$UW1,UmeansyncALL$UW2))
+  
+  print('Plot group A & B Familiar')
+  FmeansyncALL<-FmeansyncALL %>% gather(type, corr) #rearrange data
+  p<-ggplot(FmeansyncALL) +
+    aes(x=type,y=corr) +
+    geom_boxplot(color=c("red","red","blue","blue","green","green","black","black")) +
+    geom_hline(yintercept=0,size=1) +
+    ylim(-0.4,0.4)
+  #print(p)
+  
+  print('Plot group A & B Unamiliar')
+  UmeansyncALL<-UmeansyncALL %>% gather(type, corr) #rearrange data
+  p<-ggplot(UmeansyncALL) +
+    aes(x=type,y=corr) +
+    geom_boxplot(color=c("red","red","blue","blue","green","green","black","black")) +
+    geom_hline(yintercept=0,size=1) +
+    ylim(-0.4,0.4)
+  #print(p)
   
   sink()
 }

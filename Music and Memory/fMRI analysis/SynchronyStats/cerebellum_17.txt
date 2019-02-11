@@ -228,3 +228,300 @@ sample estimates:
  mean of x  mean of y 
 0.04835390 0.02230149 
 
+[1] "Familiar v Unfamiliar stats"
+[1] "GroupA familiar2 v unfamiliar2"
+
+	Welch Two Sample t-test
+
+data:  Fmeansync2_A$FA2 and Umeansync2_A$UA2
+t = 1.6353, df = 15.422, p-value = 0.1222
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.03500726  0.26817414
+sample estimates:
+  mean of x   mean of y 
+ 0.10381256 -0.01277089 
+
+
+	Welch Two Sample t-test
+
+data:  Fmeansync2_A$FI2 and Umeansync2_A$UI2
+t = -0.053372, df = 16.995, p-value = 0.9581
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.1342284  0.1276049
+sample estimates:
+  mean of x   mean of y 
+-0.02216200 -0.01885026 
+
+
+	Welch Two Sample t-test
+
+data:  Fmeansync2_A$FS2 and Umeansync2_A$US2
+t = -2.2278, df = 13.022, p-value = 0.04415
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.225746059 -0.003488408
+sample estimates:
+  mean of x   mean of y 
+-0.02512922  0.08948801 
+
+
+	Welch Two Sample t-test
+
+data:  Fmeansync2_A$FW2 and Umeansync2_A$UW2
+t = 2.9757, df = 10.258, p-value = 0.01355
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.04219819 0.29038548
+sample estimates:
+  mean of x   mean of y 
+ 0.12154500 -0.04474683 
+
+[1] "GroupA familiar1 v familiar2"
+
+	Welch Two Sample t-test
+
+data:  Fmeansync1_A$FA1 and Fmeansync2_A$FA2
+t = -1.3232, df = 16.224, p-value = 0.2041
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.20456178  0.04722787
+sample estimates:
+mean of x mean of y 
+0.0251456 0.1038126 
+
+
+	Welch Two Sample t-test
+
+data:  Fmeansync1_A$FI1 and Fmeansync2_A$FI2
+t = 0.51721, df = 17.16, p-value = 0.6116
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.09118292  0.15046332
+sample estimates:
+ mean of x  mean of y 
+ 0.0074782 -0.0221620 
+
+
+	Welch Two Sample t-test
+
+data:  Fmeansync1_A$FS1 and Fmeansync2_A$FS2
+t = 0.71169, df = 16.706, p-value = 0.4865
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.09745223  0.19646407
+sample estimates:
+  mean of x   mean of y 
+ 0.02437670 -0.02512922 
+
+
+	Welch Two Sample t-test
+
+data:  Fmeansync1_A$FW1 and Fmeansync2_A$FW2
+t = -1.2324, df = 15.073, p-value = 0.2367
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.12339749  0.03295709
+sample estimates:
+mean of x mean of y 
+0.0763248 0.1215450 
+
+[1] "GroupB familiar2 v unfamiliar2"
+
+	Welch Two Sample t-test
+
+data:  Fmeansync2_B$FA2 and Umeansync2_B$UA2
+t = -0.7807, df = 15.846, p-value = 0.4465
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.17556974  0.08111441
+sample estimates:
+  mean of x   mean of y 
+-0.01625444  0.03097322 
+
+
+	Welch Two Sample t-test
+
+data:  Fmeansync2_B$FI2 and Umeansync2_B$UI2
+t = -0.43531, df = 15.988, p-value = 0.6692
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.1796039  0.1184122
+sample estimates:
+ mean of x  mean of y 
+0.04406448 0.07466033 
+
+
+	Welch Two Sample t-test
+
+data:  Fmeansync2_B$FS2 and Umeansync2_B$US2
+t = 1.2954, df = 15.68, p-value = 0.2139
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.05488373  0.22662219
+sample estimates:
+    mean of x     mean of y 
+ 0.0855944889 -0.0002747444 
+
+
+	Welch Two Sample t-test
+
+data:  Fmeansync2_B$FW2 and Umeansync2_B$UW2
+t = -0.54871, df = 15.975, p-value = 0.5908
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.14971086  0.08815131
+sample estimates:
+ mean of x  mean of y 
+0.01268256 0.04346233 
+
+[1] "GroupB familiar 1 v familiar 2"
+
+	Welch Two Sample t-test
+
+data:  Fmeansync1_B$FA1 and Fmeansync2_B$FA2
+t = 0.24648, df = 15.737, p-value = 0.8085
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.1274860  0.1609806
+sample estimates:
+    mean of x     mean of y 
+ 0.0004928333 -0.0162544444 
+
+
+	Welch Two Sample t-test
+
+data:  Fmeansync1_B$FI1 and Fmeansync2_B$FI2
+t = 0.21946, df = 12.578, p-value = 0.8298
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.1094530  0.1341109
+sample estimates:
+ mean of x  mean of y 
+0.05639347 0.04406448 
+
+
+	Welch Two Sample t-test
+
+data:  Fmeansync1_B$FS1 and Fmeansync2_B$FS2
+t = -0.81945, df = 15.952, p-value = 0.4246
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.20281074  0.08974977
+sample estimates:
+ mean of x  mean of y 
+0.02906400 0.08559449 
+
+
+	Welch Two Sample t-test
+
+data:  Fmeansync1_B$FW1 and Fmeansync2_B$FW2
+t = -0.18142, df = 12.011, p-value = 0.8591
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.10332424  0.08743884
+sample estimates:
+  mean of x   mean of y 
+0.004739856 0.012682556 
+
+[1] "GroupA&B familiar 1 v familiar 2"
+
+	Welch Two Sample t-test
+
+data:  FmeansyncALL$FA1 and FmeansyncALL$FA2
+t = -0.65906, df = 34.399, p-value = 0.5142
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.12373676  0.06311459
+sample estimates:
+ mean of x  mean of y 
+0.01346797 0.04377906 
+
+
+	Welch Two Sample t-test
+
+data:  FmeansyncALL$FI1 and FmeansyncALL$FI2
+t = 0.53226, df = 32.102, p-value = 0.5982
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.06059987  0.10348017
+sample estimates:
+ mean of x  mean of y 
+0.03064859 0.00920844 
+
+
+	Welch Two Sample t-test
+
+data:  FmeansyncALL$FS1 and FmeansyncALL$FS2
+t = -0.073249, df = 34.972, p-value = 0.942
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.10440075  0.09712948
+sample estimates:
+ mean of x  mean of y 
+0.02659700 0.03023263 
+
+
+	Welch Two Sample t-test
+
+data:  FmeansyncALL$FW1 and FmeansyncALL$FW2
+t = -0.76971, df = 33.131, p-value = 0.4469
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.08996907  0.04057380
+sample estimates:
+ mean of x  mean of y 
+0.04241614 0.06711378 
+
+[1] "GroupA&B unfamiliar 1 v unfamiliar 2"
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UA1 and UmeansyncALL$UA2
+t = -0.64603, df = 34.216, p-value = 0.5226
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.12013717  0.06217021
+sample estimates:
+   mean of x    mean of y 
+-0.019882316  0.009101167 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UI1 and UmeansyncALL$UI2
+t = 0.21433, df = 31.001, p-value = 0.8317
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.07621760  0.09411831
+sample estimates:
+ mean of x  mean of y 
+0.03685539 0.02790504 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$US1 and UmeansyncALL$US2
+t = 0.35094, df = 34.81, p-value = 0.7277
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.06746133  0.09565290
+sample estimates:
+ mean of x  mean of y 
+0.05870242 0.04460663 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UW1 and UmeansyncALL$UW2
+t = 1.6207, df = 34.635, p-value = 0.1142
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.01891295  0.16835873
+sample estimates:
+    mean of x     mean of y 
+ 0.0740806368 -0.0006422508 
+
+[1] "Plot group A & B Familiar"
+[1] "Plot group A & B Unamiliar"
