@@ -1,0 +1,33 @@
+from: /mnt/LN-Backup/LN-Data-backup/movie/scripts/aa_user_lorina_pca_MOVIE_CORRELATIONS.m
+determined 12 participants used in the correlation analysis:
+aap=aas_addsubject(aap, '2012_01_23.TJ08', [25]);%3 done INDIVIDUAL
+aap=aas_addsubject(aap, '2012_01_24.HJ17', [21]); %4 done INDIVIDUAL FOLDER: 20120530T100354 
+aap=aas_addsubject(aap, '2012_01_24.DR28', [12]);%5 done INDIVIDUAL FOLDER: 20120530T102247
+aap=aas_addsubject(aap, '2012_01_24.FZ03', [12]);%6 done INDIVIDUAL FOLDER: 20120530T104020
+aap=aas_addsubject(aap, '2012_01_24.JZ29', [12]);%7 done INDIVIDUAL FOLDER: 20120530T105654
+aap=aas_addsubject(aap, '2012_01_25.IY23', [23]);%9 done INDIVIDUAL FOLDER: 20120530T113217 
+aap=aas_addsubject(aap, '2012_01_25_HB01', [14]);%10 NOT DONE
+aap=aas_addsubject(aap, '2012_01_26_VJ14', [14]);%11 done INDIVIDUAL FOLDER: 20120530T115129
+aap=aas_addsubject(aap, '2012_01_26.QI06', [19]);%12 done INDIVIDUAL FOLDER: 20120530T120929
+aap=aas_addsubject(aap, '2012_01_25_BA23', [17]);%13 done INDIVIDUAL FOLDER: 20120530T122555
+aap=aas_addsubject(aap, '2012_01_23.YC27', [17]);%14 done INDIVIDUAL FOLDER: 20120530T124341
+aap=aas_addsubject(aap, '2012_01_26.ZQ21_2', [18]);%15 done INDIVIDUAL FOLDER: 20120530T130059
+
+
+In /mnt/LN-Backup/LN-Data-backup I see the following participant folders:
+2012_01_23.TJ08
+2012_01_24.HJ17
+2012_01_24.DR28
+2012_01_24.FZ03
+2012_01_24.JZ29
+2012_01_25.IY23
+2012_01_25_HB01
+2012_01_26_VJ14
+2012_01_26.QI06
+2012_01_25_BA23
+2012_01_23.YC27-inconsistent
+2012_01_26.ZQ21_2
+
+Each of these folders contains a series of .IMA files. 
+Can you confirm that these are the 12 participants you used in the PNAS paper? 
+Do you have any information about the run order that Adrian can send along with the data to Jonathan Huntley?
