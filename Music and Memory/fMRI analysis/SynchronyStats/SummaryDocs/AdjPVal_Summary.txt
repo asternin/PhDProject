@@ -1,0 +1,108 @@
+[1] "auditory_1_pval_adj.csv"
+[1] 45
+[1] "auditory_2_pval_adj.csv"
+ [1]  1  3  7  9 10 13 15 41 42 46 47 48
+[1] "auditory_3_pval_adj.csv"
+ [1]  1  3  4  7  8 10 13 14 28 29 40 41 42 45 46 47 48 50
+[1] "auditory_4_pval_adj.csv"
+[1] 39 46 47
+[1] "auditory_5_pval_adj.csv"
+ [1]  1  3  7 13 15 39 40 41 42 45 46 47 48
+[1] "auditory_6_pval_adj.csv"
+ [1]  1  3  4  7  9 10 13 14 15 27 36 38 39 40 41 42 44 45 46 47 48 50
+
+
+[1] "basalganglia_1_pval_adj.csv"
+NULL
+[1] "basalganglia_2_pval_adj.csv"
+[1] 11 16 28
+[1] "basalganglia_3_pval_adj.csv"
+NULL
+[1] "basalganglia_4_pval_adj.csv"
+[1] 10 11
+[1] "basalganglia_5_pval_adj.csv"
+NULL
+[1] "basalganglia_6_pval_adj.csv"
+NULL
+
+[1] "cerebellum_1_pval_adj.csv"
+NULL
+[1] "cerebellum_2_pval_adj.csv"
+NULL
+[1] "cerebellum_3_pval_adj.csv"
+NULL
+[1] "cerebellum_4_pval_adj.csv"
+NULL
+[1] "cerebellum_5_pval_adj.csv"
+[1] 9
+[1] "cerebellum_6_pval_adj.csv"
+NULL
+[1] "cerebellum_7_pval_adj.csv"
+[1]  1 10 13 14
+[1] "cerebellum_8_pval_adj.csv"
+NULL
+[1] "cerebellum_9_pval_adj.csv"
+NULL
+[1] "cerebellum_10_pval_adj.csv"
+ [1]  2  3  7 19 20 27 32 39 40 46 49
+[1] "cerebellum_11_pval_adj.csv"
+[1]  4  7 13 47 50
+[1] "cerebellum_12_pval_adj.csv"
+NULL
+[1] "cerebellum_13_pval_adj.csv"
+[1]  4 16
+[1] "cerebellum_14_pval_adj.csv"
+NULL
+[1] "cerebellum_15_pval_adj.csv"
+NULL
+[1] "cerebellum_16_pval_adj.csv"
+NULL
+[1] "cerebellum_17_pval_adj.csv"
+NULL
+[1] "cerebellum_18_pval_adj.csv"
+NULL
+[1] "cerebellum_19_pval_adj.csv"
+[1]  1  3  5  6 10 11 12 26 38
+[1] "cerebellum_20_pval_adj.csv"
+[1] 5
+[1] "cerebellum_21_pval_adj.csv"
+[1] 3 7
+[1] "cerebellum_22_pval_adj.csv"
+[1]  1 13 23 27 39
+[1] "cerebellum_23_pval_adj.csv"
+[1] 10 23 27 39 46
+[1] "cerebellum_24_pval_adj.csv"
+NULL
+[1] "cerebellum_25_pval_adj.csv"
+[1] 30
+[1] "cerebellum_26_pval_adj.csv"
+[1] 23 26
+
+
+[1] "cingulate_1_pval_adj.csv"
+[1]  1  7 13 15 22 29 30
+[1] "cingulate_2_pval_adj.csv"
+[1]  1  3  7 13 15 30
+[1] "cingulate_3_pval_adj.csv"
+[1]  5 45 47 50
+
+[1] "frontal_1_pval_adj.csv"
+[1] 13 15 25
+[1] "frontal_2_pval_adj.csv"
+[1]  1 13 25
+[1] "frontal_3_pval_adj.csv"
+NULL
+[1] "frontal_4_pval_adj.csv"
+ [1]  1  3  6  8 13 14 32 36 40 43 45 47 50
+[1] "frontal_5_pval_adj.csv"
+[1] 13 36 37 40 45
+[1] "frontal_6_pval_adj.csv"
+[1]  2  3  4  7 16 19 20 27
+[1] "frontal_7_pval_adj.csv"
+NULL
+[1] "frontal_8_pval_adj.csv"
+ [1]  1  2 15 19 29 33 36 40 41 43 46 48 51
+
+
+[1] "sma_1_pval_adj.csv"
+NULL
