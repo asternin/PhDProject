@@ -523,6 +523,55 @@ sample estimates:
   mean of x   mean of y 
 -0.02866418 -0.01136009 
 
+[1] "GroupA&B Unfamiliar 2 v familiar 2"
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UA2 and FmeansyncALL$FA2
+t = 1.0826, df = 33.896, p-value = 0.2866
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.04567187  0.14978585
+sample estimates:
+  mean of x   mean of y 
+ 0.03927528 -0.01278171 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UI2 and FmeansyncALL$FI2
+t = 0.54358, df = 34.852, p-value = 0.5902
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.04093060  0.07085879
+sample estimates:
+   mean of x    mean of y 
+ 0.010674053 -0.004290042 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$US2 and FmeansyncALL$FS2
+t = 0.080323, df = 31.702, p-value = 0.9365
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.06594123  0.07135322
+sample estimates:
+  mean of x   mean of y 
+0.007484684 0.004778689 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UW2 and FmeansyncALL$FW2
+t = -0.24711, df = 32.595, p-value = 0.8064
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.07315733  0.05731721
+sample estimates:
+   mean of x    mean of y 
+-0.011360095 -0.003440037 
+
 [1] "ANOVA - Familiar Stim (Ses1&2)"
              Df Sum Sq  Mean Sq F value Pr(>F)
 type          7 0.0615 0.008787   0.706  0.667
@@ -551,3 +600,12 @@ Residuals   72 0.7778 0.010803
 type         3 0.0241 0.008042   0.673  0.572
 Residuals   71 0.8488 0.011956               
 1 observation deleted due to missingness
+[1] "ANOVA - 2(ses) x 4(stim)"
+             Df Sum Sq Mean Sq F value  Pr(>F)   
+stim          1 0.0024 0.00240   0.415 0.52033   
+ses           1 0.0463 0.04629   7.999 0.00534 **
+stim:ses      1 0.0027 0.00271   0.469 0.49461   
+Residuals   146 0.8449 0.00579                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+2 observations deleted due to missingness

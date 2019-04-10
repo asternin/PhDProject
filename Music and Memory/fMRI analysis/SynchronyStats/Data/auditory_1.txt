@@ -521,6 +521,55 @@ sample estimates:
   mean of x   mean of y 
  0.10589800 -0.05872921 
 
+[1] "GroupA&B Unfamiliar 2 v familiar 2"
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UA2 and FmeansyncALL$FA2
+t = 0.12386, df = 35.036, p-value = 0.9021
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.07442792  0.08410055
+sample estimates:
+ mean of x  mean of y 
+0.01964021 0.01480389 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UI2 and FmeansyncALL$FI2
+t = 1.9282, df = 35.13, p-value = 0.06194
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.003344828  0.130271333
+sample estimates:
+ mean of x  mean of y 
+0.08739026 0.02392701 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$US2 and FmeansyncALL$FS2
+t = 0.65522, df = 34.004, p-value = 0.5167
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.05910778  0.11535760
+sample estimates:
+ mean of x  mean of y 
+0.04799805 0.01987314 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UW2 and FmeansyncALL$FW2
+t = -3.0434, df = 27.892, p-value = 0.005056
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.20320137 -0.03969182
+sample estimates:
+  mean of x   mean of y 
+-0.05872921  0.06271738 
+
 [1] "ANOVA - Familiar Stim (Ses1&2)"
              Df Sum Sq Mean Sq F value Pr(>F)
 type          7  0.126 0.01800   1.411  0.205
@@ -549,5 +598,13 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
             Df Sum Sq Mean Sq F value  Pr(>F)   
 type         3 0.2177 0.07256   4.442 0.00639 **
 Residuals   72 1.1762 0.01634                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "ANOVA - 2(ses) x 4(stim)"
+             Df Sum Sq Mean Sq F value Pr(>F)  
+stim          1 0.0034 0.00340   0.414 0.5210  
+ses           1 0.0440 0.04398   5.353 0.0221 *
+stim:ses      1 0.0023 0.00228   0.277 0.5992  
+Residuals   148 1.2158 0.00821                 
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

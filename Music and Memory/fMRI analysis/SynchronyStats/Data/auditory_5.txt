@@ -525,6 +525,55 @@ sample estimates:
 mean of x mean of y 
 0.7041558 0.4009574 
 
+[1] "GroupA&B Unfamiliar 2 v familiar 2"
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UA2 and FmeansyncALL$FA2
+t = -0.18498, df = 35.044, p-value = 0.8543
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.2135866  0.1779123
+sample estimates:
+mean of x mean of y 
+0.3587869 0.3766241 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UI2 and FmeansyncALL$FI2
+t = 0.16027, df = 35.333, p-value = 0.8736
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.1464414  0.1715541
+sample estimates:
+mean of x mean of y 
+0.3264864 0.3139300 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$US2 and FmeansyncALL$FS2
+t = -0.5567, df = 35.535, p-value = 0.5812
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.3168581  0.1804198
+sample estimates:
+mean of x mean of y 
+0.4137721 0.4819912 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UW2 and FmeansyncALL$FW2
+t = 0.59659, df = 35.859, p-value = 0.5545
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.1362571  0.2498086
+sample estimates:
+mean of x mean of y 
+0.4009574 0.3441816 
+
 [1] "ANOVA - Familiar Stim (Ses1&2)"
              Df Sum Sq Mean Sq F value   Pr(>F)    
 type          7  3.672  0.5245   6.678 7.53e-07 ***
@@ -557,3 +606,11 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
             Df Sum Sq Mean Sq F value Pr(>F)
 type         3  0.091 0.03036   0.314  0.815
 Residuals   72  6.966 0.09676               
+[1] "ANOVA - 2(ses) x 4(stim)"
+             Df Sum Sq Mean Sq F value   Pr(>F)    
+stim          1  0.008  0.0081   0.107    0.744    
+ses           1  2.604  2.6036  34.534 2.67e-08 ***
+stim:ses      1  0.000  0.0001   0.002    0.968    
+Residuals   148 11.158  0.0754                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

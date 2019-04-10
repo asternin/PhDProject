@@ -525,6 +525,55 @@ sample estimates:
  mean of x  mean of y 
 0.05547236 0.04851256 
 
+[1] "GroupA&B Unfamiliar 2 v familiar 2"
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UA2 and FmeansyncALL$FA2
+t = 0.82522, df = 35.719, p-value = 0.4147
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.04481668  0.10628045
+sample estimates:
+ mean of x  mean of y 
+0.05808357 0.02735168 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UI2 and FmeansyncALL$FI2
+t = -0.1517, df = 33.199, p-value = 0.8803
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.09534172  0.08210733
+sample estimates:
+ mean of x  mean of y 
+0.02178522 0.02840242 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$US2 and FmeansyncALL$FS2
+t = -0.070817, df = 33.474, p-value = 0.944
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.07099766  0.06621891
+sample estimates:
+ mean of x  mean of y 
+0.05393324 0.05632261 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UW2 and FmeansyncALL$FW2
+t = 0.10844, df = 31.425, p-value = 0.9143
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.07936698  0.08828590
+sample estimates:
+ mean of x  mean of y 
+0.04851256 0.04405311 
+
 [1] "ANOVA - Familiar Stim (Ses1&2)"
              Df Sum Sq Mean Sq F value Pr(>F)
 type          7 0.1652 0.02360   1.679  0.119
@@ -555,3 +604,9 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
             Df Sum Sq  Mean Sq F value Pr(>F)
 type         3 0.0152 0.005072   0.334  0.801
 Residuals   72 1.0946 0.015203               
+[1] "ANOVA - 2(ses) x 4(stim)"
+             Df Sum Sq  Mean Sq F value Pr(>F)
+stim          1 0.0091 0.009136   1.160  0.283
+ses           1 0.0002 0.000214   0.027  0.869
+stim:ses      1 0.0003 0.000302   0.038  0.845
+Residuals   148 1.1655 0.007875               
