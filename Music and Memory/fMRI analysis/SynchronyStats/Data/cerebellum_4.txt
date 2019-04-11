@@ -523,6 +523,55 @@ sample estimates:
    mean of x    mean of y 
 -0.026144421  0.008793316 
 
+[1] "GroupA&B Unfamiliar 2 v familiar 2"
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UA2 and FmeansyncALL$FA2
+t = 0.37623, df = 33.329, p-value = 0.7091
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.06588754  0.09579825
+sample estimates:
+   mean of x    mean of y 
+ 0.010707333 -0.004248022 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UI2 and FmeansyncALL$FI2
+t = 0.64038, df = 35.541, p-value = 0.526
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.04513737  0.08676911
+sample estimates:
+  mean of x   mean of y 
+-0.02001101 -0.04082688 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$US2 and FmeansyncALL$FS2
+t = 0.050237, df = 35.78, p-value = 0.9602
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.07057841  0.07416295
+sample estimates:
+  mean of x   mean of y 
+-0.02122968 -0.02302195 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UW2 and FmeansyncALL$FW2
+t = -1.1079, df = 33.312, p-value = 0.2758
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.11462610  0.03378171
+sample estimates:
+  mean of x   mean of y 
+0.008793316 0.049215511 
+
 [1] "ANOVA - Familiar Stim (Ses1&2)"
              Df Sum Sq  Mean Sq F value Pr(>F)  
 type          7 0.1288 0.018401    1.85 0.0822 .
@@ -555,3 +604,10 @@ Residuals   72 0.7230 0.010042
 type         3 0.0173 0.00577   0.441  0.724
 Residuals   71 0.9287 0.01308               
 1 observation deleted due to missingness
+[1] "ANOVA - 2(ses) x 4(stim)"
+             Df Sum Sq  Mean Sq F value Pr(>F)
+stim          1 0.0042 0.004166   0.726  0.396
+ses           1 0.0140 0.014043   2.447  0.120
+stim:ses      1 0.0034 0.003387   0.590  0.444
+Residuals   146 0.8380 0.005740               
+2 observations deleted due to missingness

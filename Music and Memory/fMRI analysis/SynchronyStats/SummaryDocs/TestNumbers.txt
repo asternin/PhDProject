@@ -69,12 +69,23 @@
 [44] data:  UmeansyncALL$US1 and UmeansyncALL$US2
 [45] data:  UmeansyncALL$UW1 and UmeansyncALL$UW2
 
-[46] "ANOVA - Familiar Stim (Ses1&2)"
-[47] "ANOVA - Unfamiliar Stim (Ses1&2)"
+"GroupA&B Unfamiliar 2 v familiar 2"
 
-[48] "ANOVA - Familiar Stim (Ses1)"
-[49] "ANOVA - Familiar Stim (Ses2)"
+[46] data:  UmeansyncALL$UA2 and FmeansyncALL$FA2
+[47] data:  UmeansyncALL$UI2 and FmeansyncALL$FI2
+[48] data:  UmeansyncALL$US2 and FmeansyncALL$FS2
+[49] data:  UmeansyncALL$UW2 and FmeansyncALL$FW2
 
-[50] "ANOVA - Unfamiliar Stim (Ses1)"
-[51] "ANOVA - Unfamiliar Stim (Ses2)"
-[45] data:  UmeansyncALL$UW1 and UmeansyncALL$UW2
+[50] "ANOVA - Familiar Stim (Ses1&2)"
+[51] "ANOVA - Unfamiliar Stim (Ses1&2)"
+
+[52] "ANOVA - Familiar Stim (Ses1)"
+[53] "ANOVA - Familiar Stim (Ses2)"
+
+[54] "ANOVA - Unfamiliar Stim (Ses1)"
+[55] "ANOVA - Unfamiliar Stim (Ses2)"
+
+"ANOVA - 2(ses) x 4(stim)"
+[56]  STIM
+[57]  SES
+[58]  STIM:SES

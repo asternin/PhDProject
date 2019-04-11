@@ -523,6 +523,55 @@ sample estimates:
   mean of x   mean of y 
 0.046655474 0.006016322 
 
+[1] "GroupA&B Unfamiliar 2 v familiar 2"
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UA2 and FmeansyncALL$FA2
+t = -0.98547, df = 33.331, p-value = 0.3315
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.12868570  0.04467986
+sample estimates:
+ mean of x  mean of y 
+0.01908269 0.06108561 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UI2 and FmeansyncALL$FI2
+t = 0.095557, df = 33.674, p-value = 0.9244
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.06951083  0.07636762
+sample estimates:
+mean of x mean of y 
+0.0114794 0.0080510 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$US2 and FmeansyncALL$FS2
+t = -2.4845, df = 32.66, p-value = 0.01828
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.17247281 -0.01714029
+sample estimates:
+  mean of x   mean of y 
+-0.03118981  0.06361674 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UW2 and FmeansyncALL$FW2
+t = -1.0082, df = 32.398, p-value = 0.3208
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.1382557  0.0466775
+sample estimates:
+  mean of x   mean of y 
+0.006016322 0.051805444 
+
 [1] "ANOVA - Familiar Stim (Ses1&2)"
              Df Sum Sq Mean Sq F value Pr(>F)
 type          7 0.1059 0.01513   1.081  0.379
@@ -550,4 +599,11 @@ Residuals   72 1.1105 0.01542
             Df Sum Sq  Mean Sq F value Pr(>F)
 type         3 0.0259 0.008628   0.652  0.584
 Residuals   67 0.8862 0.013227               
+5 observations deleted due to missingness
+[1] "ANOVA - 2(ses) x 4(stim)"
+             Df Sum Sq  Mean Sq F value Pr(>F)
+stim          1 0.0032 0.003156   0.422  0.517
+ses           1 0.0034 0.003439   0.460  0.499
+stim:ses      1 0.0193 0.019302   2.582  0.110
+Residuals   143 1.0692 0.007477               
 5 observations deleted due to missingness

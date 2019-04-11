@@ -525,6 +525,55 @@ sample estimates:
   mean of x   mean of y 
  0.16159037 -0.02699926 
 
+[1] "GroupA&B Unfamiliar 2 v familiar 2"
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UA2 and FmeansyncALL$FA2
+t = -0.90793, df = 35.934, p-value = 0.37
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.13800692  0.05265677
+sample estimates:
+   mean of x    mean of y 
+-0.001395989  0.041279084 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UI2 and FmeansyncALL$FI2
+t = 1.0041, df = 32.095, p-value = 0.3228
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.05120568  0.15079811
+sample estimates:
+  mean of x   mean of y 
+0.055280105 0.005483895 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$US2 and FmeansyncALL$FS2
+t = 1.576, df = 34.761, p-value = 0.1241
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.0198371  0.1573891
+sample estimates:
+    mean of x     mean of y 
+ 0.0681060526 -0.0006699421 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UW2 and FmeansyncALL$FW2
+t = -2.0124, df = 33.53, p-value = 0.05226
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.1731634754  0.0008922333
+sample estimates:
+  mean of x   mean of y 
+-0.02699926  0.05913636 
+
 [1] "ANOVA - Familiar Stim (Ses1&2)"
              Df Sum Sq Mean Sq F value Pr(>F)  
 type          7 0.2877 0.04110   1.893 0.0747 .
@@ -557,3 +606,11 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
             Df Sum Sq Mean Sq F value Pr(>F)
 type         3 0.1172 0.03907    1.98  0.125
 Residuals   72 1.4208 0.01973               
+[1] "ANOVA - 2(ses) x 4(stim)"
+             Df Sum Sq Mean Sq F value  Pr(>F)   
+stim          1 0.0890 0.08901   9.123 0.00297 **
+ses           1 0.0334 0.03343   3.426 0.06615 . 
+stim:ses      1 0.0369 0.03692   3.785 0.05362 . 
+Residuals   148 1.4439 0.00976                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

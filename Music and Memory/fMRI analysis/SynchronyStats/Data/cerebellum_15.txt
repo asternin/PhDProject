@@ -523,6 +523,55 @@ sample estimates:
  mean of x  mean of y 
 0.10366085 0.05071543 
 
+[1] "GroupA&B Unfamiliar 2 v familiar 2"
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UA2 and FmeansyncALL$FA2
+t = -0.36873, df = 33.633, p-value = 0.7146
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.09681091  0.06708583
+sample estimates:
+ mean of x  mean of y 
+0.03216761 0.04703014 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UI2 and FmeansyncALL$FI2
+t = -1.5914, df = 35.888, p-value = 0.1203
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.15895104  0.01918378
+sample estimates:
+  mean of x   mean of y 
+-0.01548437  0.05439926 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$US2 and FmeansyncALL$FS2
+t = 1.4618, df = 33.918, p-value = 0.153
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.02501093  0.15314007
+sample estimates:
+ mean of x  mean of y 
+0.07711320 0.01304863 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UW2 and FmeansyncALL$FW2
+t = -0.44282, df = 31.956, p-value = 0.6609
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.10496851  0.06748065
+sample estimates:
+ mean of x  mean of y 
+0.05071543 0.06945936 
+
 [1] "ANOVA - Familiar Stim (Ses1&2)"
              Df Sum Sq Mean Sq F value Pr(>F)
 type          7 0.0919 0.01313     0.8  0.588
@@ -554,4 +603,11 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
             Df Sum Sq Mean Sq F value Pr(>F)
 type         3 0.0849 0.02831   1.865  0.144
 Residuals   69 1.0471 0.01517               
+3 observations deleted due to missingness
+[1] "ANOVA - 2(ses) x 4(stim)"
+             Df Sum Sq  Mean Sq F value Pr(>F)
+stim          1 0.0205 0.020519   2.490  0.117
+ses           1 0.0163 0.016335   1.982  0.161
+stim:ses      1 0.0019 0.001898   0.230  0.632
+Residuals   145 1.1951 0.008242               
 3 observations deleted due to missingness

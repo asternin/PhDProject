@@ -527,6 +527,55 @@ sample estimates:
   mean of x   mean of y 
 0.001761663 0.058720063 
 
+[1] "GroupA&B Unfamiliar 2 v familiar 2"
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UA2 and FmeansyncALL$FA2
+t = -0.32778, df = 29.955, p-value = 0.7454
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.09328397  0.06748279
+sample estimates:
+ mean of x  mean of y 
+0.01699129 0.02989188 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UI2 and FmeansyncALL$FI2
+t = 0.38856, df = 30.319, p-value = 0.7003
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.05646965  0.08302098
+sample estimates:
+  mean of x   mean of y 
+-0.01946543 -0.03274110 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$US2 and FmeansyncALL$FS2
+t = -2.917, df = 32.762, p-value = 0.006337
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.20307734 -0.03616507
+sample estimates:
+  mean of x   mean of y 
+0.004564706 0.124185911 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UW2 and FmeansyncALL$FW2
+t = -0.72595, df = 30.785, p-value = 0.4734
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.1076839  0.0511606
+sample estimates:
+ mean of x  mean of y 
+0.05872006 0.08698170 
+
 [1] "ANOVA - Familiar Stim (Ses1&2)"
              Df Sum Sq Mean Sq F value  Pr(>F)   
 type          7 0.2945 0.04206   3.063 0.00497 **
@@ -559,3 +608,12 @@ Residuals   72 0.8557 0.01188
 type         3 0.0538 0.01794    1.36  0.263
 Residuals   64 0.8443 0.01319               
 8 observations deleted due to missingness
+[1] "ANOVA - 2(ses) x 4(stim)"
+             Df Sum Sq  Mean Sq F value Pr(>F)  
+stim          1 0.0194 0.019417   2.786 0.0974 .
+ses           1 0.0061 0.006149   0.882 0.3492  
+stim:ses      1 0.0101 0.010066   1.444 0.2315  
+Residuals   139 0.9689 0.006970                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+9 observations deleted due to missingness

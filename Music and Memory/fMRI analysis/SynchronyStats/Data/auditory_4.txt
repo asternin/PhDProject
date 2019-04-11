@@ -521,6 +521,55 @@ sample estimates:
 mean of x mean of y 
 0.3757694 0.2145612 
 
+[1] "GroupA&B Unfamiliar 2 v familiar 2"
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UA2 and FmeansyncALL$FA2
+t = -0.35799, df = 35.296, p-value = 0.7225
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.1555164  0.1088787
+sample estimates:
+mean of x mean of y 
+0.2056371 0.2289560 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UI2 and FmeansyncALL$FI2
+t = 0.20087, df = 35.083, p-value = 0.842
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.08539179  0.10414779
+sample estimates:
+mean of x mean of y 
+0.1767782 0.1674002 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$US2 and FmeansyncALL$FS2
+t = 0.29174, df = 35.911, p-value = 0.7722
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.1373113  0.1834487
+sample estimates:
+mean of x mean of y 
+0.2246597 0.2015911 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UW2 and FmeansyncALL$FW2
+t = -0.037009, df = 33.391, p-value = 0.9707
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.1138548  0.1097848
+sample estimates:
+mean of x mean of y 
+0.2145612 0.2165962 
+
 [1] "ANOVA - Familiar Stim (Ses1&2)"
              Df Sum Sq Mean Sq F value  Pr(>F)   
 type          7  0.951 0.13581   3.652 0.00117 **
@@ -549,3 +598,11 @@ Residuals   72 3.1067 0.04315
             Df Sum Sq Mean Sq F value Pr(>F)
 type         3 0.0242 0.00807   0.198  0.898
 Residuals   72 2.9383 0.04081               
+[1] "ANOVA - 2(ses) x 4(stim)"
+             Df Sum Sq Mean Sq F value   Pr(>F)    
+stim          1  0.001  0.0006   0.021    0.885    
+ses           1  0.714  0.7145  23.802 2.73e-06 ***
+stim:ses      1  0.000  0.0001   0.003    0.956    
+Residuals   148  4.443  0.0300                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

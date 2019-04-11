@@ -523,6 +523,55 @@ sample estimates:
   mean of x   mean of y 
  0.01483268 -0.01763878 
 
+[1] "GroupA&B Unfamiliar 2 v familiar 2"
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UA2 and FmeansyncALL$FA2
+t = 0.84497, df = 29.367, p-value = 0.405
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.03434362  0.08274393
+sample estimates:
+  mean of x   mean of y 
+-0.01013050 -0.03433066 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UI2 and FmeansyncALL$FI2
+t = 0.45559, df = 33.662, p-value = 0.6516
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.05459471  0.08613088
+sample estimates:
+   mean of x    mean of y 
+ 0.002675417 -0.013092667 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$US2 and FmeansyncALL$FS2
+t = -2.0942, df = 29.513, p-value = 0.04494
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.12282206 -0.00149857
+sample estimates:
+  mean of x   mean of y 
+-0.06115032  0.00101000 
+
+
+	Welch Two Sample t-test
+
+data:  UmeansyncALL$UW2 and FmeansyncALL$FW2
+t = 0.72718, df = 33.938, p-value = 0.4721
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.05696686  0.12044373
+sample estimates:
+  mean of x   mean of y 
+-0.01763878 -0.04937722 
+
 [1] "ANOVA - Familiar Stim (Ses1&2)"
              Df Sum Sq  Mean Sq F value Pr(>F)
 type          7  0.060 0.008574   0.913  0.498
@@ -550,4 +599,13 @@ Residuals   72 0.6492 0.009017
             Df Sum Sq Mean Sq F value Pr(>F)
 type         3 0.0414 0.01380   1.292  0.284
 Residuals   68 0.7265 0.01068               
+4 observations deleted due to missingness
+[1] "ANOVA - 2(ses) x 4(stim)"
+             Df Sum Sq  Mean Sq F value Pr(>F)  
+stim          1 0.0007 0.000728   0.183  0.670  
+ses           1 0.0258 0.025790   6.468  0.012 *
+stim:ses      1 0.0034 0.003417   0.857  0.356  
+Residuals   144 0.5742 0.003987                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 4 observations deleted due to missingness

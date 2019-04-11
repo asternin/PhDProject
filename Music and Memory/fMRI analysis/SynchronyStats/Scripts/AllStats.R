@@ -2,10 +2,12 @@ library(tidyverse)
 library(ggplot2)
 library(plyr)
 
-fullfiles<-list.files(path = "/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data",
-                  pattern="*.csv",full.names = TRUE)
-files<-list.files(path = "/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data",
-                      pattern="*.csv",full.names = FALSE)
+fullfiles<-grep(list.files(path = "/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data",
+                  pattern="*.csv", full.names = TRUE), pattern='pval',inv=T, value=T)
+#files<-list.files(path = "/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data",
+#                      pattern="*.csv",full.names = FALSE)
+files<-grep(list.files(path="/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data", 
+                  pattern="*.csv", full.names = FALSE), pattern='pval', inv=T, value=T)
 
 #fullfiles<-list.files(path = "Data",
 #                  pattern="*.csv",full.names = TRUE)
@@ -256,6 +258,16 @@ for(f in 1:length(fullfiles)){
   t<-(print(t.test(UmeansyncALL$UW1,UmeansyncALL$UW2)))
   pval<-c(pval,t$p.value)
   
+  print('GroupA&B Unfamiliar 2 v familiar 2')
+  t<-(print(t.test(UmeansyncALL$UA2,FmeansyncALL$FA2)))
+  pval<-c(pval,t$p.value)
+  t<-(print(t.test(UmeansyncALL$UI2,FmeansyncALL$FI2)))
+  pval<-c(pval,t$p.value)
+  t<-(print(t.test(UmeansyncALL$US2,FmeansyncALL$FS2)))
+  pval<-c(pval,t$p.value)
+  t<-(print(t.test(UmeansyncALL$UW2,FmeansyncALL$FW2)))
+  pval<-c(pval,t$p.value)
+  
   print("ANOVA - Familiar Stim (Ses1&2)")
   FmeansyncALL<-FmeansyncALL %>% gather(type, corr) #rearrange data
   fit<-aov(corr~type,data=FmeansyncALL) 
@@ -296,6 +308,22 @@ for(f in 1:length(fullfiles)){
   fit<-aov(corr~type,data=Umeansync2) 
   print(summary(fit))
   a=summary(fit)[[1]][["Pr(>F)"]][[1]]
+  pval<-c(pval,a)
+  
+  #SET UP 2x4 ANOVA
+  print("ANOVA - 2(ses) x 4(stim)")
+  l=dim(meansync2)[1]
+  ses<-c(rep(1,l),rep(2,l))
+  stim<-c(rep(1,l/4),rep(2,l/4),rep(3,l/4),rep(4,l/4),rep(1,l/4),rep(2,l/4),rep(3,l/4),rep(4,l/4))
+  meansync$ses<-ses
+  meansync$stim<-stim
+  fit<-aov(corr~stim + ses +stim:ses,data=meansync) 
+  print(summary(fit))
+  a=summary(fit)[[1]][["Pr(>F)"]][[1]]
+  pval<-c(pval,a)
+  a=summary(fit)[[1]][["Pr(>F)"]][[2]]
+  pval<-c(pval,a)
+  a=summary(fit)[[1]][["Pr(>F)"]][[3]]
   pval<-c(pval,a)
   
   
