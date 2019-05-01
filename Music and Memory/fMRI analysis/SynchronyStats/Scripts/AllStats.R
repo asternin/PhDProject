@@ -5,14 +5,20 @@ library(plyr)
 #fullfiles<-list.files(path = "Data", pattern="*.csv",full.names = TRUE)
 #files<-list.files(path = "Data", pattern="*.csv",full.names = FALSE)
 
+#fullfiles<-list.files(path = "Data", pattern="*_L_",full.names = TRUE)
+#files<-list.files(path = "Data", pattern="_L_",full.names = FALSE)
+
+#WINDOWS
 #fullfiles<-grep(list.files(path = "/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data",
 #                  pattern="*.csv", full.names = TRUE), pattern='pval',inv=T, value=T)
 #files<-grep(list.files(path="/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data", 
 #                  pattern="*.csv", full.names = FALSE), pattern='pval', inv=T, value=T)
 
-
-fullfiles<-list.files(path = "Data", pattern="*_L_",full.names = TRUE)
-files<-list.files(path = "Data", pattern="_L_",full.names = FALSE)
+#MAC
+fullfiles<-grep(list.files(path = "/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/fMRI analysis/SynchronyStats/Data",
+                  pattern="*.csv", full.names = TRUE), pattern='pval',inv=T, value=T)
+files<-grep(list.files(path="/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/fMRI analysis/SynchronyStats/Data", 
+                  pattern="*.csv", full.names = FALSE), pattern='pval', inv=T, value=T)
 
 for(f in 1:length(fullfiles)){
   pval<-c()
@@ -317,7 +323,8 @@ for(f in 1:length(fullfiles)){
   stim<-c(rep(1,l/4),rep(2,l/4),rep(3,l/4),rep(4,l/4),rep(1,l/4),rep(2,l/4),rep(3,l/4),rep(4,l/4))
   meansync$ses<-ses
   meansync$stim<-stim
-  fit<-aov(corr~stim + ses +stim:ses,data=meansync) 
+  #fit<-aov(corr~stim + ses +stim:ses,data=meansync) 
+  fit<-aov(corr~stim*ses,data=meansync) 
   print(summary(fit))
   a=summary(fit)[[1]][["Pr(>F)"]][[1]]
   pval<-c(pval,a)
@@ -326,6 +333,10 @@ for(f in 1:length(fullfiles)){
   a=summary(fit)[[1]][["Pr(>F)"]][[3]]
   pval<-c(pval,a)
   
+  # table of means
+  with(meansync, tapply(corr,list(ses,stim),mean))
+  # plot means
+  with(meansync, interaction.plot(ses,stim,corr,col=1:4,lty=1))
   
   #print('Plot group A & B Familiar')
   #FmeansyncALL<-FmeansyncALL %>% gather(type, corr) #rearrange data
@@ -348,3 +359,4 @@ for(f in 1:length(fullfiles)){
   sink()
   write.csv(pval,file=sprintf("/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data/%s_pval.csv",str_replace(files[f],".csv","")))
 }
+

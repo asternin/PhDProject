@@ -605,7 +605,8 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 [1] "ANOVA - Unfamiliar Stim (Ses2)"
             Df Sum Sq Mean Sq F value Pr(>F)
 type         3 0.0535 0.01783   0.987  0.404
-Residuals   72 1.3000 0.01806               
+Residuals   72 1.3000 0.01806       
+        
 [1] "ANOVA - 2(ses) x 4(stim)"
              Df Sum Sq Mean Sq F value Pr(>F)  
 stim          1 0.0418 0.04175   3.615 0.0592 .
