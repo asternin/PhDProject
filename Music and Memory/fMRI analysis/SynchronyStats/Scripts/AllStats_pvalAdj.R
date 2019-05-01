@@ -8,6 +8,7 @@ fullfiles<-list.files(path = "/Users/asternin/Documents/PhDProject/Music and Mem
 files<-list.files(path = "/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data",
                   pattern="*_pval.csv",full.names = FALSE)
 
+
 for(f in 1:length(fullfiles)){
   data<-read.csv(fullfiles[f], header=TRUE) #load data
   data<-rename(data,c("X"="test", "x"="pval"))

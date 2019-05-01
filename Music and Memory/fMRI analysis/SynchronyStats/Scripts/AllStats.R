@@ -2,17 +2,17 @@ library(tidyverse)
 library(ggplot2)
 library(plyr)
 
-fullfiles<-grep(list.files(path = "/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data",
-                  pattern="*.csv", full.names = TRUE), pattern='pval',inv=T, value=T)
-#files<-list.files(path = "/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data",
-#                      pattern="*.csv",full.names = FALSE)
-files<-grep(list.files(path="/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data", 
-                  pattern="*.csv", full.names = FALSE), pattern='pval', inv=T, value=T)
+#fullfiles<-list.files(path = "Data", pattern="*.csv",full.names = TRUE)
+#files<-list.files(path = "Data", pattern="*.csv",full.names = FALSE)
 
-#fullfiles<-list.files(path = "Data",
-#                  pattern="*.csv",full.names = TRUE)
-#files<-list.files(path = "Data",
-#                      pattern="*.csv",full.names = FALSE)
+#fullfiles<-grep(list.files(path = "/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data",
+#                  pattern="*.csv", full.names = TRUE), pattern='pval',inv=T, value=T)
+#files<-grep(list.files(path="/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data", 
+#                  pattern="*.csv", full.names = FALSE), pattern='pval', inv=T, value=T)
+
+
+fullfiles<-list.files(path = "Data", pattern="*_L_",full.names = TRUE)
+files<-list.files(path = "Data", pattern="_L_",full.names = FALSE)
 
 for(f in 1:length(fullfiles)){
   pval<-c()
