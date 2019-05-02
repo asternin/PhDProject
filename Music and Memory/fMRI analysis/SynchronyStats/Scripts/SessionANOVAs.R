@@ -10,16 +10,16 @@ library(gridExtra)
 #files<-list.files(path = "Data", pattern="_L_",full.names = FALSE)
 
 #WINDOWS
-#fullfiles<-grep(list.files(path = "/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data",
-#                  pattern="*.csv", full.names = TRUE), pattern='pval',inv=T, value=T)
-#files<-grep(list.files(path="/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data", 
-#                  pattern="*.csv", full.names = FALSE), pattern='pval', inv=T, value=T)
+fullfiles<-grep(list.files(path = "/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data",
+                  pattern="*.csv", full.names = TRUE), pattern='pval',inv=T, value=T)
+files<-grep(list.files(path="/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data", 
+                  pattern="*.csv", full.names = FALSE), pattern='pval', inv=T, value=T)
 
 #MAC
-fullfiles<-grep(list.files(path = "/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/fMRI analysis/SynchronyStats/Data",
-                           pattern="*.csv", full.names = TRUE), pattern='pval',inv=T, value=T)
-files<-grep(list.files(path="/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/fMRI analysis/SynchronyStats/Data", 
-                       pattern="*.csv", full.names = FALSE), pattern='pval', inv=T, value=T)
+#fullfiles<-grep(list.files(path = "/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/fMRI analysis/SynchronyStats/Data",
+#                           pattern="*.csv", full.names = TRUE), pattern='pval',inv=T, value=T)
+#files<-grep(list.files(path="/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/fMRI analysis/SynchronyStats/Data", 
+#                       pattern="*.csv", full.names = FALSE), pattern='pval', inv=T, value=T)
 f<- 66 #frontal_L_4 IFG opercularis
 
 data<-read.csv(fullfiles[f], header=FALSE) #load data
@@ -57,23 +57,41 @@ stim<-c(rep(1,l/4),rep(2,l/4),rep(3,l/4),rep(4,l/4),rep(1,l/4),rep(2,l/4),rep(3,
 
 ## Stats
 
+#2x4 ANOVA
+print("ANOVA - 2(ses) x 4(stim)")
+meansync<-data.frame(A1,I1,S1,W1,A2,I2,S2,W2)
+meansync<-meansync %>% gather(type, corr) #rearrange data
+meansync$ses<-ses
+meansync$stim<-stim
+fit1<-aov(corr~stim + ses +stim:ses,data=meansync) 
+print(summary(fit1))
+#plot
+with(meansync, interaction.plot(ses,stim,corr,col=1:4,lty=1,main="main effect of session"))
+
+p<-ggplot(meansync) +
+  aes(x=type,y=corr) +
+  geom_boxplot(color=c("red","blue","green","black","red","blue","green","black")) +
+  geom_hline(yintercept=0,size=1)+
+  facet_wrap(~ses)
+plot(p)
+
 print("Session 1 ANOVA")
 meansync1<-data.frame(A1,I1,S1,W1)
 meansync1<-meansync1 %>% gather(type, corr) #rearrange data
-fit<-aov(corr~type,data=meansync1) 
-print(summary(fit))
+fit2<-aov(corr~type,data=meansync1) 
+print(summary(fit2))
 
 print("Session 2 ANOVA")
 meansync2<-data.frame(A2,I2,S2,W2)
 meansync2<-meansync2 %>% gather(type, corr) #rearrange data
-fit<-aov(corr~type,data=meansync2) 
-print(summary(fit))
+fit3<-aov(corr~type,data=meansync2) 
+print(summary(fit3))
 
 print("Session 1&2 ANOVA - TYPE 1 - DATA AVERAGED FIRST")
 meansyncALL<-data.frame(A,I,S,W) 
 meansyncALL<-meansyncALL %>% gather(type, corr) #rearrange data
-fit<-aov(corr~type,data=meansyncALL) 
-print(summary(fit))
+fit4<-aov(corr~type,data=meansyncALL) 
+print(summary(fit4))
 p1<-ggplot(meansyncALL) + aes(x=type,y=corr) + geom_boxplot() + 
   ylim(-0.3,0.3) + ggtitle('Data Averaged First - sig')
 
@@ -86,24 +104,15 @@ print(summary(fit))
 p2<-ggplot(meansyncALL2) + aes(x=as.factor(stim),y=corr) + geom_boxplot() + 
   ylim(-0.3,0.3) + ggtitle('Data NOT Averaged First - not sig')
 
-#2x4 ANOVA
-print("ANOVA - 2(ses) x 4(stim)")
-meansync<-data.frame(A1,I1,S1,W1,A2,I2,S2,W2)
-meansync<-meansync %>% gather(type, corr) #rearrange data
-meansync$ses<-ses
-meansync$stim<-stim
-fit<-aov(corr~stim + ses +stim:ses,data=meansync) 
-print(summary(fit))
-
 # plot means
 grid.arrange(p1, p2, nrow = 1)
-with(meansync, interaction.plot(ses,stim,corr,col=1:4,lty=1,main="main effect of session"))
+
 
 
 
 # 2x4 ANOVA with LyrOr Covariate
-#LyrOrdata<-readr::read_csv("/Users/asternin/Documents/PhDProject/Music and Memory/BehaviouralResults/LyrOrScores.csv")
-LyrOrdata<-readr::read_csv("/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/BehaviouralResults/LyrOrScores.csv")
+LyrOrdata<-readr::read_csv("/Users/asternin/Documents/PhDProject/Music and Memory/BehaviouralResults/LyrOrScores.csv")
+#LyrOrdata<-readr::read_csv("/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/BehaviouralResults/LyrOrScores.csv")
 meansync$lyror<-LyrOrdata$LyrOr
 mod.full <- lm(corr~lyror + stim*ses, data=meansync)
 mod.rest <- lm(corr~lyror ,data=meansync)
