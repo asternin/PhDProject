@@ -338,6 +338,17 @@ for(f in 1:length(fullfiles)){
   # plot means
   with(meansync, interaction.plot(ses,stim,corr,col=1:4,lty=1))
   
+  # 2x4 ANOVA with LyrOr Covariate
+  #LyrOrdata<-readr::read_csv("/Users/asternin/Documents/PhDProject/Music and Memory/BehaviouralResults/LyrOrScores.csv")
+  LyrOrdata<-readr::read_csv("/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/BehaviouralResults/LyrOrScores.csv")
+  meansync$lyror<-LyrOrdata$LyrOr
+  mod.full <- lm(corr~lyror + stim*ses, data=meansync)
+  mod.rest <- lm(corr~lyror ,data=meansync)
+  a2 <- anova(mod.full, mod.rest)
+  print(a2)
+  a3 <- anova(mod.full)
+  print(a3)
+  
   #print('Plot group A & B Familiar')
   #FmeansyncALL<-FmeansyncALL %>% gather(type, corr) #rearrange data
   #p<-ggplot(FmeansyncALL) +
