@@ -1,0 +1,39 @@
+[1] "ANOVA - 2(ses) x 4(stim)"
+             Df Sum Sq  Mean Sq F value Pr(>F)
+stim          1 0.0087 0.008740   1.008  0.317
+ses           1 0.0001 0.000073   0.008  0.927
+stim:ses      1 0.0033 0.003276   0.378  0.540
+Residuals   148 1.2837 0.008674               
+[1] "Session 1 ANOVA"
+            Df Sum Sq Mean Sq F value  Pr(>F)   
+type         3 0.1260 0.04198    5.52 0.00181 **
+Residuals   72 0.5477 0.00761                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "Session 2 ANOVA"
+            Df Sum Sq  Mean Sq F value Pr(>F)
+type         3 0.0014 0.000452   0.052  0.984
+Residuals   72 0.6208 0.008622               
+[1] "Session 1&2 ANOVA - TYPE 1 - DATA AVERAGED FIRST"
+            Df  Sum Sq  Mean Sq F value Pr(>F)  
+type         3 0.03759 0.012531   2.939 0.0389 *
+Residuals   72 0.30701 0.004264                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "2x4 ANOVA with Lyric Orientation covariate"
+Analysis of Variance Table
+
+Model 1: corr ~ lyror + stim * ses
+Model 2: corr ~ lyror
+  Res.Df    RSS Df Sum of Sq      F Pr(>F)
+1    147 1.2836                           
+2    150 1.2957 -3 -0.012088 0.4615 0.7096
+Analysis of Variance Table
+
+Response: corr
+           Df  Sum Sq   Mean Sq F value Pr(>F)
+lyror       1 0.00014 0.0001424  0.0163 0.8985
+stim        1 0.00874 0.0087397  1.0009 0.3187
+ses         1 0.00007 0.0000730  0.0084 0.9273
+stim:ses    1 0.00328 0.0032757  0.3751 0.5412
+Residuals 147 1.28359 0.0087319               
