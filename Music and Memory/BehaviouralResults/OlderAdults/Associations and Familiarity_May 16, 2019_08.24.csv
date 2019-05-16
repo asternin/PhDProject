@@ -1,0 +1,272 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,Q28,Q2,Q63,Q5,Q11,Q64,Q12,Q17,Q65,Q18,Q26,Q66,Q27,Q30,Q67,Q31,Q33,Q68,Q34,Q39,Q69,Q40,Q42,Q70,Q43,Q54,Q79,Q71,Q55,Q57,Q80,Q72,Q58,Q60,Q75,Q61,Q63,Q76,Q64,Q51,Q77,Q52,Q45,Q78,Q46
+Start Date,End Date,Response Type,IP Address,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Location Latitude,Location Longitude,Distribution Channel,User Language,Participant ID:,How familiar are you with this song?,How much did you like listening to this song?,"Please describe what this stimulus makes you think about or reminds you of. You may have associations to things such as past events, other songs, emotions, people, etc. 
+You may list your associations in point form, but please be as descriptive as possible.",How familiar are you with this song?,How much did you like listening to this song?,"Please describe what this stimulus makes you think about or reminds you of. You may have associations to things such as past events, other songs, emotions, people, etc. 
+You may list your associations in point form, but please be as descriptive as possible.",How familiar are you with this song?,How much did you like listening to this song?,"Please describe what this stimulus makes you think about or reminds you of. You may have associations to things such as past events, other songs, emotions, people, etc. 
+You may list your associations in point form, but please be as descriptive as possible.",How familiar are you with this song?,How much did you like listening to this song?,"Please describe what this stimulus makes you think about or reminds you of. You may have associations to things such as past events, other songs, emotions, people, etc. 
+You may list your associations in point form, but please be as descriptive as possible.",How familiar are you with this song?,How much did you like listening to this song?,"Please describe what this stimulus makes you think about or reminds you of. You may have associations to things such as past events, other songs, emotions, people, etc. 
+You may list your associations in point form, but please be as descriptive as possible.",How familiar are you with this song?,How much did you like listening to this song?,"Please describe what this stimulus makes you think about or reminds you of. You may have associations to things such as past events, other songs, emotions, people, etc. 
+You may list your associations in point form, but please be as descriptive as possible.",How familiar are you with this song?,How much did you like listening to this song?,"Please describe what this stimulus makes you think about or reminds you of. You may have associations to things such as past events, other songs, emotions, people, etc. 
+You may list your associations in point form, but please be as descriptive as possible.",How familiar are you with this song?,How much did you like listening to this song?,"Please describe what this stimulus makes you think about or reminds you of. You may have associations to things such as past events, other songs, emotions, people, etc. 
+You may list your associations in point form, but please be as descriptive as possible.",How familiar are you with this song?,"If you are familiar with this song, at what age did you first hear this song? (approximately)",How much did you like listening to this song?,"Please describe what this stimulus makes you think about or reminds you of. You may have associations to things such as past events, other songs, emotions, people, etc. 
+You may list your associations in point form, but please be as descriptive as possible.",How familiar are you with this spoken audio stimulus?,"If you are familiar with this stimulus, at what age did you first hear it? (approximately)",How much did you like listening to this spoken audio stimulus?,"Please describe what this stimulus makes you think about or reminds you of. You may have associations to things such as past events, other songs, emotions, people, etc. 
+You may list your associations in point form, but please be as descriptive as possible.",How familiar are you with this spoken audio stimulus?,How much did you like listening to this spoken audio stimulus?,"Please describe what this stimulus makes you think about or reminds you of. You may have associations to things such as past events, other songs, emotions, people, etc. 
+You may list your associations in point form, but please be as descriptive as possible.",How familiar are you with this spoken audio stimulus?,How much did you like listening to this spoken audio stimulus?,"Please describe what this stimulus makes you think about or reminds you of. You may have associations to things such as past events, other songs, emotions, people, etc. 
+You may list your associations in point form, but please be as descriptive as possible.",How familiar are you with this spoken audio stimulus?,How much did you like listening to this spoken audio stimulus?,"Please describe what this stimulus makes you think about or reminds you of. You may have associations to things such as past events, other songs, emotions, people, etc. 
+You may list your associations in point form, but please be as descriptive as possible.",How familiar are you with this spoken audio stimulus?,How much did you like listening to this spoken audio stimulus?,"Please describe what this stimulus makes you think about or reminds you of. You may have associations to things such as past events, other songs, emotions, people, etc. 
+You may list your associations in point form, but please be as descriptive as possible."
+"{""ImportId"":""startDate"",""timeZone"":""America/Denver""}","{""ImportId"":""endDate"",""timeZone"":""America/Denver""}","{""ImportId"":""status""}","{""ImportId"":""ipAddress""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""locationLatitude""}","{""ImportId"":""locationLongitude""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID28_TEXT""}","{""ImportId"":""QID2""}","{""ImportId"":""QID63""}","{""ImportId"":""QID5_TEXT""}","{""ImportId"":""QID11""}","{""ImportId"":""QID64""}","{""ImportId"":""QID12_TEXT""}","{""ImportId"":""QID17""}","{""ImportId"":""QID65""}","{""ImportId"":""QID18_TEXT""}","{""ImportId"":""QID26""}","{""ImportId"":""QID66""}","{""ImportId"":""QID27_TEXT""}","{""ImportId"":""QID30""}","{""ImportId"":""QID67""}","{""ImportId"":""QID31_TEXT""}","{""ImportId"":""QID33""}","{""ImportId"":""QID68""}","{""ImportId"":""QID34_TEXT""}","{""ImportId"":""QID39""}","{""ImportId"":""QID69""}","{""ImportId"":""QID40_TEXT""}","{""ImportId"":""QID42""}","{""ImportId"":""QID70""}","{""ImportId"":""QID43_TEXT""}","{""ImportId"":""QID54""}","{""ImportId"":""QID79_TEXT""}","{""ImportId"":""QID71""}","{""ImportId"":""QID55_TEXT""}","{""ImportId"":""QID57""}","{""ImportId"":""QID80_TEXT""}","{""ImportId"":""QID72""}","{""ImportId"":""QID58_TEXT""}","{""ImportId"":""QID59""}","{""ImportId"":""QID75""}","{""ImportId"":""QID60_TEXT""}","{""ImportId"":""QID61""}","{""ImportId"":""QID76""}","{""ImportId"":""QID62_TEXT""}","{""ImportId"":""QID51""}","{""ImportId"":""QID77""}","{""ImportId"":""QID52_TEXT""}","{""ImportId"":""QID45""}","{""ImportId"":""QID78""}","{""ImportId"":""QID46_TEXT""}"
+2019-02-19 10:47:08,2019-02-19 10:48:29,Survey Preview,,100,80,True,2019-02-19 10:48:30,R_2PikeC3sfUXNfzJ,,,,,43.0146942138671875,-81.304901123046875,preview,EN,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-03-07 06:35:15,2019-03-07 07:04:21,IP Address,129.100.255.18,100,1745,True,2019-03-07 07:04:25,R_ufEEnO360etaDFn,,,,,43.0146942138671875,-81.304901123046875,anonymous,EN,201,Not familiar at all (I have never heard it before),I liked it a little,"It reminds of Arlo Guthrie music.  His songs always had such meaning.  It is important to listen to the lyrics as they tell a story.  It may not be related to your story, but it is somebody's story of their life or their memories.",Not familiar at all (I have never heard it before),I liked it a lot (want to listen to it all the time),'- I have a friend who is in a band - Father Son and it reminds me of him and his music. It has amazing meaning and feeling.  It evokes such joy when I listen to him play.,Not familiar at all (I have never heard it before),I liked it a little,"I like the tune.  It is catchy, It is a little bit country, which is not my favourite, but like most songs it has a lot of meaning.  Always important to listen to the lyrics. ",Not familiar at all (I have never heard it before),I liked it a lot (want to listen to it all the time),"In a way I think of the music of James Taylor.  The joy he imparts to his fans.  We saw him in person and he is such a real person.  Interacts with his fans on a personal level.  I also think of my friend Paul, who is in a group called Father Son.  HIs music gets into your soul.  It has such meaning.",Slightly familiar,I did not like or dislike it,"The first part of the song sounds like something I have heard before.  Another song that reminds me of my friend's music, Father Son.  My friend Paul plays the fiddle and he is amazing.  Not something I would probably listen to often.",Not familiar at all (I have never heard it before),I liked it a little,"It is something I could meditate too. Very peaceful. Very relaxing.  I sometimes like to listen to instrumental, no words, no meaning.  Just thinking. Clearing your head.  Finding that quiet place.",Not familiar at all (I have never heard it before),I liked it a little,"It sounds like it comes from several different genres.  A little new age, a little disco.  Could be a good song to dance too.  Not sure I could listen to it often.",Slightly familiar,I liked it a little,"It reminds me of songs by Hermans Hermits.  I know that dates me, but their songs always make me feel good.  It was a different time, different place, but so much fun, so much laughter.  Great friends.",Extremely familiar (I have heard it more than 10 times),I think I was in my twenties,I did not like or dislike it,"It reminds me of a difficult time in my life.  I lived with someone named Jude, who was physically and emotionally abusive.  That part of my life will always exist, but I was able to extract myself from the relationship and became a stronger, more self-assured person.  With much persistence and determination, we can survive whatever comes our way.",Extremely familiar (I have heard it more than 10 times),3-4 years old,I liked it a lot (want to listen to it all the time),"Memories, family times, simpler times, more gentle, less stress times.  Life was good. Innocent, no worries, lots of laughter.  Oh to go back to those times.  If only we could.  ",Not familiar at all (I have never heard it before),I did not like or dislike it,Sounds like something that was written by Bob Dylan.  I am not a fan of Bob Dylan.  I don't enjoy his music. It has no meaning for me.  I do not get any understanding of his songs.,Not familiar at all (I have never heard it before),I did not like or dislike it,"It reminds me of family, the importance of family in my life. The memories that we have made, the memories still to come.  The ups and downs of family life.  How we deal with the dynamics.",Not familiar at all (I have never heard it before),I liked it a lot (want to listen to it all the time),"It reminds of the audio tape that I listened to.  On Walden Pond by Henry David Thoreau.  It is a story of his two years on Walden Pond, building his home, living his solitary life.  Interacting with people along his journey,  So much meaning, so much to relate to even though it took place in the 1800's.",Not familiar at all (I have never heard it before),I liked it a little,"It reminds me of music I have heard from David Bowie.  Even though it is an audio tape, the words sound like something he might have sang.  A little out there, but as always words have meaning."
+2019-02-28 10:59:59,2019-02-28 11:01:38,IP Address,129.100.255.18,3,98,False,2019-03-07 11:01:43,R_XSXjowYVgrMBd4Z,,,,,,,anonymous,EN,test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-03-20 11:37:10,2019-03-20 12:14:20,IP Address,129.100.255.18,100,2229,True,2019-03-20 12:14:22,R_2c5ys6zgmGCfTIf,,,,,43.0146942138671875,-81.304901123046875,anonymous,EN,202,Slightly familiar,I disliked it a little,Depressing lyrics,Not familiar at all (I have never heard it before),I liked it a little,"Reminds me off ""kitchen"" jams where musicians get together to play with everyone improvising in a repeated pattern ",Not familiar at all (I have never heard it before),I liked it a little,"His voice irritated me.
+Reminded me of hopeless country songs
+",Not familiar at all (I have never heard it before),I did not like or dislike it,"reminds me of down east. 
+sounds like a band just starting out and getting used to each other
+serious music, plaintive",Not familiar at all (I have never heard it before),I did not like or dislike it,"Gung ho and military, propaganda style
+No substance, no solutions.
+Scary to think we're all like America",Not familiar at all (I have never heard it before),I did not like or dislike it,Relaxing but also upbeat,Not familiar at all (I have never heard it before),I liked it a little,"The beat was pleasant and danceable 
+I liked the bluesy sound 
+Cheerful reminded me of summer",Not familiar at all (I have never heard it before),I disliked it a little,"Reminds me of 'superman never made any money',
+Too repetative,
+",Extremely familiar (I have heard it more than 10 times),17,I liked it a lot (want to listen to it all the time),"memories of my youth 
+Uplifting song, remind us that we're not all alone here
+Also the break up of the beatles",Extremely familiar (I have heard it more than 10 times),4,I liked it a little,"Being read to at night. The excitement of christmas for a child
+The cadence of the words is very engaging and pleasant
+Warm and cozy feeling",Not familiar at all (I have never heard it before),I disliked it a lot (I would prefer to not listen to it),"Makes me want to shut him off. Not a happy man
+",Not familiar at all (I have never heard it before),I disliked it a lot (I would prefer to not listen to it),"Relationship breakups. Sad self pitying poem
+Makes me tired",Not familiar at all (I have never heard it before),I disliked it a lot (I would prefer to not listen to it),Very depressing,Not familiar at all (I have never heard it before),I disliked it a lot (I would prefer to not listen to it),"Depressing!
+angry outlook"
+2019-03-22 09:39:47,2019-03-22 10:18:15,IP Address,129.100.255.18,100,2308,True,2019-03-22 10:18:17,R_2wS4KvOcSxOe6UI,,,,,43.0146942138671875,-81.304901123046875,anonymous,EN,203,Not familiar at all (I have never heard it before),I liked it a little,Sort of reminded me of the songs from Rocky Horror.  I enjoyed the show in Stratford so much I went to see it twice.,Not familiar at all (I have never heard it before),I liked it a little,did not bring up any emotions or memories.  it was pleasant,Not familiar at all (I have never heard it before),I did not like or dislike it,"I could see myself dancing to this, it has a good beat.  It did not bring up any emotion.  I would have not connection to this piece of music",Not familiar at all (I have never heard it before),I liked it a little,it does not evoke any strong emotion.  It would be background music which I would pay little attention as I went on with any task or meeting with friends.  It would not make me stop to listen closely,Not familiar at all (I have never heard it before),I did not like or dislike it,"the yankee doodle dandy part of course evokes america.  Thought of the David Bowie song American.  not a favourite piece.  I suppose it did kind of bring up some memories of the times of the late sixties and early seventies.  ",Not familiar at all (I have never heard it before),I liked it a little,"a pleasant tune.  I could dance to it.  but does not bring up any emotions or memories.  It would be, for me, a totally forgettable piece of music which I would not stop to pay attention to.  ",Not familiar at all (I have never heard it before),I did not like or dislike it,"does not bring up any associations.  It does not affect me any way.  I would probably want to move on to another song if i heard it on the radio.   But if I would pay attention, then I would listen for the patterns.",Not familiar at all (I have never heard it before),I liked it a little,it did not bring up any feelings.  The lyrics were OK but did not hold my attention completely.  found myself drifting off thinking about other things.  Of course superman was  a hero from my childhood.,Extremely familiar (I have heard it more than 10 times),I remember listening to this song in my late teens,I liked it a lot (want to listen to it all the time),It brought a smile to my face as soon as I heard it.  I sing along with it.  I remember singing this to my co worker Judy.  She was in the next desk over.  My friends and I will belt out this tune whenever we hear it.  It always evokes happy memories and feelings.,Extremely familiar (I have heard it more than 10 times),"Of course it brings up memories of Christmas as a child.  Probably around 7 or 8 ",I liked it a lot (want to listen to it all the time),"Reminds me of the farm house I grew up in, the cold rooms, but the excitement of waking up Christmas morning and unwrapping gifts.  Also, the weeks before christmas as the excitement grows.  Decorating the tree and watching the growing pile of gifts.  It was a wonderful time",Not familiar at all (I have never heard it before),I disliked it a little,"I did not care for this piece.  Not strong emotion.  The words did not make a lot of sense to me.  It seems not a happy piece of loss and loneliness.    ",Not familiar at all (I have never heard it before),I did not like or dislike it,reminded me of a song from my youth a song about a man talking on the phone to the girls mother.  She did not want him to talk to her daughter.  Also the Tie a Yellow Ribbon Around the Old Oak Tree by Tony and Dawn,Not familiar at all (I have never heard it before),I did not like or dislike it,bleak   loneliness  being left behind.  exhaustion,Slightly familiar,I disliked it a lot (I would prefer to not listen to it),did not care for it.  Violent.  did not bring up any emotion except distaste
+2019-03-26 08:37:07,2019-03-26 09:05:10,IP Address,129.100.255.18,100,1682,True,2019-03-26 09:05:12,R_21v4R0mlWrL6Pki,,,,,43.0146942138671875,-81.304901123046875,anonymous,EN,206,Not familiar at all (I have never heard it before),,I don't recall hearing this song,Slightly familiar,I disliked it a little,"Did not hear it well enough to appreciate different instruments, only heard the drums",Not familiar at all (I have never heard it before),I did not like or dislike it,"I don't remember any of these lyrics although the music with the drums sounds like previous couple of songs, so I don't know if I just tuned out or the jack hammering was too loud",Moderately familiar,I liked it a little,"I was thinking the music was slightly improving but was still longing for something more peaceful, the pounding in my right ear was starting to mask all thoughts",Very familiar,I did not like or dislike it,I don't remember hearing this while in the MRI,Moderately familiar,I did not like or dislike it,"It is not a type of music I enjoy, did not hear all of it.",Moderately familiar,I disliked it a lot (I would prefer to not listen to it),by the time I heard this one I wanted out and the music was annoying me greatly,Not familiar at all (I have never heard it before),I did not like or dislike it,I could not hear any of these words during the test and thought it was just a repeat of one of the previous songs,Extremely familiar (I have heard it more than 10 times),'- as a teenager,I did not like or dislike it,"I love this song but in the MRI there was an echo over the song and the noise in the right ear was disturbing and by this time I just wanted to get out, so much so I didn't recognize it was the Beattles singing it.",Extremely familiar (I have heard it more than 10 times),young child,I did not like or dislike it,"Although I usually like this, I was so frustrated that I could only hear from my left ear while the jack hammering was assaulting from right ear, so I wanted it over",Moderately familiar,I did not like or dislike it,I was bored with this and was thinking it was a stupid poem,Moderately familiar,I disliked it a lot (I would prefer to not listen to it),totally bored and did not want to hear his voice again,Moderately familiar,I disliked it a lot (I would prefer to not listen to it),It makes me think of someone self indulging in his own pity,Very familiar,I disliked it a lot (I would prefer to not listen to it),"The whole time I thought he was totally wasting my day, it was so annoying and depressing especially when he says sold down the river, I was thinking yes this study has sold me down the river"
+2019-03-29 08:17:41,2019-03-29 09:17:18,IP Address,129.100.255.18,100,3577,True,2019-03-29 09:17:19,R_cOSbP3JO4SrvsJj,,,,,43.0146942138671875,-81.304901123046875,anonymous,EN,208,Not familiar at all (I have never heard it before),I did not like or dislike it,"no real sense of emotions 
+like the beat but would ignore the lyrics 
+would just dance and get lost in the beat
+but makes sense of how today is ",Slightly familiar,I liked it a little,"use this as back ground music for cleaning the house but not for exercise
+no feeling evoked ",Not familiar at all (I have never heard it before),I did not like or dislike it,"like the beat not the lyrics does nothing for me
+no response 
+",Slightly familiar,I liked it a little,"like the beat soothing 
+could dance to it fox trot or swing 
+",Moderately familiar,I did not like or dislike it,"the opening sounds it is from the movie Yankee Doodle Dandy with James Gagney
+typical of how the Americans think of themselves when you see the news {Trump}
+Why does one country think more of themselves more than any other country we are all equal
+
+
+
+
+
+
+
+
+
+
+
+
+
+",Slightly familiar,I liked it a little,"quiet and calming    
+could be used when I can not sleep to quiet a over active mind
+could waltz to this 
+like the different instruments
+",Slightly familiar,I disliked it a little,"not a beat I would just listen to 
+know the title but not the song 
+does nothing for me emotionally 
+",Not familiar at all (I have never heard it before),I liked it a little,"I like the beat of the music
+I do not like the lyrics it maybe it hits to close to home
+could listen to the music without the lyrics
+
+
+ 
+",Extremely familiar (I have heard it more than 10 times),at 14 or 15 years of age,I liked it a lot (want to listen to it all the time),"A classmate use to sing it in class grade 10
+the lyrics makes me see myself as this person with the weight of the world on my shoulders most of my life, but I still like the song
+Jim used to sing this song to me since my name is June is similar {when we first got married}
+If the song is playing on the radio I will turn it up loud so I can hear all of it with no  distractions
+brought a big smile to my face the second the music started :}:}
+great choice for an ending for me personally ",Extremely familiar (I have heard it more than 10 times),in primary school 10 - 12 years but conflict with religion,I liked it a lot (want to listen to it all the time),"conflict of emotions from youth because of religion
+I like the rhyming of the lyrics
+
+",Not familiar at all (I have never heard it before),I disliked it a lot (I would prefer to not listen to it),"do not like this at all
+no response",Not familiar at all (I have never heard it before),I disliked it a lot (I would prefer to not listen to it),"my mother has passed and I did not have a good relationship with her this brought back those mixed emotions  
+had a hard time listening to this had to block it out
+also going through some very hard time with my husband right now 
+the lyrics "" I am thinking about you"" was to painful had to be block so I could finish 
+",Not familiar at all (I have never heard it before),I liked it a little,"did not like this 
+this lyrics are to close with my relationship with husband now
+bring my emotions crashing down on me
+",Not familiar at all (I have never heard it before),I disliked it a lot (I would prefer to not listen to it),"I love to fly and the opening reminded of the planes crashes that has been in the news and now I do not want to fly 
+to morbid
+why is the world just like this I can make sense of the world population today
+makes want to pull a blanket over my head and shut out the world"
+2019-04-04 07:02:34,2019-04-04 07:41:50,IP Address,129.100.255.18,100,2355,True,2019-04-04 07:41:53,R_Qc5O2enSNTZjdzr,,,,,43.0146942138671875,-81.304901123046875,anonymous,EN,212,Not familiar at all (I have never heard it before),I liked it a little,"?
+i was tapping my toes",Not familiar at all (I have never heard it before),I liked it a lot (want to listen to it all the time),"music from my youth
+upbeat
+joyful",Not familiar at all (I have never heard it before),I liked it a little,"interesting lyrics
+",Not familiar at all (I have never heard it before),I liked it a lot (want to listen to it all the time),"upbeat tune
+nice harmonica intro
+music from my youth",Not familiar at all (I have never heard it before),I liked it a lot (want to listen to it all the time),"love this tune
+great tune
+great lyrics",Not familiar at all (I have never heard it before),I liked it a lot (want to listen to it all the time),"mellow
+dreamy",Not familiar at all (I have never heard it before),I liked it a little,"nice beat
+funky guitar",Not familiar at all (I have never heard it before),I did not like or dislike it,"bubble gum
+not unpleasant",Extremely familiar (I have heard it more than 10 times),20,I liked it a lot (want to listen to it all the time),"Beatles fab
+youth
+happiness",Extremely familiar (I have heard it more than 10 times),5 or 6,I liked it a lot (want to listen to it all the time),"happiness
+excitement",Not familiar at all (I have never heard it before),I liked it a little,who gives a damn,Not familiar at all (I have never heard it before),I liked it a little,skipping stones and drinking beer,Not familiar at all (I have never heard it before),I did not like or dislike it,"dark
+sad",Not familiar at all (I have never heard it before),I did not like or dislike it,"sad
+grim"
+2019-04-04 12:07:39,2019-04-04 13:07:27,IP Address,129.100.255.35,100,3587,True,2019-04-04 13:07:29,R_VKfUanAHuuWxsJP,,,,,43.0146942138671875,-81.304901123046875,anonymous,EN,207,Slightly familiar,I liked it a little,"'-like the beat
+-thought-provoking
+-have I wasted my time doing things that didn't make sense?
+-regrets
+-exhaustion
+-fear",Not familiar at all (I have never heard it before),I liked it a little,"Long periods of travel by myself
+eg from London to see family in Virginia
+a little sad",Not familiar at all (I have never heard it before),I liked it a lot (want to listen to it all the time),"'-hurry up & wait
+-I always did things with a sense of urgency
+-slow down Bill",Moderately familiar,I disliked it a little,"'-doesn't seem like much thought went into the composition
+-quite repetitive
+-like a previous song which reminded me of travelling alone with only destination
+-put crazy C&W Lyrics with it
+",Not familiar at all (I have never heard it before),I disliked it a lot (I would prefer to not listen to it),"'-Donald Trump
+-Wizard of Oz
+-Hate
+-Superiority
+-My birthplace was the U.S. & I only want to there to see my family
+-I think Americans have lost their way or compass",Not familiar at all (I have never heard it before),I did not like or dislike it,"'-gives me sad memories until the beat picks up
+-maybe my previous answers on being alone in car evokes that feeling of sadness & regret for some things in my life
+-think of trials & tribulations of my Mother
+-I think the upbeats give me hope
+-",Not familiar at all (I have never heard it before),I liked it a lot (want to listen to it all the time),"'-acting really weird in a playful way
+-playing the air guitar
+-dancing
+-happy,carefree",Not familiar at all (I have never heard it before),I liked it a little,"'-Accepting the things I can't change
+-courage to change the things I can
+-wisdom to know the difference
+-humility",Extremely familiar (I have heard it more than 10 times),21-22,I liked it a lot (want to listen to it all the time),"'-the 60's 
+-good times at & after university
+-parties
+-working hard;playing hard
+-The great ""Beatles""
+-getting drunk
+-falling in love & getting married
+-constant enjoyment of a long song
+",Extremely familiar (I have heard it more than 10 times),3-4,I did not like or dislike it,"'-huge swings in feelings about Xmas
+-joy
+-sadness usually as a youngster with alcoholic father & then as alcoholic myself
+-religious aspect more important than Santa Claus
+-greed of Xmas",Not familiar at all (I have never heard it before),I disliked it a little,"'-feel like in a hippy smokey 60's bar listening to some stoner spouting incoherent poetry
+-made no sense to me",Not familiar at all (I have never heard it before),I did not like or dislike it,"'-makes me sleepy
+-repetition makes me frustrated
+-some thought about emotions of my divorce..sad,angry,pain
+-need to change",Not familiar at all (I have never heard it before),I liked it a little,"'-loneliness & isolation in my final days of drinking
+-needing alcohol to change how I was feeling
+-my ex-wife lying
+-despair with relationship
+-my inability to communicate my feelings
+-lack of intimacy
+",Not familiar at all (I have never heard it before),I did not like or dislike it,"'-pessimism abounds
+-others getting me to adopt their point of view
+-fear
+-being controlled by others
+-low self-esteem
+-anger that people are so negative
+-hard to be optimistic"
+2019-04-05 12:14:56,2019-04-05 12:48:45,IP Address,129.100.255.18,100,2029,True,2019-04-05 12:48:47,R_2Ent3Ft7BPijqfA,,,,,43.0146942138671875,-81.304901123046875,anonymous,EN,209,Not familiar at all (I have never heard it before),I liked it a little,"back up sounds are successful, text is clear but in a protest stance which doesn't really captivate me .",Slightly familiar,I did not like or dislike it,"elevator music typically what you might hear behind a weather report on TV
+rather predictable and not really developing or going anywhere
+A little goes a long way !",Not familiar at all (I have never heard it before),I liked it a little,"solid lyrics which strengthen with the accompaniment as we go along
+a solid folk song ",Not familiar at all (I have never heard it before),I liked it a little,"quite basic accompaniment nice to hear a bit of harmonica on improv, then violin
+other wise not up to much",Not familiar at all (I have never heard it before),I liked it a little,"arrangement somewhat interesting, lack enthusiasm for an American folk protest feeling ",Not familiar at all (I have never heard it before),I did not like or dislike it,"cymbal roll ? relates to ?
+very basic elements which lead to basically nothing = no melodically interesting elements",Not familiar at all (I have never heard it before),I liked it a little,"nice rhythmic austinato ,enjoy the funky guitar, improvisation great",Moderately familiar,I liked it a little,"like the set player, lyrics, voice",,,I liked it a little,"an iconic wonderfully crafted love song by a creative great.
+
+All elements cross serving and reinforcing the song",Very familiar,5 years ?,I liked it a little,"great profiling of language, metaphor usage is strong , great fodder for young minds",Not familiar at all (I have never heard it before),I disliked it a little,"limited lyrics ,don't get thrilled by all the 'yeah,yeah's' ",Not familiar at all (I have never heard it before),I disliked it a little,"I find the repetition annoying rather than powerful ",Not familiar at all (I have never heard it before),I liked it a little,"strong images and poetry dramatically delivered, does grab your attention.
+Rather a depressing cicumstance and environment which I would tend to 'pass by'",Not familiar at all (I have never heard it before),I did not like or dislike it,don't waist my time is an appropriate description for how I feel about this narration And an uncomfortable subject matter !
+2019-04-17 06:09:57,2019-04-17 06:43:20,IP Address,129.100.255.35,100,2003,True,2019-04-17 06:43:22,R_r86r2PJAH1AUhZT,,,,,43.0146942138671875,-81.304901123046875,anonymous,EN,213,Not familiar at all (I have never heard it before),I liked it a little,"Music has beat that I like and reminds me of Elton John tunes.  Bittersweet lyrics. ",Not familiar at all (I have never heard it before),I liked it a little,"Reminds me of summer evenings and sitting by a fire with a guitar.   Very easy to listen to and yet still has a lot of appeal. ",Not familiar at all (I have never heard it before),I disliked it a little,"Makes me a little angry - nothing we can do with people like you.  ",Not familiar at all (I have never heard it before),I liked it a little,"Nice beat, great background music but with a slight sadness built in with the violin.  For some reason makes me think of Western cowboy films. ",Not familiar at all (I have never heard it before),I disliked it a little,"Reminds me of a time in my past when I participated in political protests.  Very nationalistic and delivers a political message. ",Not familiar at all (I have never heard it before),I liked it a little,"Soft music although it makes me feel a little sad but I don't know why.  Reminds me of rain and grey days. ",Not familiar at all (I have never heard it before),I disliked it a little,I feel it has no melody that pulls it together.  A little harsh and more techno than I like.  It doesn't 'speak' to me and seems quite forgetable.  I wouldn't know this song if was replayed to me in a few days.,Not familiar at all (I have never heard it before),I liked it a little,"Pessimistic, loss of hope, redemption",Extremely familiar (I have heard it more than 10 times),16,I liked it a lot (want to listen to it all the time),"Love the music - very familiar and takes me back to many parties and evenings with friends.  I listened to this song the day before I came for this research.  ",Extremely familiar (I have heard it more than 10 times),3 years old,I liked it a little,"Christmas eve nights my parents would read this to me and I read it to my son.  Very soothing and takes me back to many good Christmas memories.  ",Not familiar at all (I have never heard it before),I disliked it a lot (I would prefer to not listen to it),"Very depressing.  I don't know what the lyrics are trying to tell me and very repetitive.  ",Not familiar at all (I have never heard it before),I disliked it a little,"Very depressing and sad.  Takes me back to ends of relationships in my past.  ",Not familiar at all (I have never heard it before),I did not like or dislike it,"Voice is very sad. Mental illness? Again takes me back to ending of relationships and the devistated feelings associated with  it. ",Not familiar at all (I have never heard it before),I disliked it a little,I really don't understand this at all.  Seems very self-centred and depressing as well as dark.
+2019-04-18 11:53:42,2019-04-18 12:16:57,IP Address,129.100.255.18,100,1395,True,2019-04-18 12:16:59,R_1n9sbaMY1gdFR4i,,,,,43.0146942138671875,-81.304901123046875,anonymous,EN,205,Not familiar at all (I have never heard it before),I liked it a little,"attractive beat and rthym
+listening to an old friend drumming in a band
+",Not familiar at all (I have never heard it before),I liked it a little,"liked the beat and violins  
+catchy
+country
+yearning",Not familiar at all (I have never heard it before),I disliked it a little,"husky voice  reminds me of other singers
+",Not familiar at all (I have never heard it before),I liked it a little,"country , longing
+cowboys
+open pastures
+freedom",Not familiar at all (I have never heard it before),I liked it a little,"Neil diamond
+repettitve
+",Not familiar at all (I have never heard it before),I liked it a little,"longing
+yearning
+lost love",Not familiar at all (I have never heard it before),I disliked it a little,"repetitive
+disinterest
+boredom
+computer generated music",Not familiar at all (I have never heard it before),I did not like or dislike it,"reminds me of David Bowie lost in space
+",Extremely familiar (I have heard it more than 10 times),16,I liked it a lot (want to listen to it all the time),"in the basement playing pingpong  enjjoyment
+my mother and friends 
+happy
+fun",Extremely familiar (I have heard it more than 10 times),5,I liked it a little,"childhood and listening,  reading to other children as a teacher, fun, memory
+warmth 
+love
+safety",Not familiar at all (I have never heard it before),I disliked it a lot (I would prefer to not listen to it),"silliness
+bad accent
+want it off
+",Not familiar at all (I have never heard it before),I disliked it a lot (I would prefer to not listen to it),"boredom
+silly
+",Not familiar at all (I have never heard it before),I disliked it a lot (I would prefer to not listen to it),"nonsense lyrics
+irritation 
+boring",Not familiar at all (I have never heard it before),I disliked it a lot (I would prefer to not listen to it),"of every boring spoken word I've heard
+
+"
+2019-05-02 07:57:16,2019-05-02 08:32:12,IP Address,129.100.255.18,100,2095,True,2019-05-02 08:32:13,R_3McfM3jO3UgUBTQ,,,,,43.0146942138671875,-81.304901123046875,anonymous,EN,P210,Not familiar at all (I have never heard it before),I liked it a lot (want to listen to it all the time),"british invasion of the 60's
+sitting out on the roof listening to records in the summer",Not familiar at all (I have never heard it before),I liked it a little,"it seems that this is the first song without lyrics, but it does not invoke anything in my mind",Not familiar at all (I have never heard it before),I liked it a little,"would be good to exercise or clean house to
+great beat
+",Not familiar at all (I have never heard it before),I liked it a little,did not invoke anything for me,Not familiar at all (I have never heard it before),I liked it a lot (want to listen to it all the time),"1960's music
+freedom movement of the 60's 70's",Not familiar at all (I have never heard it before),I liked it a little,"very easy listening
+nice background music for friends, food and drinks
+morning coffee",Not familiar at all (I have never heard it before),I liked it a little,"nice beat
+background music for having friends over for food and drinks
+enjoying morning coffee
+",Not familiar at all (I have never heard it before),I liked it a lot (want to listen to it all the time),"very enjoyable easy listening
+I would have enjoyed this in my teen years
+silly mindless lyrics",Extremely familiar (I have heard it more than 10 times),15,I liked it a lot (want to listen to it all the time),"adolescent idealism
+growing into myself
+developing my taste in music",Extremely familiar (I have heard it more than 10 times),9,I liked it a lot (want to listen to it all the time),"reminds me of when my children were small and now I can enjoy it with my grandchildren at christmas time
+does not invoke my childhood christmas memories
+",Not familiar at all (I have never heard it before),I disliked it a lot (I would prefer to not listen to it),"do not enjoy this at all
+I try to find some redeeming value to this, but cannot
+it reminds me of nothing ",Not familiar at all (I have never heard it before),I disliked it a lot (I would prefer to not listen to it),"do not care for this at all
+I find it annoying ",Not familiar at all (I have never heard it before),I disliked it a lot (I would prefer to not listen to it),"does absolutely nothing for me ",Not familiar at all (I have never heard it before),I disliked it a lot (I would prefer to not listen to it),"I try to find something enjoyable of this but cannot
+It just leaves me annoyed"
+2019-05-02 08:59:50,2019-05-02 09:49:15,IP Address,129.100.255.18,100,2965,True,2019-05-02 09:49:17,R_3BIiNTRY0flK7y9,,,,,43.0146942138671875,-81.304901123046875,anonymous,EN,P211,Not familiar at all (I have never heard it before),I liked it a little,"perspective on how a life was lived 
+felt it was somewhat representative of my own life, successes and failures
+",Slightly familiar,I liked it a little,"relaxing - easy listening
+nice music for an activity like walking or jogging
+no real emotions associated with this music",Not familiar at all (I have never heard it before),I liked it a little,"like the beat......happy 
+makes me want to move
+enjoy what you have 
+live and let live",Not familiar at all (I have never heard it before),I liked it a lot (want to listen to it all the time),"sounds from my youth (60s & 70s)
+Woodstock
+tie-died
+long hair",Not familiar at all (I have never heard it before),I did not like or dislike it,"military
+forceful
+colonialism
+",Slightly familiar,I liked it a little,"relaxing
+joy
+spring morning
+sunshine",Not familiar at all (I have never heard it before),I liked it a little,"mechanical music 
+pleasant - not inspirational 
+",Not familiar at all (I have never heard it before),I did not like or dislike it,"comics 
+not real emotions from this song",Extremely familiar (I have heard it more than 10 times),early twenties,I liked it a lot (want to listen to it all the time),"brings back great times of my youth.
+had a great influence on how I like to live my life 
+be accepting of people and their views.
+",Extremely familiar (I have heard it more than 10 times),Under 10,I liked it a lot (want to listen to it all the time),"christmas eve
+the joy and magic of christmas for youths - mine included
+the joy I experienced when my children awoke Christmas morning",Not familiar at all (I have never heard it before),I did not like or dislike it,"interesting to listen to, but no real stimulus......yah yah yah",Not familiar at all (I have never heard it before),I liked it a little,"missing someone special
+lost
+depressed",Not familiar at all (I have never heard it before),I did not like or dislike it,"relationship going bad
+questioning a relationships future  
+",Not familiar at all (I have never heard it before),I liked it a little,"not in control
+mayham
+blackness"
+2019-05-03 11:02:25,2019-05-03 11:35:01,IP Address,129.100.255.18,100,1955,True,2019-05-03 11:35:03,R_2DUe42hKNtfHIVy,,,,,43.0146942138671875,-81.304901123046875,anonymous,EN,p215,Not familiar at all (I have never heard it before),I liked it a little,"Somewhat depressing...
+There sure wasn't much positive about it.
+Despite this, I'm not necessarily disagreeing with the lyrics.",Not familiar at all (I have never heard it before),I liked it a little,I wish that it had lyrics. I likes the melody and the violin/cello.,Not familiar at all (I have never heard it before),I liked it a little,He somewhat reminds me of Chris Rea.,Not familiar at all (I have never heard it before),I did not like or dislike it,"Once again, I prefer listening to music with something to say.",Not familiar at all (I have never heard it before),I did not like or dislike it,"It makes me think about the perceived idea that the US somewhat controls our life here in Canada. ",Not familiar at all (I have never heard it before),I did not like or dislike it,I prefer listening to songs with lyrics.,Not familiar at all (I have never heard it before),I liked it a little,I liked the guitar. Reminds me of my days in Yorkville (Toronto) in the 60's.,Not familiar at all (I have never heard it before),I liked it a little,I liked that there was a story in the song.,Extremely familiar (I have heard it more than 10 times),23,I liked it a lot (want to listen to it all the time),Brings back many memories from my university days.,Extremely familiar (I have heard it more than 10 times),6or7,I liked it a little,Don't really like listening to it at this time of year.,Not familiar at all (I have never heard it before),I did not like or dislike it,I wonder if these should be lyrics for a song... but they weren't good enough.,Not familiar at all (I have never heard it before),I disliked it a little,"Doesn't remind me of anything. 
+I found it rather depressing.",Not familiar at all (I have never heard it before),I disliked it a little,"Somewhat depressing 
+Kinda reminds me of some of the love songs in the 60's",Not familiar at all (I have never heard it before),I disliked it a lot (I would prefer to not listen to it),"Didn't like it...
+He presents as being very angry."
+2019-05-15 11:02:14,2019-05-15 11:32:35,IP Address,129.100.255.18,100,1821,True,2019-05-15 11:32:37,R_3e49pbkoCnbUcmv,,,,,43.0146942138671875,-81.304901123046875,anonymous,EN,p214,Slightly familiar,I liked it a little,"younger days, coffee house",Not familiar at all (I have never heard it before),I disliked it a little,not music that i would have listened to,Slightly familiar,I liked it a little,country western feelings,Slightly familiar,I disliked it a little,not my kind of music....pub,Slightly familiar,I did not like or dislike it,"I heard yankee doodle at first, but then it was more complicated",Not familiar at all (I have never heard it before),I did not like or dislike it,"it was a little more sophisticated at first, but then too repetitive",Not familiar at all (I have never heard it before),I disliked it a lot (I would prefer to not listen to it),"it is boring, too repetitive",Slightly familiar,I did not like or dislike it,"no memories, but more interesting music and lyrics",Extremely familiar (I have heard it more than 10 times),about 21,I liked it a lot (want to listen to it all the time),"with my friends, expo 67, trip to Montreal, shopping, pubbing etc..",Extremely familiar (I have heard it more than 10 times),age 3-4,I liked it a lot (want to listen to it all the time),takes me back to my entire life...childhood ..teaching young children...reading to my grandchildren,Not familiar at all (I have never heard it before),I disliked it a little,this poetry doesn't pertain to my life style,Not familiar at all (I have never heard it before),I disliked it a little,It reminds me of my university days,Slightly familiar,I disliked it a little,do not find this too interesting...depressing...,Slightly familiar,I disliked it a little,no connections to this type of prose

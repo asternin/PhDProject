@@ -9,15 +9,15 @@ library(plyr)
 #files<-list.files(path = "Data", pattern="_L_",full.names = FALSE)
 
 #WINDOWS
-#fullfiles<-grep(list.files(path = "/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data",
+#fullfiles<-grep(list.files(path = "/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data/YoungAdults",
 #                  pattern="*.csv", full.names = TRUE), pattern='pval',inv=T, value=T)
-#files<-grep(list.files(path="/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data", 
+#files<-grep(list.files(path="/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data/YoungAdults", 
 #                  pattern="*.csv", full.names = FALSE), pattern='pval', inv=T, value=T)
 
 #MAC
-fullfiles<-grep(list.files(path = "/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/fMRI analysis/SynchronyStats/Data",
+fullfiles<-grep(list.files(path = "/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/fMRI analysis/SynchronyStats/Data/YoungAdults",
                   pattern="*.csv", full.names = TRUE), pattern='pval',inv=T, value=T)
-files<-grep(list.files(path="/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/fMRI analysis/SynchronyStats/Data", 
+files<-grep(list.files(path="/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/fMRI analysis/SynchronyStats/Data/YoungAdults", 
                   pattern="*.csv", full.names = FALSE), pattern='pval', inv=T, value=T)
 
 for(f in 1:length(fullfiles)){
@@ -135,7 +135,7 @@ for(f in 1:length(fullfiles)){
   UmeansyncALL<-rbind(UmeansyncA, UmeansyncB)
   
   ##### START PRINTING RESULTS TO TEXT FILE #####
-  sink(file=sprintf("/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data/%s.txt",str_replace(files[f],".csv","")))
+  sink(file=sprintf("/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data/YoungAdults/%s.txt",str_replace(files[f],".csv","")))
   files[f]
   ## Stats
 
@@ -368,6 +368,5 @@ for(f in 1:length(fullfiles)){
   #print(p)
   
   sink()
-  write.csv(pval,file=sprintf("/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data/%s_pval.csv",str_replace(files[f],".csv","")))
+  write.csv(pval,file=sprintf("/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data/YoungAdults/%s_pval.csv",str_replace(files[f],".csv","")))
 }
-
