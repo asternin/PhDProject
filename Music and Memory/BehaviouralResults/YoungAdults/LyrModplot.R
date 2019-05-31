@@ -1,5 +1,5 @@
-fname <-"file:///C:/Users/asternin/Documents/PhDProject.git/Music and Memory/BehaviouralResults/LyricMod.csv"
-#fname<-"~/Documents/Western/Academics/PhDProject.git/Music and Memory/fMRI analysis/CovData.csv"
+#fname <-"file:///C:/Users/asternin/Documents/PhDProject.git/Music and Memory/BehaviouralResults/YoungAdults/LyricMod.csv"
+fname<-"/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/BehaviouralResults/YoungAdults/LyricMod.csv"
 data<-read.table(fname, sep=",",header=FALSE)
 
 data=na.omit(data)

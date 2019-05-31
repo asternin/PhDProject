@@ -18,11 +18,11 @@ LyrOrdata<-readr::read_csv("/Users/asternin/Documents/PhDProject/Music and Memor
 
 
 #MAC
-#fullfiles<-grep(list.files(path = "/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/fMRI analysis/SynchronyStats/Data",
-#                           pattern="*.csv", full.names = TRUE), pattern='pval',inv=T, value=T)
-#files<-grep(list.files(path="/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/fMRI analysis/SynchronyStats/Data", 
-#                       pattern="*.csv", full.names = FALSE), pattern='pval', inv=T, value=T)
-#LyrOrdata<-readr::read_csv("/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/BehaviouralResults/LyrOrScores.csv")
+fullfiles<-grep(list.files(path = "/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/fMRI analysis/SynchronyStats/Data/YoungAdults",
+                           pattern="*.csv", full.names = TRUE), pattern='pval',inv=T, value=T)
+files<-grep(list.files(path="/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/fMRI analysis/SynchronyStats/Data/YoungAdults", 
+                       pattern="*.csv", full.names = FALSE), pattern='pval', inv=T, value=T)
+LyrOrdata<-readr::read_csv("/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/BehaviouralResults/YoungAdults/LyrOrScores.csv")
 
 for(f in 1:length(fullfiles)){
   #f<- 66 #frontal_L_4 IFG opercularis
@@ -57,7 +57,7 @@ for(f in 1:length(fullfiles)){
   W<-rowMeans(select(data, "1_song4","1_song5","2_song4","2_song5"))
   
   ## OTHER STUFF
-  l=dim(meansync2)[1]
+  l=76 #dim(meansync2)[1]
   ses<-c(rep(1,l),rep(2,l))
   stim<-c(rep(1,l/4),rep(2,l/4),rep(3,l/4),rep(4,l/4),rep(1,l/4),rep(2,l/4),rep(3,l/4),rep(4,l/4))
   
@@ -133,7 +133,6 @@ for(f in 1:length(fullfiles)){
   a2 <- anova(mod.full, mod.rest)
   print(a2)
   pval<-c(pval,a2$'Pr(>F)'[2])
-
   
   a3 <- anova(mod.full)
   print(a3)

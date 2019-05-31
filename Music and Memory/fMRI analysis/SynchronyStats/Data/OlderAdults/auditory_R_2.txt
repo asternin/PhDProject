@@ -1,0 +1,90 @@
+[1] "ANOVA - Unfamiliar I S W"
+            Df Sum Sq Mean Sq F value  Pr(>F)   
+type         2 0.6949  0.3474    6.57 0.00396 **
+Residuals   33 1.7450  0.0529                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "ANOVA - I S W WF SF"
+            Df Sum Sq Mean Sq F value Pr(>F)  
+type         4  0.700 0.17500   3.533 0.0123 *
+Residuals   55  2.724 0.04953                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Welch Two Sample t-test
+
+data:  I1 and S1
+t = -3.0981, df = 18.002, p-value = 0.006205
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.49293984 -0.09454641
+sample estimates:
+mean of x mean of y 
+0.3633748 0.6571179 
+
+
+	Welch Two Sample t-test
+
+data:  I1 and W1
+t = 0.023911, df = 20.395, p-value = 0.9812
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.1673950  0.1712821
+sample estimates:
+mean of x mean of y 
+0.3633748 0.3614312 
+
+
+	Welch Two Sample t-test
+
+data:  S1 and W1
+t = 2.8395, df = 20.986, p-value = 0.009821
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.07912453 0.51224881
+sample estimates:
+mean of x mean of y 
+0.6571179 0.3614312 
+
+
+	Welch Two Sample t-test
+
+data:  S1 and SF
+t = 1.6371, df = 21.245, p-value = 0.1163
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.04652975  0.39192491
+sample estimates:
+mean of x mean of y 
+0.6571179 0.4844203 
+
+
+	Welch Two Sample t-test
+
+data:  W1 and WF
+t = -1.2176, df = 21.266, p-value = 0.2367
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.27837465  0.07267431
+sample estimates:
+mean of x mean of y 
+0.3614312 0.4642814 
+
+Analysis of Variance Table
+
+Model 1: corr ~ lyror + type
+Model 2: corr ~ lyror
+  Res.Df    RSS Df Sum of Sq      F   Pr(>F)   
+1     54 2.2896                                
+2     58 2.9896 -4  -0.70002 4.1275 0.005451 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Analysis of Variance Table
+
+Response: corr
+          Df  Sum Sq Mean Sq F value   Pr(>F)   
+lyror      1 0.43484 0.43484 10.2557 0.002286 **
+type       4 0.70002 0.17500  4.1275 0.005451 **
+Residuals 54 2.28958 0.04240                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

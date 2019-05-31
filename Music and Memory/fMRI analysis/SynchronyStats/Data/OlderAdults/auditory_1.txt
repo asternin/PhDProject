@@ -1,0 +1,82 @@
+[1] "ANOVA - Unfamiliar I S W"
+            Df  Sum Sq  Mean Sq F value Pr(>F)
+type         2 0.00017 0.000084   0.011  0.989
+Residuals   33 0.24974 0.007568               
+[1] "ANOVA - I S W WF SF"
+            Df Sum Sq Mean Sq F value Pr(>F)
+type         4 0.0719 0.01798   1.526  0.207
+Residuals   55 0.6480 0.01178               
+
+	Welch Two Sample t-test
+
+data:  I1 and S1
+t = 0.10213, df = 20.504, p-value = 0.9196
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.07882413  0.08695359
+sample estimates:
+ mean of x  mean of y 
+0.07030808 0.06624335 
+
+
+	Welch Two Sample t-test
+
+data:  I1 and W1
+t = -0.024794, df = 17.159, p-value = 0.9805
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.07732173  0.07552423
+sample estimates:
+ mean of x  mean of y 
+0.07030808 0.07120683 
+
+
+	Welch Two Sample t-test
+
+data:  S1 and W1
+t = -0.16675, df = 20.13, p-value = 0.8692
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.06702945  0.05710249
+sample estimates:
+ mean of x  mean of y 
+0.06624335 0.07120683 
+
+
+	Welch Two Sample t-test
+
+data:  S1 and SF
+t = -1.5877, df = 17.822, p-value = 0.1299
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.17470040  0.02437137
+sample estimates:
+ mean of x  mean of y 
+0.06624335 0.14140787 
+
+
+	Welch Two Sample t-test
+
+data:  W1 and WF
+t = -1.6438, df = 15.759, p-value = 0.12
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.15353770  0.01951604
+sample estimates:
+ mean of x  mean of y 
+0.07120683 0.13821767 
+
+Analysis of Variance Table
+
+Model 1: corr ~ lyror + type
+Model 2: corr ~ lyror
+  Res.Df     RSS Df Sum of Sq      F Pr(>F)
+1     54 0.64801                           
+2     58 0.71993 -4 -0.071922 1.4984 0.2156
+Analysis of Variance Table
+
+Response: corr
+          Df  Sum Sq   Mean Sq F value Pr(>F)
+lyror      1 0.00000 0.0000015  0.0001 0.9912
+type       4 0.07192 0.0179806  1.4984 0.2156
+Residuals 54 0.64801 0.0120001               

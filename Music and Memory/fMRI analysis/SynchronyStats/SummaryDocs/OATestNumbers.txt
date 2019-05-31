@@ -1,0 +1,23 @@
+OA TEST NUMBERS (May 20, 2019)
+
+[1] "ANOVA - Unfamiliar I S W"
+             
+[2] "ANOVA - I S W WF SF"
+
+	T-TESTS
+
+[3] data:  I1 and S1
+[4] data:  I1 and W1
+[5] data:  S1 and W1
+[6] data:  S1 and SF
+[7] data:  W1 and WF
+
+ANOVA with LyrOr CovariateAnalysis of Variance Table
+
+[8] model 1 over model 2
+   Model 1: corr ~ lyror + type
+   Model 2: corr ~ lyror
+
+[9] ME of lyror
+[10] ME of type
+

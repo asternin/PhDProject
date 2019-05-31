@@ -13,12 +13,14 @@ library(plyr)
 #                  pattern="*.csv", full.names = TRUE), pattern='pval',inv=T, value=T)
 #files<-grep(list.files(path="/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data/OlderAdults", 
 #                  pattern="*.csv", full.names = FALSE), pattern='pval', inv=T, value=T)
-
+#LyrOrdata<-readr::read_csv("/Users/asternin/Documents/PhDProject/Music and Memory/BehaviouralResults/LyrOrScores.csv")
 #MAC
 fullfiles<-grep(list.files(path = "/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/fMRI analysis/SynchronyStats/Data/OlderAdults",
                            pattern="*.csv", full.names = TRUE), pattern='pval',inv=T, value=T)
 files<-grep(list.files(path="/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/fMRI analysis/SynchronyStats/Data/OlderAdults", 
                        pattern="*.csv", full.names = FALSE), pattern='pval', inv=T, value=T)
+LyrOrdata<-readr::read_csv("/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/BehaviouralResults/OlderAdults/LyrOrScores.csv")
+LyrOrdata<-LyrOrdata[-c(1,2), ]
 
 for(f in 1:length(fullfiles)){
   pval<-c()
@@ -43,7 +45,11 @@ for(f in 1:length(fullfiles)){
   sprintf("%s.txt",str_replace(files[f],".csv",""))
   
   ##### START PRINTING RESULTS TO TEXT FILE #####
-  sink(file=sprintf("/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data/YoungAdults/%s.txt",str_replace(files[f],".csv","")))
+  #WINDOWS
+  #sink(file=sprintf("/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data/OlderAdults/%s.txt",str_replace(files[f],".csv","")))
+  #MAC
+  sink(file=sprintf("/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/fMRI analysis/SynchronyStats/Data/OlderAdults/%s.txt",str_replace(files[f],".csv","")))
+
   files[f]
   ## Stats
   
@@ -82,17 +88,21 @@ for(f in 1:length(fullfiles)){
   t<-print(t.test(W1,WF))
   pval<-c(pval,t$p.value)
   
-  # 2x4 ANOVA with LyrOr Covariate
-  #LyrOrdata<-readr::read_csv("/Users/asternin/Documents/PhDProject/Music and Memory/BehaviouralResults/LyrOrScores.csv")
-  LyrOrdata<-readr::read_csv("/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/BehaviouralResults/LyrOrScores.csv")
+  #ANOVA with LyrOr Covariate
   meansync$lyror<-LyrOrdata$LyrOr
-  mod.full <- lm(corr~lyror + stim*ses, data=meansync)
+  mod.full <- lm(corr~lyror + type, data=meansync)
   mod.rest <- lm(corr~lyror ,data=meansync)
   a2 <- anova(mod.full, mod.rest)
   print(a2)
+  pval<-c(pval,a2$'Pr(>F)'[2])
   a3 <- anova(mod.full)
   print(a3)
+  pval<-c(pval,a3$'Pr(>F)'[1])
+  pval<-c(pval,a3$'Pr(>F)'[2])
   
   sink()
-  write.csv(pval,file=sprintf("/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data/OlderAdults/%s_pval.csv",str_replace(files[f],".csv","")))
+  #WINDOWS
+  #write.csv(pval,file=sprintf("/Users/asternin/Documents/PhDProject/Music and Memory/fMRI analysis/SynchronyStats/Data/OlderAdults/%s_pval.csv",str_replace(files[f],".csv","")))
+  #MAC
+  write.csv(pval,file=sprintf("/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/fMRI analysis/SynchronyStats/Data/OlderAdults/%s_pval.csv",str_replace(files[f],".csv","")))
 }
