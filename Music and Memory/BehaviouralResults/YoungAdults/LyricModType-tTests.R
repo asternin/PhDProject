@@ -3,6 +3,7 @@ library(ggplot2)
 library(plyr)
 #fname <-"C:/Users/asternin/My Documents/PhdProject.git/Music and Memory/behaviouralResults/LyricModType.csv"
 fname<-"/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/BehaviouralResults/YoungAdults/LyricMod.csv"
+#fname <-"C:/Users/asternin/Documents/PhDProject/Music and Memory/BehaviouralResults/YoungAdults/LyricModType.csv"
 
 data<-read.table(fname, sep=",",header=FALSE)
 t.test(data$a.pre,data$a.post)

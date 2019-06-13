@@ -1,5 +1,5 @@
-#fname <-"file:///C:/Users/asternin/Documents/PhDProject.git/Music and Memory/BehaviouralResults/YoungAdults/LyricMod.csv"
-fname<-"/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/BehaviouralResults/YoungAdults/LyricMod.csv"
+fname <-"C:/Users/asternin/Documents/PhDProject/Music and Memory/BehaviouralResults/YoungAdults/LyricMod.csv"
+#fname<-"/Users/avitalsternin/Documents/Western/Academics/PhDProject.git/Music and Memory/BehaviouralResults/YoungAdults/LyricMod.csv"
 data<-read.table(fname, sep=",",header=FALSE)
 
 data=na.omit(data)
@@ -21,4 +21,14 @@ ggplot(data) +
 ggsave("LyrMemory_SfN.pdf",device="pdf")
 
 plot(data$V1,data$V2, xlab="lab session", ylab="lyric modification score")
+
+listens<-(c(0,4.54375,2.16895,2.8625,2.125,3.23125))
+plot(listens, type="l")
 #abline(fit<-lm(data$V2~data$V1))
+
+pre <- data[ which(data$V1=='pre-scan1'), ] 
+lab1 <- data[ which(data$V1=='lab1'), ] 
+lab2 <- data[ which(data$V1=='lab2'), ] 
+lab3 <- data[ which(data$V1=='lab3'), ] 
+lab4 <- data[ which(data$V1=='lab4'), ] 
+post <- data[ which(data$V1=='post-scan2'), ] 
