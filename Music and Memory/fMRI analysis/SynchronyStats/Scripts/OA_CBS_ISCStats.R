@@ -41,7 +41,7 @@ regfuncmus<-function(s,t){
 }
 
 s<-S1
-t<-data$ML
+t<-data$DT
 regfuncmus(s,t)
 #
 
